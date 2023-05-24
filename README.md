@@ -2,6 +2,7 @@
 ## Training strategy
 - Audio files used are .ogg. Wav files are not faster.
 - Process audio using librosa, convert audio to mel-spectrogram using torchaudio.
+- Slightly upsample class that has less than (5, 10, 15 samples)
 - Heavy augmentation by adding multiple types of noise and modifying volume.
 - Using Imagenet pre-trained weight to train on previous Birdclef datasets (2020+2021+2022).
 - With these models trained on previous datasets, finetune this year's dataset (2023).
