@@ -1,0 +1,7244 @@
+Date :04/12/2023, 22:56:49
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.0004
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnetv2_s
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0004
+    lr: 0.0004
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/100
+Train loss: 9.4238, val loss: 5.5691
+0.656286454132943
+Model improve: 0.0000 -> 0.6563
+Epoch: 2/100
+Train loss: 6.9659, val loss: 4.1107
+0.7523067315909034
+Model improve: 0.6563 -> 0.7523
+Epoch: 3/100
+Train loss: 6.0009, val loss: 3.6674
+0.7869332360585011
+Model improve: 0.7523 -> 0.7869
+Epoch: 4/100
+Train loss: 5.2682, val loss: 3.0807
+0.8101640454287458
+Model improve: 0.7869 -> 0.8102
+Epoch: 5/100
+Train loss: 5.0562, val loss: 2.9758
+0.8246424234716628
+Model improve: 0.8102 -> 0.8246
+Epoch: 6/100
+Train loss: 4.7111, val loss: 2.8517
+0.8364657146684935
+Model improve: 0.8246 -> 0.8365
+Epoch: 7/100
+Train loss: 4.3743, val loss: 2.7440
+0.8433010345474835
+Model improve: 0.8365 -> 0.8433
+Epoch: 8/100
+Train loss: 4.3093, val loss: 2.6033
+0.8501248832005436
+Model improve: 0.8433 -> 0.8501
+Epoch: 9/100
+Train loss: 4.0928, val loss: 2.5299
+0.8551330782815306
+Model improve: 0.8501 -> 0.8551
+Epoch: 10/100
+Train loss: 4.1653, val loss: 2.6458
+0.8612003959847264
+Model improve: 0.8551 -> 0.8612
+Epoch: 11/100
+Train loss: 3.9255, val loss: 2.5045
+0.8575613856309435
+Epoch: 12/100
+Train loss: 3.7856, val loss: 2.5134
+0.8641958875924068
+Model improve: 0.8612 -> 0.8642
+Epoch: 13/100
+Train loss: 3.6863, val loss: 2.4452
+0.860202654651204
+Epoch: 14/100
+Train loss: 3.7020, val loss: 2.2641
+0.868260872816868
+Model improve: 0.8642 -> 0.8683
+Epoch: 15/100
+Train loss: 3.5340, val loss: 2.3303
+0.8673667846490307
+Epoch: 16/100
+Train loss: 3.5174, val loss: 2.3221
+0.8746396333651906
+Model improve: 0.8683 -> 0.8746
+Epoch: 17/100
+Train loss: 3.3069, val loss: 2.2780
+0.8682681302254195
+Epoch: 18/100
+Train loss: 3.4004, val loss: 2.2987
+0.8744941319620779
+Epoch: 19/100
+Train loss: 3.3690, val loss: 2.2690
+0.8703055111006698
+Epoch: 20/100
+Train loss: 3.3213, val loss: 2.1801
+0.8772003573856553
+Model improve: 0.8746 -> 0.8772
+Epoch: 21/100
+Train loss: 3.2185, val loss: 2.1215
+0.8775315881577472
+Model improve: 0.8772 -> 0.8775
+Epoch: 22/100
+Train loss: 3.2754, val loss: 2.1302
+0.8744645586438203
+Epoch: 23/100
+Train loss: 3.1865, val loss: 2.1808
+0.8772470723211203
+Epoch: 24/100
+Train loss: 3.2206, val loss: 2.1581
+0.8760840869490586
+Epoch: 25/100
+Train loss: 3.1436, val loss: 2.2290
+0.8809700844870825
+Model improve: 0.8775 -> 0.8810
+Epoch: 26/100
+Train loss: 3.0590, val loss: 2.0873
+0.8830383971568221
+Model improve: 0.8810 -> 0.8830
+Epoch: 27/100
+Train loss: 2.9934, val loss: 2.1473
+0.8782554588814501
+Epoch: 28/100
+Train loss: 2.9532, val loss: 2.1924
+0.8771511482409946
+Epoch: 29/100
+Train loss: 3.0776, val loss: 2.0511
+0.8832538255104369
+Model improve: 0.8830 -> 0.8833
+Epoch: 30/100
+Train loss: 2.9919, val loss: 2.0613
+0.882845280946235
+Epoch: 31/100
+Train loss: 2.8855, val loss: 1.9950
+0.8866645347514097
+Model improve: 0.8833 -> 0.8867
+Epoch: 32/100
+Train loss: 2.9331, val loss: 2.0265
+0.8833480162319097
+Epoch: 33/100
+Train loss: 3.0008, val loss: 2.0757
+0.8844701445701741
+Epoch: 34/100
+Train loss: 2.8303, val loss: 2.0828
+0.8842754084261635
+Epoch: 35/100
+Train loss: 2.8420, val loss: 2.0006
+0.8834280295072121
+Epoch: 36/100
+Train loss: 2.7992, val loss: 1.9747
+0.8869978031825888
+Model improve: 0.8867 -> 0.8870
+Epoch: 37/100
+Train loss: 2.6843, val loss: 2.0049
+0.8843143856692376
+Epoch: 38/100
+Train loss: 2.7322, val loss: 2.0189
+0.8814940437510429
+Epoch: 39/100
+Date :04/13/2023, 03:49:01
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.0004
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnetv2_s
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+Date :04/19/2023, 19:38:19
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: eca_nfnet_l0
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Train loss: 7.3080, val loss: 2.0007
+0.8684295904465476
+Model improve: 0.0000 -> 0.8684
+Epoch: 2/25
+Train loss: 2.5023, val loss: 1.7070
+0.895808998133448
+Model improve: 0.8684 -> 0.8958
+Epoch: 3/25
+Date :04/19/2023, 19:50:34
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: eca_nfnet_l0
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+Lion (
+Parameter Group 0
+    betas: (0.9, 0.99)
+    initial_lr: 0.001
+    lr: 0.001
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Date :04/19/2023, 19:54:40
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: eca_nfnet_l0
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+Lion (
+Parameter Group 0
+    betas: (0.9, 0.99)
+    initial_lr: 0.0001
+    lr: 0.0001
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Train loss: 19.8950, val loss: 4.2154
+0.6353056617402867
+Model improve: 0.0000 -> 0.6353
+Epoch: 2/25
+Train loss: 4.3234, val loss: 2.7621
+0.7929982669544913
+Model improve: 0.6353 -> 0.7930
+Epoch: 3/25
+Train loss: 3.3245, val loss: 2.3046
+0.8412315738447615
+Model improve: 0.7930 -> 0.8412
+Epoch: 4/25
+Train loss: 2.8362, val loss: 2.0490
+0.8633349402343152
+Model improve: 0.8412 -> 0.8633
+Epoch: 5/25
+Date :04/19/2023, 20:17:02
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: eca_nfnet_l0
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+Lion (
+Parameter Group 0
+    betas: (0.9, 0.99)
+    initial_lr: 0.0003333333333333333
+    lr: 0.0003333333333333333
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Train loss: 11.8096, val loss: 5.3724
+0.517944980389852
+Model improve: 0.0000 -> 0.5179
+Epoch: 2/25
+Train loss: 5.5084, val loss: 4.3209
+0.5997548954043466
+Model improve: 0.5179 -> 0.5998
+Epoch: 3/25
+Date :04/19/2023, 20:34:42
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 64
+validbs: 256
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.0004
+weightdecay: 0.01
+thrupsample: 50
+model_name: eca_nfnet_l0
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+SAM (
+Parameter Group 0
+    adaptive: False
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0004
+    lr: 0.0004
+    maximize: False
+    rho: 0.05
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Date :04/19/2023, 20:35:57
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 64
+validbs: 256
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: eca_nfnet_l0
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Train loss: 11.3902, val loss: 2.4310
+0.8323617378034874
+Model improve: 0.0000 -> 0.8324
+Epoch: 2/25
+Train loss: 3.2108, val loss: 1.7995
+0.8867045509057421
+Model improve: 0.8324 -> 0.8867
+Epoch: 3/25
+Train loss: 2.6319, val loss: 1.6688
+0.8944021319979821
+Model improve: 0.8867 -> 0.8944
+Epoch: 4/25
+Train loss: 2.4329, val loss: 1.5793
+0.8999805182496885
+Model improve: 0.8944 -> 0.9000
+Epoch: 5/25
+Train loss: 2.3413, val loss: 1.5374
+0.9027668745509705
+Model improve: 0.9000 -> 0.9028
+Epoch: 6/25
+Train loss: 2.2333, val loss: 1.5336
+0.9046820205122045
+Model improve: 0.9028 -> 0.9047
+Epoch: 7/25
+Train loss: 2.0139, val loss: 1.5278
+0.9072039852730559
+Model improve: 0.9047 -> 0.9072
+Epoch: 8/25
+Train loss: 2.0333, val loss: 1.4755
+0.9095933425021082
+Model improve: 0.9072 -> 0.9096
+Epoch: 9/25
+Train loss: 2.1221, val loss: 1.5114
+0.9089439342162197
+Epoch: 10/25
+Train loss: 1.9564, val loss: 1.5453
+0.9080226722815914
+Epoch: 11/25
+Train loss: 1.9133, val loss: 1.4779
+0.908855244634271
+Epoch: 12/25
+Train loss: 1.8720, val loss: 1.4599
+0.9112984727288596
+Model improve: 0.9096 -> 0.9113
+Epoch: 13/25
+Train loss: 1.7954, val loss: 1.5046
+0.9122039643860126
+Model improve: 0.9113 -> 0.9122
+Epoch: 14/25
+Date :04/19/2023, 21:31:44
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 16
+validbs: 64
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: eca_nfnet_l0
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Date :04/19/2023, 21:32:37
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 16
+validbs: 64
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.0007
+weightdecay: 0.01
+thrupsample: 50
+model_name: eca_nfnet_l0
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0007
+    lr: 0.0007
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Train loss: 6.4591, val loss: 1.9789
+0.8712315185879189
+Model improve: 0.0000 -> 0.8712
+Epoch: 2/25
+Train loss: 2.7938, val loss: 1.7153
+0.8927820586121715
+Model improve: 0.8712 -> 0.8928
+Epoch: 3/25
+Train loss: 2.4868, val loss: 1.5798
+0.901621419626934
+Model improve: 0.8928 -> 0.9016
+Epoch: 4/25
+Train loss: 2.2711, val loss: 1.6868
+0.9035426601068801
+Model improve: 0.9016 -> 0.9035
+Epoch: 5/25
+Train loss: 2.1890, val loss: 1.5080
+0.9086791702027032
+Model improve: 0.9035 -> 0.9087
+Epoch: 6/25
+Train loss: 2.0670, val loss: 1.5108
+0.9097153493356913
+Model improve: 0.9087 -> 0.9097
+Epoch: 7/25
+Train loss: 1.9866, val loss: 1.4664
+0.908691711431245
+Epoch: 8/25
+Train loss: 1.9061, val loss: 1.4487
+0.9106013757398954
+Model improve: 0.9097 -> 0.9106
+Epoch: 9/25
+Train loss: 1.7933, val loss: 1.5300
+0.9101519551741604
+Epoch: 10/25
+Train loss: 1.8494, val loss: 1.4168
+0.9135630356434898
+Model improve: 0.9106 -> 0.9136
+Epoch: 11/25
+Train loss: 1.7740, val loss: 1.4828
+0.9137674414361812
+Model improve: 0.9136 -> 0.9138
+Epoch: 12/25
+Train loss: 1.7919, val loss: 1.4742
+0.9119967963842316
+Epoch: 13/25
+Train loss: 1.7078, val loss: 1.4122
+0.9158225678671374
+Model improve: 0.9138 -> 0.9158
+Epoch: 14/25
+Train loss: 1.6433, val loss: 1.4710
+0.9159784892090994
+Model improve: 0.9158 -> 0.9160
+Epoch: 15/25
+Train loss: 1.6767, val loss: 1.5080
+0.915346257360218
+Epoch: 16/25
+Train loss: 1.6189, val loss: 1.4956
+0.9153235443913845
+Epoch: 17/25
+Train loss: 1.6261, val loss: 1.4861
+0.9172248667241035
+Model improve: 0.9160 -> 0.9172
+Epoch: 18/25
+Train loss: 1.5839, val loss: 1.4284
+0.9171839939971578
+Epoch: 19/25
+Train loss: 1.5294, val loss: 1.4249
+0.9177680523101004
+Model improve: 0.9172 -> 0.9178
+Epoch: 20/25
+Train loss: 1.5256, val loss: 1.4885
+0.9170413682779901
+Epoch: 21/25
+Train loss: 1.5804, val loss: 1.4336
+0.9170854230805792
+Epoch: 22/25
+Train loss: 1.5225, val loss: 1.4478
+0.9175679149085832
+Epoch: 23/25
+Date :04/20/2023, 11:17:47
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 16
+nmels: 128
+fmax: 16386
+trainbs: 64
+validbs: 256
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/25
+Train loss: 9.0138, val loss: 4.2654
+0.6253054762253492
+Model improve: 0.0000 -> 0.6253
+Epoch: 2/25
+Date :04/20/2023, 11:22:17
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 16
+nmels: 128
+fmax: 16386
+trainbs: 64
+validbs: 256
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/25
+Train loss: 9.6595, val loss: 4.1467
+0.6381746586888948
+Model improve: 0.0000 -> 0.6382
+Epoch: 2/25
+Train loss: 4.6837, val loss: 3.1319
+0.7581003072142521
+Model improve: 0.6382 -> 0.7581
+Epoch: 3/25
+Train loss: 3.9512, val loss: 2.6706
+0.8038023711956435
+Model improve: 0.7581 -> 0.8038
+Epoch: 4/25
+Train loss: 3.6103, val loss: 2.4186
+0.8332521722483879
+Model improve: 0.8038 -> 0.8333
+Epoch: 5/25
+Train loss: 3.4246, val loss: 2.2133
+0.8482100089606006
+Model improve: 0.8333 -> 0.8482
+Epoch: 6/25
+Train loss: 3.1847, val loss: 2.1731
+0.8534984713910672
+Model improve: 0.8482 -> 0.8535
+Epoch: 7/25
+Train loss: 2.9055, val loss: 1.9596
+0.8657581311571303
+Model improve: 0.8535 -> 0.8658
+Epoch: 8/25
+Train loss: 2.8124, val loss: 1.9055
+0.8676962210452128
+Model improve: 0.8658 -> 0.8677
+Epoch: 9/25
+Train loss: 2.8631, val loss: 1.8906
+0.8753951612135473
+Model improve: 0.8677 -> 0.8754
+Epoch: 10/25
+Train loss: 2.6296, val loss: 1.8113
+0.8799302950031804
+Model improve: 0.8754 -> 0.8799
+Epoch: 11/25
+Train loss: 2.5633, val loss: 1.7701
+0.8831384271710254
+Model improve: 0.8799 -> 0.8831
+Epoch: 12/25
+Train loss: 2.5011, val loss: 1.6907
+0.8888760848022028
+Model improve: 0.8831 -> 0.8889
+Epoch: 13/25
+Train loss: 2.3700, val loss: 1.6654
+0.8896022099072879
+Model improve: 0.8889 -> 0.8896
+Epoch: 14/25
+Train loss: 2.2490, val loss: 1.6450
+0.88911945424457
+Epoch: 15/25
+Train loss: 2.2955, val loss: 1.6062
+0.8938818104239654
+Model improve: 0.8896 -> 0.8939
+Epoch: 16/25
+Train loss: 2.1938, val loss: 1.5329
+0.8994183037426273
+Model improve: 0.8939 -> 0.8994
+Epoch: 17/25
+Train loss: 2.0549, val loss: 1.4935
+0.8973318245898004
+Epoch: 18/25
+Train loss: 2.0991, val loss: 1.4940
+0.9019805366817385
+Model improve: 0.8994 -> 0.9020
+Epoch: 19/25
+Train loss: 2.0860, val loss: 1.4887
+0.9021921292034136
+Model improve: 0.9020 -> 0.9022
+Epoch: 20/25
+Train loss: 2.1273, val loss: 1.4700
+0.9014089810279946
+Epoch: 21/25
+Train loss: 2.0907, val loss: 1.4712
+0.9025061459502404
+Model improve: 0.9022 -> 0.9025
+Epoch: 22/25
+Train loss: 1.9533, val loss: 1.4068
+0.9037220431282222
+Model improve: 0.9025 -> 0.9037
+Epoch: 23/25
+Train loss: 1.8477, val loss: 1.4430
+0.9031614952413274
+Epoch: 24/25
+Train loss: 1.9977, val loss: 1.4381
+0.9040915184152496
+Model improve: 0.9037 -> 0.9041
+Epoch: 25/25
+Train loss: 1.9388, val loss: 1.3947
+0.9041721944804367
+Model improve: 0.9041 -> 0.9042
+Fold: 1
+19629
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/25
+Date :04/20/2023, 03:59:39
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/25
+Train loss: 9.7585, val loss: 4.3430
+0.6208139645670605
+Model improve: 0.0000 -> 0.6208
+Epoch: 2/25
+Date :04/20/2023, 04:04:54
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b3
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/25
+Train loss: 8.8896, val loss: 4.0807
+0.6593132571371854
+Model improve: 0.0000 -> 0.6593
+Epoch: 2/25
+Date :04/20/2023, 04:11:52
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_s
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/25
+Train loss: 9.5051, val loss: 4.7298
+0.5871025511948504
+Model improve: 0.0000 -> 0.5871
+Epoch: 2/25
+Date :04/20/2023, 04:17:00
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_s
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: False
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/25
+Date :04/20/2023, 04:17:33
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_s
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: False
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/25
+Train loss: 9.3344, val loss: 4.0786
+0.6431151266913897
+Model improve: 0.0000 -> 0.6431
+Epoch: 2/25
+Date :04/20/2023, 04:23:50
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_s
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/25
+Train loss: 9.2391, val loss: 4.3159
+0.625537013826941
+Model improve: 0.0000 -> 0.6255
+Epoch: 2/25
+Date :04/20/2023, 04:30:39
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_s
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/25
+Train loss: 7.1088, val loss: 3.8499
+0.6913390923553902
+Model improve: 0.0000 -> 0.6913
+Epoch: 2/25
+Train loss: 4.4236, val loss: 2.8851
+0.7804830379055456
+Model improve: 0.6913 -> 0.7805
+Epoch: 3/25
+Train loss: 3.9048, val loss: 2.6761
+0.8135033494150639
+Model improve: 0.7805 -> 0.8135
+Epoch: 4/25
+Train loss: 3.4799, val loss: 2.4390
+0.8283857854736677
+Model improve: 0.8135 -> 0.8284
+Epoch: 5/25
+Date :04/20/2023, 04:57:56
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnetv2_s
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Train loss: 7.1192, val loss: 3.6947
+0.7077420490381899
+Model improve: 0.0000 -> 0.7077
+Epoch: 2/25
+Train loss: 4.4099, val loss: 2.7957
+0.7918340618184591
+Model improve: 0.7077 -> 0.7918
+Epoch: 3/25
+Train loss: 3.8992, val loss: 2.6710
+0.8139948443785456
+Model improve: 0.7918 -> 0.8140
+Epoch: 4/25
+Date :04/20/2023, 05:20:57
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnetv2_s
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Date :04/20/2023, 05:21:38
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnetv2_s
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Date :04/20/2023, 05:21:56
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnetv2_s
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Date :04/20/2023, 05:22:09
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnetv2_s
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Date :04/20/2023, 05:23:52
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: convnext_base_in22ft1k
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Date :04/20/2023, 05:25:02
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: convnext_base_in22ft1k
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Date :04/20/2023, 05:26:38
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: convnext_tiny
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Train loss: 9.9342, val loss: 6.1525
+0.48614621472330705
+Model improve: 0.0000 -> 0.4861
+Epoch: 2/25
+Date :04/20/2023, 05:32:25
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.0004
+weightdecay: 0.01
+thrupsample: 50
+model_name: convnext_tiny
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0004
+    lr: 0.0004
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Train loss: 10.4377, val loss: 5.9071
+0.5063260790811411
+Model improve: 0.0000 -> 0.5063
+Epoch: 2/25
+Train loss: 5.6336, val loss: 3.7391
+0.6998105851698947
+Model improve: 0.5063 -> 0.6998
+Epoch: 3/25
+Date :04/20/2023, 05:44:14
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnet_b3_ns
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Train loss: 7.9723, val loss: 4.0325
+0.6721216298663372
+Model improve: 0.0000 -> 0.6721
+Epoch: 2/25
+Train loss: 4.5224, val loss: 2.9783
+0.7781844190862751
+Model improve: 0.6721 -> 0.7782
+Epoch: 3/25
+Train loss: 3.9257, val loss: 2.5243
+0.817507631649634
+Model improve: 0.7782 -> 0.8175
+Epoch: 4/25
+Train loss: 3.4729, val loss: 2.2169
+0.8432975643948821
+Model improve: 0.8175 -> 0.8433
+Epoch: 5/25
+Train loss: 3.2951, val loss: 2.0617
+0.8558615071871251
+Model improve: 0.8433 -> 0.8559
+Epoch: 6/25
+Train loss: 3.0738, val loss: 1.9952
+0.8634351022376271
+Model improve: 0.8559 -> 0.8634
+Epoch: 7/25
+Train loss: 2.8563, val loss: 1.8872
+0.8746598394733621
+Model improve: 0.8634 -> 0.8747
+Epoch: 8/25
+Train loss: 2.7684, val loss: 1.8618
+0.8769731209437637
+Model improve: 0.8747 -> 0.8770
+Epoch: 9/25
+Train loss: 2.5900, val loss: 1.6655
+0.8858717807596574
+Model improve: 0.8770 -> 0.8859
+Epoch: 10/25
+Train loss: 2.6153, val loss: 1.7022
+0.8894409762079832
+Model improve: 0.8859 -> 0.8894
+Epoch: 11/25
+Train loss: 2.4336, val loss: 1.5655
+0.8887249398263048
+Epoch: 12/25
+Train loss: 2.3407, val loss: 1.6059
+0.8933308167336593
+Model improve: 0.8894 -> 0.8933
+Epoch: 13/25
+Train loss: 2.2627, val loss: 1.5914
+0.8911443883017032
+Epoch: 14/25
+Train loss: 2.2045, val loss: 1.4747
+0.8997590030068238
+Model improve: 0.8933 -> 0.8998
+Epoch: 15/25
+Train loss: 2.0817, val loss: 1.4432
+0.8989987285640545
+Epoch: 16/25
+Train loss: 2.0477, val loss: 1.4091
+0.9062125315733778
+Model improve: 0.8998 -> 0.9062
+Epoch: 17/25
+Train loss: 1.8770, val loss: 1.3773
+0.9092805893389143
+Model improve: 0.9062 -> 0.9093
+Epoch: 18/25
+Train loss: 1.9187, val loss: 1.3202
+0.9117791294485045
+Model improve: 0.9093 -> 0.9118
+Epoch: 19/25
+Train loss: 1.8924, val loss: 1.3089
+0.9104890102412342
+Epoch: 20/25
+Train loss: 1.8750, val loss: 1.3125
+0.9111038929174036
+Epoch: 21/25
+Train loss: 1.8004, val loss: 1.3258
+0.9115436383625001
+Epoch: 22/25
+Train loss: 1.8046, val loss: 1.2677
+0.9113995193222597
+Epoch: 23/25
+Train loss: 1.7846, val loss: 1.2721
+0.9131065622245643
+Model improve: 0.9118 -> 0.9131
+Epoch: 24/25
+Train loss: 1.8380, val loss: 1.2914
+0.9125156736055668
+Epoch: 25/25
+Date :04/20/2023, 08:05:14
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 96
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnet_b3_ns
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Train loss: 8.0396, val loss: 3.8398
+0.6838284397636015
+Model improve: 0.0000 -> 0.6838
+Epoch: 2/25
+Train loss: 4.5642, val loss: 3.1110
+0.7720474639867034
+Model improve: 0.6838 -> 0.7720
+Epoch: 3/25
+Train loss: 3.9792, val loss: 2.6561
+0.8128951010508327
+Model improve: 0.7720 -> 0.8129
+Epoch: 4/25
+Train loss: 3.5292, val loss: 2.4078
+0.8330499132365888
+Model improve: 0.8129 -> 0.8330
+Epoch: 5/25
+Train loss: 3.3193, val loss: 2.1403
+0.8530304865040801
+Model improve: 0.8330 -> 0.8530
+Epoch: 6/25
+Train loss: 3.1843, val loss: 2.0058
+0.8632047695119256
+Model improve: 0.8530 -> 0.8632
+Epoch: 7/25
+Train loss: 2.9509, val loss: 1.9768
+0.8680267330224843
+Model improve: 0.8632 -> 0.8680
+Epoch: 8/25
+Train loss: 2.8149, val loss: 1.9312
+0.8739012037280098
+Model improve: 0.8680 -> 0.8739
+Epoch: 9/25
+Train loss: 2.6734, val loss: 1.7493
+0.8817258614027967
+Model improve: 0.8739 -> 0.8817
+Epoch: 10/25
+Train loss: 2.6420, val loss: 1.6521
+0.8858824070297893
+Model improve: 0.8817 -> 0.8859
+Epoch: 11/25
+Train loss: 2.4893, val loss: 1.6177
+0.8888111104411084
+Model improve: 0.8859 -> 0.8888
+Epoch: 12/25
+Train loss: 2.4341, val loss: 1.6407
+0.8913240238003249
+Model improve: 0.8888 -> 0.8913
+Epoch: 13/25
+Train loss: 2.3230, val loss: 1.5955
+0.8936618256467251
+Model improve: 0.8913 -> 0.8937
+Epoch: 14/25
+Date :04/20/2023, 09:20:487590
+Duration: 5
+Sample rate: 32000
+nfft: 4096
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Train loss: 7.5710, val loss: 3.7590
+0.6860675933219907
+Model improve: 0.0000 -> 0.6861
+Epoch: 2/25
+Train loss: 4.4770, val loss: 2.9989
+0.7807258162509005
+Model improve: 0.6861 -> 0.7807
+Epoch: 3/25
+Train loss: 3.9848, val loss: 2.5960
+0.8112510422644466
+Model improve: 0.7807 -> 0.8113
+Epoch: 4/25
+Train loss: 3.5267, val loss: 2.4275
+0.83225750435298
+Model improve: 0.8113 -> 0.8323
+Epoch: 5/25
+Train loss: 3.4068, val loss: 2.2360
+0.8424708633112576
+Model improve: 0.8323 -> 0.8425
+Epoch: 6/25
+Train loss: 3.1558, val loss: 2.1452
+0.8508476649333296
+Model improve: 0.8425 -> 0.8508
+Epoch: 7/25
+Train loss: 2.9455, val loss: 1.9815
+0.8621029957624163
+Model improve: 0.8508 -> 0.8621
+Epoch: 8/25
+Train loss: 2.8777, val loss: 1.9212
+0.8633939033889585
+Model improve: 0.8621 -> 0.8634
+Epoch: 9/25
+Date :04/20/2023, 10:07:16
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Train loss: 7.5525, val loss: 3.6074
+0.6992742476998033
+Model improve: 0.0000 -> 0.6993
+Epoch: 2/25
+Train loss: 4.4089, val loss: 2.8808
+0.7865078876435223
+Model improve: 0.6993 -> 0.7865
+Epoch: 3/25
+Train loss: 3.9161, val loss: 2.5589
+0.8190817037508209
+Model improve: 0.7865 -> 0.8191
+Epoch: 4/25
+Train loss: 3.4621, val loss: 2.2934
+0.8397377417940202
+Model improve: 0.8191 -> 0.8397
+Epoch: 5/25
+Train loss: 3.3455, val loss: 2.1104
+0.8535222995882493
+Model improve: 0.8397 -> 0.8535
+Epoch: 6/25
+Train loss: 3.0969, val loss: 2.0795
+0.859068600636976
+Model improve: 0.8535 -> 0.8591
+Epoch: 7/25
+Train loss: 2.9002, val loss: 1.8875
+0.8709969376378216
+Model improve: 0.8591 -> 0.8710
+Epoch: 8/25
+Train loss: 2.8263, val loss: 1.8713
+0.8733033426668039
+Model improve: 0.8710 -> 0.8733
+Epoch: 9/25
+Train loss: 2.6851, val loss: 1.7484
+0.8804400583100408
+Model improve: 0.8733 -> 0.8804
+Epoch: 10/25
+Train loss: 2.6664, val loss: 1.7940
+0.8835877516254159
+Model improve: 0.8804 -> 0.8836
+Epoch: 11/25
+Train loss: 2.5287, val loss: 1.6618
+0.8860079136376281
+Model improve: 0.8836 -> 0.8860
+Epoch: 12/25
+Train loss: 2.4306, val loss: 1.6520
+0.8916590810689015
+Model improve: 0.8860 -> 0.8917
+Epoch: 13/25
+Train loss: 2.3389, val loss: 1.6014
+0.8928436711151756
+Model improve: 0.8917 -> 0.8928
+Epoch: 14/25
+Train loss: 2.2812, val loss: 1.5154
+0.8955894324544215
+Model improve: 0.8928 -> 0.8956
+Epoch: 15/25
+Train loss: 2.1883, val loss: 1.5005
+0.9004177758327705
+Model improve: 0.8956 -> 0.9004
+Epoch: 16/25
+Train loss: 2.1702, val loss: 1.5347
+0.8995046837569117
+Epoch: 17/25
+Train loss: 1.9739, val loss: 1.4600
+0.9020845751411701
+Model improve: 0.9004 -> 0.9021
+Epoch: 18/25
+Train loss: 2.0335, val loss: 1.4517
+0.9030298668981941
+Model improve: 0.9021 -> 0.9030
+Epoch: 19/25
+Train loss: 2.0298, val loss: 1.4204
+0.9032308924651418
+Model improve: 0.9030 -> 0.9032
+Epoch: 20/25
+Train loss: 1.9924, val loss: 1.4227
+0.9045337512869217
+Model improve: 0.9032 -> 0.9045
+Epoch: 21/25
+Train loss: 1.9393, val loss: 1.4389
+0.9038999057567481
+Epoch: 22/25
+Train loss: 1.9505, val loss: 1.3864
+0.9060145143464733
+Model improve: 0.9045 -> 0.9060
+Epoch: 23/25
+Train loss: 1.9216, val loss: 1.4058
+0.9048715084224516
+Epoch: 24/25
+Train loss: 1.9594, val loss: 1.4050
+0.9049832490408044
+Epoch: 25/25
+Train loss: 1.9156, val loss: 1.4260
+0.9044860160540709
+Fold: 1
+19629
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/25
+Date :04/20/2023, 11:55:58
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 7.2956, val loss: 3.5523
+0.7069958752339321
+Model improve: 0.0000 -> 0.7070
+Epoch: 2/200
+Train loss: 4.4020, val loss: 2.8692
+0.7886932074644368
+Model improve: 0.7070 -> 0.7887
+Epoch: 3/200
+Train loss: 3.8988, val loss: 2.5457
+0.8157201482050751
+Model improve: 0.7887 -> 0.8157
+Epoch: 4/200
+Train loss: 3.4769, val loss: 2.3343
+0.8394928463171104
+Model improve: 0.8157 -> 0.8395
+Epoch: 5/200
+Train loss: 3.3613, val loss: 2.2073
+0.8492896750394211
+Model improve: 0.8395 -> 0.8493
+Epoch: 6/200
+Train loss: 3.1398, val loss: 2.1344
+0.8548779877730631
+Model improve: 0.8493 -> 0.8549
+Epoch: 7/200
+Train loss: 2.9461, val loss: 2.0331
+0.8610844976811258
+Model improve: 0.8549 -> 0.8611
+Epoch: 8/200
+Train loss: 2.9088, val loss: 1.8920
+0.8694290857022346
+Model improve: 0.8611 -> 0.8694
+Epoch: 9/200
+Train loss: 2.7687, val loss: 1.8660
+0.8701998537602268
+Model improve: 0.8694 -> 0.8702
+Epoch: 10/200
+Train loss: 2.7863, val loss: 1.9045
+0.8749575792860936
+Model improve: 0.8702 -> 0.8750
+Epoch: 11/200
+Train loss: 2.6696, val loss: 1.8177
+0.873786915849811
+Epoch: 12/200
+Train loss: 2.5916, val loss: 1.7811
+0.8813320784358071
+Model improve: 0.8750 -> 0.8813
+Epoch: 13/200
+Train loss: 2.5410, val loss: 1.7680
+0.8805702013801716
+Epoch: 14/200
+Train loss: 2.4903, val loss: 1.7460
+0.8817765540438032
+Model improve: 0.8813 -> 0.8818
+Epoch: 15/200
+Train loss: 2.4262, val loss: 1.7068
+0.8818400632127882
+Model improve: 0.8818 -> 0.8818
+Epoch: 16/200
+Train loss: 2.4271, val loss: 1.7470
+0.8834350429182415
+Model improve: 0.8818 -> 0.8834
+Epoch: 17/200
+Train loss: 2.2527, val loss: 1.6841
+0.8812844004866671
+Epoch: 18/200
+Train loss: 2.3213, val loss: 1.7199
+0.8835741766784603
+Model improve: 0.8834 -> 0.8836
+Epoch: 19/200
+Train loss: 2.3362, val loss: 1.6394
+0.8879766845288629
+Model improve: 0.8836 -> 0.8880
+Epoch: 20/200
+Train loss: 2.3046, val loss: 1.6507
+0.888917859668065
+Model improve: 0.8880 -> 0.8889
+Epoch: 21/200
+Train loss: 2.2575, val loss: 1.6500
+0.8872559854683405
+Epoch: 22/200
+Train loss: 2.2532, val loss: 1.6283
+0.8895354588089112
+Model improve: 0.8889 -> 0.8895
+Epoch: 23/200
+Train loss: 2.2189, val loss: 1.6420
+0.8903446869616868
+Model improve: 0.8895 -> 0.8903
+Epoch: 24/200
+Train loss: 2.2428, val loss: 1.5836
+0.8927727719827434
+Model improve: 0.8903 -> 0.8928
+Epoch: 25/200
+Train loss: 2.1803, val loss: 1.6332
+0.8902651320553342
+Epoch: 26/200
+Train loss: 2.1731, val loss: 1.5703
+0.8937153329713864
+Model improve: 0.8928 -> 0.8937
+Epoch: 27/200
+Train loss: 2.0810, val loss: 1.6552
+0.888203620179834
+Epoch: 28/200
+Train loss: 2.0953, val loss: 1.6017
+0.8916060370826461
+Epoch: 29/200
+Train loss: 2.1458, val loss: 1.5692
+0.8922266915724144
+Epoch: 30/200
+Train loss: 2.1296, val loss: 1.6199
+0.8903934868876948
+Epoch: 31/200
+Train loss: 2.0640, val loss: 1.5527
+0.892126708968364
+Epoch: 32/200
+Train loss: 2.0640, val loss: 1.5976
+0.89276142908674
+Epoch: 33/200
+Train loss: 2.1149, val loss: 1.5890
+0.8945425063895731
+Model improve: 0.8937 -> 0.8945
+Epoch: 34/200
+Train loss: 2.0109, val loss: 1.6255
+0.8927522947729186
+Epoch: 35/200
+Train loss: 2.0229, val loss: 1.5723
+0.8953732467712344
+Model improve: 0.8945 -> 0.8954
+Epoch: 36/200
+Train loss: 2.0245, val loss: 1.5400
+0.8966182009106551
+Model improve: 0.8954 -> 0.8966
+Epoch: 37/200
+Train loss: 1.9296, val loss: 1.5579
+0.8955725178028888
+Epoch: 38/200
+Train loss: 1.9543, val loss: 1.4822
+0.8988406175901157
+Model improve: 0.8966 -> 0.8988
+Epoch: 39/200
+Train loss: 1.9476, val loss: 1.5240
+0.8952337654298548
+Epoch: 40/200
+Train loss: 1.9604, val loss: 1.5415
+0.895888302322936
+Epoch: 41/200
+Train loss: 2.0305, val loss: 1.4963
+0.8979475470858717
+Epoch: 42/200
+Train loss: 1.9474, val loss: 1.5362
+0.8943680004766359
+Epoch: 43/200
+Train loss: 1.9076, val loss: 1.5409
+0.8940858789987152
+Epoch: 44/200
+Train loss: 1.9740, val loss: 1.5477
+0.895355116428084
+Epoch: 45/200
+Train loss: 1.9146, val loss: 1.5111
+0.898916199276051
+Model improve: 0.8988 -> 0.8989
+Epoch: 46/200
+Train loss: 1.8222, val loss: 1.5012
+0.8997163597786142
+Model improve: 0.8989 -> 0.8997
+Epoch: 47/200
+Train loss: 1.9247, val loss: 1.5089
+0.9018967901391844
+Model improve: 0.8997 -> 0.9019
+Epoch: 48/200
+Train loss: 1.9338, val loss: 1.5551
+0.8997698025107091
+Epoch: 49/200
+Train loss: 1.8527, val loss: 1.4949
+0.9012486563547264
+Epoch: 50/200
+Train loss: 1.9436, val loss: 1.4582
+0.9053966198841262
+Model improve: 0.9019 -> 0.9054
+Epoch: 51/200
+Train loss: 1.7885, val loss: 1.5483
+0.8982887666162135
+Epoch: 52/200
+Train loss: 1.9863, val loss: 1.5370
+0.8989946266781862
+Epoch: 53/200
+Train loss: 1.8196, val loss: 1.4837
+0.9037415945201112
+Epoch: 54/200
+Train loss: 1.8358, val loss: 1.4838
+0.904053008997434
+Epoch: 55/200
+Train loss: 1.8234, val loss: 1.5490
+0.9005080982802915
+Epoch: 56/200
+Train loss: 1.8738, val loss: 1.4583
+0.9025645129158455
+Epoch: 57/200
+Train loss: 1.8529, val loss: 1.4980
+0.9010711378094591
+Epoch: 58/200
+Train loss: 1.8514, val loss: 1.5099
+0.89895980364119
+Epoch: 59/200
+Train loss: 1.8223, val loss: 1.5117
+0.8978741619204661
+Epoch: 60/200
+Train loss: 1.7964, val loss: 1.5003
+0.9018838360978502
+Epoch: 61/200
+Train loss: 1.8608, val loss: 1.4562
+0.9035096510226696
+Epoch: 62/200
+Train loss: 1.8648, val loss: 1.4447
+0.8992831923681935
+Epoch: 63/200
+Train loss: 1.8170, val loss: 1.4829
+0.90297155898124
+Epoch: 64/200
+Train loss: 1.8250, val loss: 1.4771
+0.9010074842331689
+Epoch: 65/200
+Train loss: 1.6969, val loss: 1.4871
+0.9038884325343091
+Epoch: 66/200
+Train loss: 1.7982, val loss: 1.4423
+0.9031560378708665
+Epoch: 67/200
+Train loss: 1.7660, val loss: 1.4502
+0.9036982678361829
+Epoch: 68/200
+Train loss: 1.7703, val loss: 1.4621
+0.9066161055919965
+Model improve: 0.9054 -> 0.9066
+Epoch: 69/200
+Train loss: 1.7466, val loss: 1.4404
+0.9056928778197602
+Epoch: 70/200
+Train loss: 1.7233, val loss: 1.5519
+0.9037166127068968
+Epoch: 71/200
+Train loss: 1.7627, val loss: 1.4279
+0.9042838840677562
+Epoch: 72/200
+Train loss: 1.6666, val loss: 1.4099
+0.9060396470931226
+Epoch: 73/200
+Train loss: 1.6511, val loss: 1.3958
+0.9058540172526985
+Epoch: 74/200
+Train loss: 1.6962, val loss: 1.4314
+0.9045552035375986
+Epoch: 75/200
+Train loss: 1.7068, val loss: 1.4323
+0.9029150646180777
+Epoch: 76/200
+Train loss: 1.8025, val loss: 1.4334
+0.9051009077431672
+Epoch: 77/200
+Train loss: 1.6032, val loss: 1.4605
+0.9021695853959875
+Epoch: 78/200
+Train loss: 1.6753, val loss: 1.4231
+0.904915604357025
+Epoch: 79/200
+Train loss: 1.7276, val loss: 1.4670
+0.9035666089111708
+Epoch: 80/200
+Train loss: 1.6690, val loss: 1.4590
+0.9024471081501348
+Epoch: 81/200
+Train loss: 1.7857, val loss: 1.4195
+0.9063100926198258
+Epoch: 82/200
+Train loss: 1.6691, val loss: 1.4625
+0.9051420348002462
+Epoch: 83/200
+Train loss: 1.6013, val loss: 1.4506
+0.9027688739245886
+Epoch: 84/200
+Train loss: 1.7213, val loss: 1.4333
+0.9039089045804252
+Epoch: 85/200
+Train loss: 1.6470, val loss: 1.4596
+0.9029886788457865
+Epoch: 86/200
+Train loss: 1.6360, val loss: 1.4781
+0.9012209309272091
+Epoch: 87/200
+Train loss: 1.6656, val loss: 1.4215
+0.9068288548862098
+Model improve: 0.9066 -> 0.9068
+Epoch: 88/200
+Train loss: 1.6637, val loss: 1.4612
+0.9031474163047468
+Epoch: 89/200
+Train loss: 1.7520, val loss: 1.4685
+0.9021289999962583
+Epoch: 90/200
+Train loss: 1.6029, val loss: 1.4108
+0.9044946728009376
+Epoch: 91/200
+Train loss: 1.6702, val loss: 1.4890
+0.9012493866135539
+Epoch: 92/200
+Train loss: 1.6603, val loss: 1.4449
+0.904340422182511
+Epoch: 93/200
+Train loss: 1.6013, val loss: 1.4107
+0.9061955066540758
+Epoch: 94/200
+Train loss: 1.6430, val loss: 1.4047
+0.904197672161975
+Epoch: 95/200
+Train loss: 1.5711, val loss: 1.3993
+0.9044125113847628
+Epoch: 96/200
+Train loss: 1.6000, val loss: 1.4636
+0.9060424917185361
+Epoch: 97/200
+Train loss: 1.6321, val loss: 1.4565
+0.9038211094653174
+Epoch: 98/200
+Train loss: 1.5693, val loss: 1.4092
+0.9079491520492311
+Model improve: 0.9068 -> 0.9079
+Epoch: 99/200
+Train loss: 1.6005, val loss: 1.4160
+0.9065171685620028
+Epoch: 100/200
+Train loss: 1.6080, val loss: 1.4047
+0.9079403179511162
+Epoch: 101/200
+Train loss: 1.6206, val loss: 1.4112
+0.9089957693839499
+Model improve: 0.9079 -> 0.9090
+Epoch: 102/200
+Train loss: 1.4785, val loss: 1.3765
+0.9086920020015256
+Epoch: 103/200
+Train loss: 1.6158, val loss: 1.4330
+0.9086335925901854
+Epoch: 104/200
+Train loss: 1.5769, val loss: 1.4182
+0.9078016904991076
+Epoch: 105/200
+Train loss: 1.6014, val loss: 1.3513
+0.9118685519538232
+Model improve: 0.9090 -> 0.9119
+Epoch: 106/200
+Train loss: 1.5487, val loss: 1.3865
+0.9094546630076634
+Epoch: 107/200
+Train loss: 1.6105, val loss: 1.4170
+0.9061328380986945
+Epoch: 108/200
+Train loss: 1.5110, val loss: 1.3603
+0.9091782565720713
+Epoch: 109/200
+Train loss: 1.5936, val loss: 1.4337
+0.9088596728443736
+Epoch: 110/200
+Train loss: 1.5169, val loss: 1.3812
+0.909926900727916
+Epoch: 111/200
+Train loss: 1.5634, val loss: 1.4127
+0.9079839187550416
+Epoch: 112/200
+Train loss: 1.5534, val loss: 1.4116
+0.9104831550892133
+Epoch: 113/200
+Train loss: 1.5290, val loss: 1.4009
+0.908101663268469
+Epoch: 114/200
+Train loss: 1.6188, val loss: 1.3738
+0.9103243707432771
+Epoch: 115/200
+Train loss: 1.5555, val loss: 1.3918
+0.9065220762956295
+Epoch: 116/200
+Train loss: 1.5561, val loss: 1.3772
+0.9083124551661983
+Epoch: 117/200
+Train loss: 1.4973, val loss: 1.4193
+0.9073318620570687
+Epoch: 118/200
+Train loss: 1.6689, val loss: 1.4053
+0.9094696429588347
+Epoch: 119/200
+Train loss: 1.5302, val loss: 1.4343
+0.9076907812487822
+Epoch: 120/200
+Train loss: 1.4671, val loss: 1.3967
+0.909770567045718
+Epoch: 121/200
+Train loss: 1.4737, val loss: 1.3740
+0.9091997593843123
+Epoch: 122/200
+Train loss: 1.4853, val loss: 1.3355
+0.9113193249994316
+Epoch: 123/200
+Train loss: 1.3976, val loss: 1.3680
+0.9094161219101603
+Epoch: 124/200
+Train loss: 1.4550, val loss: 1.3716
+0.9083307313817305
+Epoch: 125/200
+Train loss: 1.5213, val loss: 1.4302
+0.9071912750256619
+Epoch: 126/200
+Train loss: 1.4892, val loss: 1.3589
+0.9094904248009799
+Epoch: 127/200
+Train loss: 1.4607, val loss: 1.3549
+0.911947686434821
+Model improve: 0.9119 -> 0.9119
+Epoch: 128/200
+Train loss: 1.4832, val loss: 1.4016
+0.9099285710461659
+Epoch: 129/200
+Train loss: 1.4854, val loss: 1.3302
+0.9127881198436779
+Model improve: 0.9119 -> 0.9128
+Epoch: 130/200
+Train loss: 1.4817, val loss: 1.3650
+0.9130493867012978
+Model improve: 0.9128 -> 0.9130
+Epoch: 131/200
+Train loss: 1.4790, val loss: 1.3424
+0.9108097944106566
+Epoch: 132/200
+Train loss: 1.4199, val loss: 1.3646
+0.9135606062831332
+Model improve: 0.9130 -> 0.9136
+Epoch: 133/200
+Train loss: 1.4743, val loss: 1.3956
+0.9113212748453853
+Epoch: 134/200
+Train loss: 1.4852, val loss: 1.3579
+0.9095959352283813
+Epoch: 135/200
+Train loss: 1.4731, val loss: 1.3712
+0.9102835452363646
+Epoch: 136/200
+Train loss: 1.4635, val loss: 1.3936
+0.9116053156759306
+Epoch: 137/200
+Train loss: 1.5149, val loss: 1.3727
+0.9126411223738433
+Epoch: 138/200
+Train loss: 1.4365, val loss: 1.3662
+0.9127110459563071
+Epoch: 139/200
+Train loss: 1.4166, val loss: 1.3530
+0.9117685297133938
+Epoch: 140/200
+Train loss: 1.4972, val loss: 1.3697
+0.9120754809435976
+Epoch: 141/200
+Train loss: 1.4712, val loss: 1.3929
+0.9102822903536298
+Epoch: 142/200
+Train loss: 1.4415, val loss: 1.3818
+0.911669126377602
+Epoch: 143/200
+Train loss: 1.3796, val loss: 1.3650
+0.9105248239030299
+Epoch: 144/200
+Train loss: 1.4606, val loss: 1.3483
+0.9100599598883707
+Epoch: 145/200
+Train loss: 1.4000, val loss: 1.3318
+0.9138229236471276
+Model improve: 0.9136 -> 0.9138
+Epoch: 146/200
+Train loss: 1.4495, val loss: 1.3550
+0.9117339439279206
+Epoch: 147/200
+Train loss: 1.5207, val loss: 1.3732
+0.9123581853337002
+Epoch: 148/200
+Train loss: 1.4592, val loss: 1.3532
+0.9109587737239406
+Epoch: 149/200
+Train loss: 1.4834, val loss: 1.3327
+0.9122057101473962
+Epoch: 150/200
+Train loss: 1.4361, val loss: 1.3622
+0.9129154432260327
+Epoch: 151/200
+Train loss: 1.4047, val loss: 1.3347
+0.9128598609470396
+Epoch: 152/200
+Train loss: 1.3409, val loss: 1.3499
+0.9121587586508674
+Epoch: 153/200
+Train loss: 1.3645, val loss: 1.3745
+0.912791649811684
+Epoch: 154/200
+Train loss: 1.3688, val loss: 1.3705
+0.9124984581304272
+Epoch: 155/200
+Train loss: 1.4057, val loss: 1.3631
+0.9131327629237247
+Epoch: 156/200
+Train loss: 1.4184, val loss: 1.3517
+0.9133834009912175
+Epoch: 157/200
+Train loss: 1.4227, val loss: 1.3511
+0.9139074688955348
+Model improve: 0.9138 -> 0.9139
+Epoch: 158/200
+Train loss: 1.4302, val loss: 1.3524
+0.9128170535725587
+Epoch: 159/200
+Train loss: 1.3968, val loss: 1.3216
+0.9151986237785179
+Model improve: 0.9139 -> 0.9152
+Epoch: 160/200
+Train loss: 1.4229, val loss: 1.3736
+0.9134574458675434
+Epoch: 161/200
+Train loss: 1.3721, val loss: 1.3447
+0.9142334561197093
+Epoch: 162/200
+Date :04/20/2023, 23:24:45
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.4
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 7.7011, val loss: 2.4960
+0.8311175769775767
+Model improve: 0.0000 -> 0.8311
+Epoch: 2/200
+Train loss: 3.7068, val loss: 2.0926
+0.8714902172781975
+Model improve: 0.8311 -> 0.8715
+Epoch: 3/200
+Train loss: 3.2909, val loss: 1.8271
+0.8860629262076147
+Model improve: 0.8715 -> 0.8861
+Epoch: 4/200
+Train loss: 3.0317, val loss: 1.7511
+0.8937496908571824
+Model improve: 0.8861 -> 0.8937
+Epoch: 5/200
+Train loss: 2.9594, val loss: 1.6914
+0.8964719238406548
+Model improve: 0.8937 -> 0.8965
+Epoch: 6/200
+Date :04/20/2023, 23:47:56
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.4
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 7.6859, val loss: 2.4792
+0.8318912130463533
+Model improve: 0.0000 -> 0.8319
+Epoch: 2/200
+Train loss: 3.7106, val loss: 2.1097
+0.8710012079997889
+Model improve: 0.8319 -> 0.8710
+Epoch: 3/200
+Train loss: 3.2867, val loss: 1.8213
+0.8870337378095119
+Model improve: 0.8710 -> 0.8870
+Epoch: 4/200
+Train loss: 3.0295, val loss: 1.7632
+0.892719099418117
+Model improve: 0.8870 -> 0.8927
+Epoch: 5/200
+Train loss: 2.9571, val loss: 1.6842
+0.8967898916542001
+Model improve: 0.8927 -> 0.8968
+Epoch: 6/200
+Train loss: 2.9312, val loss: 1.6828
+0.8968412639210601
+Model improve: 0.8968 -> 0.8968
+Epoch: 7/200
+Train loss: 2.7451, val loss: 1.5659
+0.9023529483230169
+Model improve: 0.8968 -> 0.9024
+Epoch: 8/200
+Train loss: 2.6922, val loss: 1.5451
+0.9031818136667884
+Model improve: 0.9024 -> 0.9032
+Epoch: 9/200
+Train loss: 2.6883, val loss: 1.6431
+0.8999236627446089
+Epoch: 10/200
+Train loss: 2.6805, val loss: 1.6248
+0.8994514624135248
+Epoch: 11/200
+Train loss: 2.4865, val loss: 1.5868
+0.9008223382853494
+Epoch: 12/200
+Train loss: 2.5837, val loss: 1.6620
+0.9000782625463016
+Epoch: 13/200
+Train loss: 2.5777, val loss: 1.6337
+0.901443994062257
+Epoch: 14/200
+Train loss: 2.4669, val loss: 1.5210
+0.9017450525626953
+Epoch: 15/200
+Train loss: 2.4828, val loss: 1.4847
+0.9063732515947168
+Model improve: 0.9032 -> 0.9064
+Epoch: 16/200
+Train loss: 2.4274, val loss: 1.5413
+0.9014249891909349
+Epoch: 17/200
+Train loss: 2.4880, val loss: 1.5505
+0.9073420138346595
+Model improve: 0.9064 -> 0.9073
+Epoch: 18/200
+Train loss: 2.4182, val loss: 1.5341
+0.9051038648068168
+Epoch: 19/200
+Train loss: 2.3354, val loss: 1.4700
+0.9074628520107838
+Model improve: 0.9073 -> 0.9075
+Epoch: 20/200
+Train loss: 2.3945, val loss: 1.5716
+0.9049605767873494
+Epoch: 21/200
+Train loss: 2.3968, val loss: 1.5434
+0.9058818024312383
+Epoch: 22/200
+Train loss: 2.3312, val loss: 1.5248
+0.9063711082374288
+Epoch: 23/200
+Train loss: 2.2783, val loss: 1.4333
+0.908734255207745
+Model improve: 0.9075 -> 0.9087
+Epoch: 24/200
+Train loss: 2.3097, val loss: 1.5146
+0.90469820017115
+Epoch: 25/200
+Train loss: 2.3062, val loss: 1.4443
+0.9092606661209993
+Model improve: 0.9087 -> 0.9093
+Epoch: 26/200
+Train loss: 2.2498, val loss: 1.4603
+0.9070522665332049
+Epoch: 27/200
+Train loss: 2.3079, val loss: 1.5160
+0.9068467489467185
+Epoch: 28/200
+Train loss: 2.2171, val loss: 1.4735
+0.90876156057189
+Epoch: 29/200
+Train loss: 2.3436, val loss: 1.4630
+0.9113611703144707
+Model improve: 0.9093 -> 0.9114
+Epoch: 30/200
+Train loss: 2.1959, val loss: 1.4441
+0.908221227382292
+Epoch: 31/200
+Train loss: 2.1980, val loss: 1.4621
+0.9083978584684329
+Epoch: 32/200
+Train loss: 2.2730, val loss: 1.5652
+0.9052150948555203
+Epoch: 33/200
+Train loss: 2.1871, val loss: 1.4252
+0.9095014454328608
+Epoch: 34/200
+Train loss: 2.1961, val loss: 1.4723
+0.9086879248969818
+Epoch: 35/200
+Train loss: 2.1804, val loss: 1.3931
+0.9123031257730899
+Model improve: 0.9114 -> 0.9123
+Epoch: 36/200
+Train loss: 2.2150, val loss: 1.4521
+0.9098206978852407
+Epoch: 37/200
+Train loss: 2.1901, val loss: 1.3835
+0.9135038111331808
+Model improve: 0.9123 -> 0.9135
+Epoch: 38/200
+Train loss: 2.2259, val loss: 1.4582
+0.91199523377277
+Epoch: 39/200
+Train loss: 2.1355, val loss: 1.4391
+0.907695511475842
+Epoch: 40/200
+Train loss: 2.1682, val loss: 1.4284
+0.9123165993061393
+Epoch: 41/200
+Train loss: 2.2038, val loss: 1.4337
+0.9130006865865015
+Epoch: 42/200
+Train loss: 2.2011, val loss: 1.4636
+0.9115847772377085
+Epoch: 43/200
+Train loss: 2.0890, val loss: 1.4300
+0.9092471373013702
+Epoch: 44/200
+Train loss: 2.1547, val loss: 1.4735
+0.9099376811097569
+Epoch: 45/200
+Train loss: 2.1285, val loss: 1.4427
+0.9091935520285085
+Epoch: 46/200
+Train loss: 2.1108, val loss: 1.4806
+0.9115508174096306
+Epoch: 47/200
+Train loss: 2.1312, val loss: 1.4039
+0.9107839996957878
+Epoch: 48/200
+Train loss: 2.1640, val loss: 1.3983
+0.9122292761503177
+Epoch: 49/200
+Train loss: 2.1031, val loss: 1.4809
+0.9115277335357316
+Epoch: 50/200
+Train loss: 2.0791, val loss: 1.3984
+0.9102011152838422
+Epoch: 51/200
+Train loss: 2.0727, val loss: 1.4481
+0.9116644017504354
+Epoch: 52/200
+Train loss: 2.1233, val loss: 1.4480
+0.9087131452888882
+Epoch: 53/200
+Train loss: 2.0295, val loss: 1.4744
+0.9060655321600617
+Epoch: 54/200
+Train loss: 2.1538, val loss: 1.4135
+0.9139590414067321
+Model improve: 0.9135 -> 0.9140
+Epoch: 55/200
+Train loss: 2.1100, val loss: 1.4976
+0.9105215860377419
+Epoch: 56/200
+Train loss: 2.0702, val loss: 1.4453
+0.9119439965522167
+Epoch: 57/200
+Date :04/21/2023, 03:48:34
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 7.7397, val loss: 2.4642
+0.8325483240190047
+Model improve: 0.0000 -> 0.8325
+Epoch: 2/200
+Train loss: 3.4111, val loss: 1.9896
+0.872189746982383
+Model improve: 0.8325 -> 0.8722
+Epoch: 3/200
+Train loss: 3.0592, val loss: 1.8091
+0.8837591455050994
+Model improve: 0.8722 -> 0.8838
+Epoch: 4/200
+Train loss: 2.7442, val loss: 1.6765
+0.8950551599418601
+Model improve: 0.8838 -> 0.8951
+Epoch: 5/200
+Train loss: 2.7023, val loss: 1.6116
+0.8958283146372402
+Model improve: 0.8951 -> 0.8958
+Epoch: 6/200
+Train loss: 2.5664, val loss: 1.6025
+0.8999596744299484
+Model improve: 0.8958 -> 0.9000
+Epoch: 7/200
+Train loss: 2.4329, val loss: 1.5813
+0.9009358279481237
+Model improve: 0.9000 -> 0.9009
+Epoch: 8/200
+Train loss: 2.4187, val loss: 1.5168
+0.9039069969487429
+Model improve: 0.9009 -> 0.9039
+Epoch: 9/200
+Train loss: 2.3056, val loss: 1.5620
+0.8985667360070335
+Epoch: 10/200
+Train loss: 2.3924, val loss: 1.6379
+0.8963822132678825
+Epoch: 11/200
+Train loss: 2.2760, val loss: 1.5113
+0.9039181549003078
+Model improve: 0.9039 -> 0.9039
+Epoch: 12/200
+Train loss: 2.1934, val loss: 1.5432
+0.8975987329322876
+Epoch: 13/200
+Train loss: 2.1659, val loss: 1.5545
+0.9013776857682043
+Epoch: 14/200
+Train loss: 2.1875, val loss: 1.4624
+0.9032957247785341
+Epoch: 15/200
+Train loss: 2.0996, val loss: 1.5404
+0.9010727809410786
+Epoch: 16/200
+Train loss: 2.1273, val loss: 1.5386
+0.8986796219807786
+Epoch: 17/200
+Train loss: 1.9802, val loss: 1.4506
+0.9050600308104356
+Model improve: 0.9039 -> 0.9051
+Epoch: 18/200
+Train loss: 2.0651, val loss: 1.4992
+0.9027549419684302
+Epoch: 19/200
+Train loss: 2.0730, val loss: 1.4838
+0.9059547774104761
+Model improve: 0.9051 -> 0.9060
+Epoch: 20/200
+Train loss: 2.0514, val loss: 1.4493
+0.9082015327449072
+Model improve: 0.9060 -> 0.9082
+Epoch: 21/200
+Train loss: 2.0118, val loss: 1.5203
+0.9046337931328872
+Epoch: 22/200
+Train loss: 2.0164, val loss: 1.4321
+0.9077797068399492
+Epoch: 23/200
+Train loss: 1.9909, val loss: 1.4905
+0.9033958838450205
+Epoch: 24/200
+Train loss: 2.0323, val loss: 1.5177
+0.9063503693505374
+Epoch: 25/200
+Train loss: 1.9811, val loss: 1.5118
+0.905466885425384
+Epoch: 26/200
+Train loss: 1.9785, val loss: 1.4409
+0.9056516181122294
+Epoch: 27/200
+Train loss: 1.8999, val loss: 1.4568
+0.9084488250175224
+Model improve: 0.9082 -> 0.9084
+Epoch: 28/200
+Train loss: 1.9074, val loss: 1.4483
+0.9073589829915134
+Epoch: 29/200
+Train loss: 1.9897, val loss: 1.4649
+0.9051676439160198
+Epoch: 30/200
+Train loss: 1.9515, val loss: 1.4322
+0.9091466759126051
+Model improve: 0.9084 -> 0.9091
+Epoch: 31/200
+Date :04/21/2023, 05:59:15
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 7.7390, val loss: 2.4656
+0.8330419339100703
+Model improve: 0.0000 -> 0.8330
+Epoch: 2/200
+Train loss: 3.4052, val loss: 2.0030
+0.8728179637644613
+Model improve: 0.8330 -> 0.8728
+Epoch: 3/200
+Date :04/21/2023, 06:11:27
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0004
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.6
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0004
+    lr: 0.0004
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Date :04/21/2023, 06:13:05
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0004
+weightdecay: 0.01
+thrupsample: 20
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.6
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+14690
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0004
+    lr: 0.0004
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 12.0035, val loss: 3.4651
+0.7465629903186335
+Model improve: 0.0000 -> 0.7466
+Epoch: 2/200
+Train loss: 4.3956, val loss: 2.5647
+0.8187149967902843
+Model improve: 0.7466 -> 0.8187
+Epoch: 3/200
+Train loss: 3.9099, val loss: 2.2060
+0.8504688264653453
+Model improve: 0.8187 -> 0.8505
+Epoch: 4/200
+Train loss: 3.5496, val loss: 1.9645
+0.8698256186749318
+Model improve: 0.8505 -> 0.8698
+Epoch: 5/200
+Train loss: 3.3899, val loss: 1.8524
+0.8819039838610544
+Model improve: 0.8698 -> 0.8819
+Epoch: 6/200
+Train loss: 3.2839, val loss: 1.7234
+0.8886539033935965
+Model improve: 0.8819 -> 0.8887
+Epoch: 7/200
+Train loss: 3.1832, val loss: 1.6551
+0.8948435101414393
+Model improve: 0.8887 -> 0.8948
+Epoch: 8/200
+Train loss: 3.1171, val loss: 1.6042
+0.8985677994771433
+Model improve: 0.8948 -> 0.8986
+Epoch: 9/200
+Train loss: 3.0239, val loss: 1.5858
+0.9030423089818206
+Model improve: 0.8986 -> 0.9030
+Epoch: 10/200
+Train loss: 2.9551, val loss: 1.5216
+0.9059286007464078
+Model improve: 0.9030 -> 0.9059
+Epoch: 11/200
+Train loss: 2.9317, val loss: 1.5155
+0.9072018451318429
+Model improve: 0.9059 -> 0.9072
+Epoch: 12/200
+Train loss: 2.9262, val loss: 1.5040
+0.9086786925002965
+Model improve: 0.9072 -> 0.9087
+Epoch: 13/200
+Train loss: 2.7413, val loss: 1.5842
+0.909233056851943
+Model improve: 0.9087 -> 0.9092
+Epoch: 14/200
+Train loss: 2.7606, val loss: 1.5004
+0.9081412183966915
+Epoch: 15/200
+Train loss: 2.7580, val loss: 1.5544
+0.9093215585716728
+Model improve: 0.9092 -> 0.9093
+Epoch: 16/200
+Train loss: 2.7757, val loss: 1.4774
+0.9106793113922087
+Model improve: 0.9093 -> 0.9107
+Epoch: 17/200
+Train loss: 2.6493, val loss: 1.4651
+0.9125307842907274
+Model improve: 0.9107 -> 0.9125
+Epoch: 18/200
+Train loss: 2.6174, val loss: 1.5469
+0.9119612631156766
+Epoch: 19/200
+Train loss: 2.5854, val loss: 1.4963
+0.9111512744025485
+Epoch: 20/200
+Train loss: 2.6356, val loss: 1.4592
+0.9134318160237862
+Model improve: 0.9125 -> 0.9134
+Epoch: 21/200
+Train loss: 2.5796, val loss: 1.4374
+0.9152017199174465
+Model improve: 0.9134 -> 0.9152
+Epoch: 22/200
+Train loss: 2.5323, val loss: 1.3934
+0.9143339845686663
+Epoch: 23/200
+Train loss: 2.4880, val loss: 1.4268
+0.9136631863520659
+Epoch: 24/200
+Train loss: 2.5167, val loss: 1.5072
+0.9122406546185138
+Epoch: 25/200
+Train loss: 2.5718, val loss: 1.3641
+0.9132580302403034
+Epoch: 26/200
+Train loss: 2.4935, val loss: 1.3691
+0.9146937332862075
+Epoch: 27/200
+Train loss: 2.5099, val loss: 1.3836
+0.9158584418580883
+Model improve: 0.9152 -> 0.9159
+Epoch: 28/200
+Train loss: 2.4319, val loss: 1.4733
+0.9130898142498303
+Epoch: 29/200
+Train loss: 2.5028, val loss: 1.3571
+0.9160279838833071
+Model improve: 0.9159 -> 0.9160
+Epoch: 30/200
+Train loss: 2.5020, val loss: 1.4803
+0.9129514998932831
+Epoch: 31/200
+Train loss: 2.4719, val loss: 1.4822
+0.9129678784197066
+Epoch: 32/200
+Train loss: 2.3725, val loss: 1.3590
+0.9157839472289462
+Epoch: 33/200
+Train loss: 2.5360, val loss: 1.4213
+0.914602875645956
+Epoch: 34/200
+Train loss: 2.3956, val loss: 1.4149
+0.9150718689310845
+Epoch: 35/200
+Train loss: 2.3940, val loss: 1.4114
+0.9148693603106242
+Epoch: 36/200
+Train loss: 2.3850, val loss: 1.4077
+0.9166055360798058
+Model improve: 0.9160 -> 0.9166
+Epoch: 37/200
+Train loss: 2.2956, val loss: 1.3927
+0.9156885539991283
+Epoch: 38/200
+Train loss: 2.4517, val loss: 1.4075
+0.9146760321873675
+Epoch: 39/200
+Train loss: 2.3702, val loss: 1.3865
+0.9165084067836197
+Epoch: 40/200
+Train loss: 2.3335, val loss: 1.3451
+0.9163633938808726
+Epoch: 41/200
+Train loss: 2.3292, val loss: 1.3558
+0.9179139828458593
+Model improve: 0.9166 -> 0.9179
+Epoch: 42/200
+Train loss: 2.3367, val loss: 1.3267
+0.919967402036173
+Model improve: 0.9179 -> 0.9200
+Epoch: 43/200
+Train loss: 2.3230, val loss: 1.3329
+0.917736473275939
+Epoch: 44/200
+Train loss: 2.3262, val loss: 1.4392
+0.9166253382465434
+Epoch: 45/200
+Train loss: 2.2823, val loss: 1.3932
+0.9167618282026836
+Epoch: 46/200
+Train loss: 2.2751, val loss: 1.3622
+0.9196153917339471
+Epoch: 47/200
+Train loss: 2.2890, val loss: 1.3565
+0.91756208273772
+Epoch: 48/200
+Train loss: 2.2458, val loss: 1.3278
+0.9163070708004653
+Epoch: 49/200
+Train loss: 2.3230, val loss: 1.4064
+0.91594364319596
+Epoch: 50/200
+Train loss: 2.3755, val loss: 1.4465
+0.914424870695369
+Epoch: 51/200
+Train loss: 2.2822, val loss: 1.3858
+0.9153553214374429
+Epoch: 52/200
+Train loss: 2.2819, val loss: 1.3453
+0.9177836721501612
+Epoch: 53/200
+Train loss: 2.2840, val loss: 1.4429
+0.9145431811996123
+Epoch: 54/200
+Train loss: 2.3163, val loss: 1.3548
+0.9164909414731142
+Epoch: 55/200
+Train loss: 2.1769, val loss: 1.3691
+0.914861672148977
+Epoch: 56/200
+Train loss: 2.3013, val loss: 1.3021
+0.9180268029810887
+Epoch: 57/200
+Train loss: 2.2820, val loss: 1.4244
+0.9145910816305528
+Epoch: 58/200
+Train loss: 2.2636, val loss: 1.4100
+0.9151135494307712
+Epoch: 59/200
+Train loss: 2.2802, val loss: 1.4171
+0.9153509159510533
+Epoch: 60/200
+Train loss: 2.2020, val loss: 1.4040
+0.9160297117341369
+Epoch: 61/200
+Train loss: 2.1870, val loss: 1.3829
+0.915800317964462
+Epoch: 62/200
+Date :04/21/2023, 09:38:57
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0004
+weightdecay: 0.01
+thrupsample: 0
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.6
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+13552
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0004
+    lr: 0.0004
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 12.0684, val loss: 3.5762
+0.7245359306630418
+Model improve: 0.0000 -> 0.7245
+Epoch: 2/200
+Train loss: 4.2399, val loss: 2.6681
+0.8055793420023092
+Model improve: 0.7245 -> 0.8056
+Epoch: 3/200
+Train loss: 3.8365, val loss: 2.3145
+0.8389394904046799
+Model improve: 0.8056 -> 0.8389
+Epoch: 4/200
+Train loss: 3.6031, val loss: 2.0470
+0.8571720229409434
+Model improve: 0.8389 -> 0.8572
+Epoch: 5/200
+Train loss: 3.3772, val loss: 1.8999
+0.8730274137479853
+Model improve: 0.8572 -> 0.8730
+Epoch: 6/200
+Train loss: 3.3320, val loss: 1.8011
+0.8783799076959167
+Model improve: 0.8730 -> 0.8784
+Epoch: 7/200
+Train loss: 3.1084, val loss: 1.7119
+0.8865921870758644
+Model improve: 0.8784 -> 0.8866
+Epoch: 8/200
+Train loss: 3.1681, val loss: 1.6314
+0.8958561468627562
+Model improve: 0.8866 -> 0.8959
+Epoch: 9/200
+Train loss: 3.0348, val loss: 1.6007
+0.8995262169477429
+Model improve: 0.8959 -> 0.8995
+Epoch: 10/200
+Train loss: 2.9588, val loss: 1.6064
+0.9015669468660791
+Model improve: 0.8995 -> 0.9016
+Epoch: 11/200
+Train loss: 2.9335, val loss: 1.5429
+0.9037029127503233
+Model improve: 0.9016 -> 0.9037
+Epoch: 12/200
+Train loss: 2.8880, val loss: 1.4649
+0.9055959135049981
+Model improve: 0.9037 -> 0.9056
+Epoch: 13/200
+Train loss: 2.9235, val loss: 1.5121
+0.90905997342729
+Model improve: 0.9056 -> 0.9091
+Epoch: 14/200
+Train loss: 2.7053, val loss: 1.4708
+0.9088851705463598
+Epoch: 15/200
+Train loss: 2.7379, val loss: 1.4747
+0.9102445249039317
+Model improve: 0.9091 -> 0.9102
+Epoch: 16/200
+Train loss: 2.7715, val loss: 1.5983
+0.9069302749657048
+Epoch: 17/200
+Train loss: 2.7301, val loss: 1.4491
+0.9152223782940472
+Model improve: 0.9102 -> 0.9152
+Epoch: 18/200
+Train loss: 2.6647, val loss: 1.4115
+0.9131521233194145
+Epoch: 19/200
+Train loss: 2.6703, val loss: 1.5611
+0.9109241948467517
+Epoch: 20/200
+Train loss: 2.6130, val loss: 1.4896
+0.911505994777819
+Epoch: 21/200
+Train loss: 2.4990, val loss: 1.3683
+0.916488326474019
+Model improve: 0.9152 -> 0.9165
+Epoch: 22/200
+Train loss: 2.6338, val loss: 1.4502
+0.9122049727480506
+Epoch: 23/200
+Train loss: 2.5855, val loss: 1.3882
+0.9150767988750305
+Epoch: 24/200
+Train loss: 2.4789, val loss: 1.3767
+0.9167924048965946
+Model improve: 0.9165 -> 0.9168
+Epoch: 25/200
+Train loss: 2.4526, val loss: 1.3838
+0.9153901287188542
+Epoch: 26/200
+Train loss: 2.5134, val loss: 1.4297
+0.9165589608599429
+Epoch: 27/200
+Train loss: 2.5345, val loss: 1.4199
+0.9156046892284048
+Epoch: 28/200
+Train loss: 2.5177, val loss: 1.4356
+0.9169009074647628
+Model improve: 0.9168 -> 0.9169
+Epoch: 29/200
+Train loss: 2.4512, val loss: 1.4096
+0.9165419297387575
+Epoch: 30/200
+Train loss: 2.4249, val loss: 1.3762
+0.9153258550729633
+Epoch: 31/200
+Train loss: 2.4004, val loss: 1.3637
+0.9179043619982207
+Model improve: 0.9169 -> 0.9179
+Epoch: 32/200
+Date :04/21/2023, 11:18:27
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0004
+weightdecay: 0.01
+thrupsample: 0
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Date :04/21/2023, 11:18:33
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0004
+weightdecay: 0.01
+thrupsample: 0
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+13552
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0004
+    lr: 0.0004
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 12.1972, val loss: 3.5081
+0.7301039387232781
+Model improve: 0.0000 -> 0.7301
+Epoch: 2/200
+Train loss: 4.1980, val loss: 2.6823
+0.8068130832874307
+Model improve: 0.7301 -> 0.8068
+Epoch: 3/200
+Train loss: 3.7561, val loss: 2.2434
+0.8424493104778181
+Model improve: 0.8068 -> 0.8424
+Epoch: 4/200
+Train loss: 3.5235, val loss: 2.0738
+0.8595592989713841
+Model improve: 0.8424 -> 0.8596
+Epoch: 5/200
+Train loss: 3.3046, val loss: 1.9069
+0.8733805705323641
+Model improve: 0.8596 -> 0.8734
+Epoch: 6/200
+Train loss: 3.2396, val loss: 1.7957
+0.8806929846431675
+Model improve: 0.8734 -> 0.8807
+Epoch: 7/200
+Train loss: 3.1182, val loss: 1.7513
+0.8861455886693594
+Model improve: 0.8807 -> 0.8861
+Epoch: 8/200
+Train loss: 3.0499, val loss: 1.6247
+0.8934406409470464
+Model improve: 0.8861 -> 0.8934
+Epoch: 9/200
+Train loss: 2.8031, val loss: 1.5920
+0.8998749841646245
+Model improve: 0.8934 -> 0.8999
+Epoch: 10/200
+Train loss: 2.8902, val loss: 1.5416
+0.9025453009237784
+Model improve: 0.8999 -> 0.9025
+Epoch: 11/200
+Train loss: 2.8997, val loss: 1.5825
+0.9025903876237832
+Model improve: 0.9025 -> 0.9026
+Epoch: 12/200
+Train loss: 2.7919, val loss: 1.5625
+0.9061021034106425
+Model improve: 0.9026 -> 0.9061
+Epoch: 13/200
+Train loss: 2.7669, val loss: 1.5107
+0.9096567290184067
+Model improve: 0.9061 -> 0.9097
+Epoch: 14/200
+Train loss: 2.7147, val loss: 1.4917
+0.9095658862086898
+Epoch: 15/200
+Train loss: 2.7360, val loss: 1.5178
+0.9111410904770235
+Model improve: 0.9097 -> 0.9111
+Epoch: 16/200
+Train loss: 2.6739, val loss: 1.5612
+0.9085305203878734
+Epoch: 17/200
+Train loss: 2.6810, val loss: 1.4510
+0.9138502961614852
+Model improve: 0.9111 -> 0.9139
+Epoch: 18/200
+Train loss: 2.6141, val loss: 1.4778
+0.9098566606509819
+Epoch: 19/200
+Train loss: 2.6591, val loss: 1.4416
+0.9121460550324363
+Epoch: 20/200
+Train loss: 2.5906, val loss: 1.4445
+0.9127096710681555
+Epoch: 21/200
+Train loss: 2.5181, val loss: 1.4475
+0.9138231424634222
+Epoch: 22/200
+Train loss: 2.5079, val loss: 1.4247
+0.9110606693991836
+Epoch: 23/200
+Train loss: 2.5105, val loss: 1.4140
+0.9128896971098388
+Epoch: 24/200
+Train loss: 2.4550, val loss: 1.4784
+0.9131241835586692
+Epoch: 25/200
+Train loss: 2.4828, val loss: 1.4343
+0.9130451417008172
+Epoch: 26/200
+Train loss: 2.4398, val loss: 1.4001
+0.9145137410597313
+Model improve: 0.9139 -> 0.9145
+Epoch: 27/200
+Train loss: 2.4603, val loss: 1.3872
+0.9156156180383186
+Model improve: 0.9145 -> 0.9156
+Epoch: 28/200
+Train loss: 2.4574, val loss: 1.4575
+0.9169222431298351
+Model improve: 0.9156 -> 0.9169
+Epoch: 29/200
+Train loss: 2.4163, val loss: 1.4447
+0.9141884074796491
+Epoch: 30/200
+Train loss: 2.4070, val loss: 1.3969
+0.9157233892094128
+Epoch: 31/200
+Train loss: 2.4429, val loss: 1.3909
+0.9155725028278113
+Epoch: 32/200
+Train loss: 2.3417, val loss: 1.3766
+0.9174849349626675
+Model improve: 0.9169 -> 0.9175
+Epoch: 33/200
+Train loss: 2.2234, val loss: 1.4252
+0.9141322365405131
+Epoch: 34/200
+Train loss: 2.3763, val loss: 1.3976
+0.9185349142790777
+Model improve: 0.9175 -> 0.9185
+Epoch: 35/200
+Train loss: 2.3531, val loss: 1.3856
+0.916368224898321
+Epoch: 36/200
+Train loss: 2.3819, val loss: 1.3394
+0.9168279078207194
+Epoch: 37/200
+Train loss: 2.3566, val loss: 1.3789
+0.915837736937463
+Epoch: 38/200
+Train loss: 2.2814, val loss: 1.4631
+0.917103984596149
+Epoch: 39/200
+Train loss: 2.3619, val loss: 1.3933
+0.9170510099646415
+Epoch: 40/200
+Train loss: 2.3192, val loss: 1.4176
+0.9147921546270109
+Epoch: 41/200
+Train loss: 2.2614, val loss: 1.3748
+0.9179204667446522
+Epoch: 42/200
+Train loss: 2.2789, val loss: 1.3274
+0.9196817489289407
+Model improve: 0.9185 -> 0.9197
+Epoch: 43/200
+Train loss: 2.3214, val loss: 1.3781
+0.9185776553993631
+Epoch: 44/200
+Train loss: 2.3862, val loss: 1.3934
+0.9179417010811353
+Epoch: 45/200
+Train loss: 2.2667, val loss: 1.3646
+0.9171988933009535
+Epoch: 46/200
+Train loss: 2.1833, val loss: 1.4011
+0.9154410952258168
+Epoch: 47/200
+Train loss: 2.2424, val loss: 1.4169
+0.9146482805862975
+Epoch: 48/200
+Train loss: 2.3131, val loss: 1.4326
+0.9151634236818268
+Epoch: 49/200
+Train loss: 2.2516, val loss: 1.4090
+0.9146696486652907
+Epoch: 50/200
+Train loss: 2.2187, val loss: 1.3775
+0.9154732401932627
+Epoch: 51/200
+Train loss: 2.2758, val loss: 1.4157
+0.9159797421868242
+Epoch: 52/200
+Train loss: 2.1082, val loss: 1.3439
+0.9181333605581833
+Epoch: 53/200
+Train loss: 2.2265, val loss: 1.3868
+0.9140964380926848
+Epoch: 54/200
+Train loss: 2.2186, val loss: 1.4004
+0.9171714464209234
+Epoch: 55/200
+Train loss: 2.2148, val loss: 1.3662
+0.9171189160338434
+Epoch: 56/200
+Train loss: 2.1948, val loss: 1.3239
+0.9186018655575605
+Epoch: 57/200
+Train loss: 2.1702, val loss: 1.4004
+0.9169557606963328
+Epoch: 58/200
+Train loss: 2.1605, val loss: 1.3625
+0.9187340673680838
+Epoch: 59/200
+Train loss: 2.1258, val loss: 1.3243
+0.918984749078104
+Epoch: 60/200
+Train loss: 2.2454, val loss: 1.3721
+0.9162954292414811
+Epoch: 61/200
+Train loss: 2.1711, val loss: 1.3522
+0.917344170435862
+Epoch: 62/200
+Train loss: 2.1388, val loss: 1.3799
+0.9161891683181311
+Epoch: 63/200
+Train loss: 2.1980, val loss: 1.3819
+0.9156794848133275
+Epoch: 64/200
+Train loss: 2.2173, val loss: 1.3715
+0.9156202715212968
+Epoch: 65/200
+Train loss: 2.1834, val loss: 1.3424
+0.9165847775494751
+Epoch: 66/200
+Train loss: 2.1579, val loss: 1.3454
+0.9167300267594871
+Epoch: 67/200
+Train loss: 2.0811, val loss: 1.3390
+0.9172528372968733
+Epoch: 68/200
+Train loss: 2.1220, val loss: 1.3317
+0.9172928552593499
+Epoch: 69/200
+Train loss: 2.1589, val loss: 1.3657
+0.9184020838649435
+Epoch: 70/200
+Train loss: 2.1936, val loss: 1.3634
+0.9172393444607146
+Epoch: 71/200
+Train loss: 2.1576, val loss: 1.3476
+0.917225709104383
+Epoch: 72/200
+Train loss: 2.1723, val loss: 1.3410
+0.9184308018952413
+Epoch: 73/200
+Train loss: 2.1347, val loss: 1.3515
+0.9192110768490227
+Epoch: 74/200
+Train loss: 2.1627, val loss: 1.3029
+0.9178752975022093
+Epoch: 75/200
+Train loss: 2.0478, val loss: 1.3164
+0.9188766984816423
+Epoch: 76/200
+Train loss: 2.1096, val loss: 1.3502
+0.9191459996328895
+Epoch: 77/200
+Train loss: 2.1565, val loss: 1.3582
+0.9193124790317191
+Epoch: 78/200
+Train loss: 2.1534, val loss: 1.3662
+0.9190744042778324
+Epoch: 79/200
+Train loss: 2.0508, val loss: 1.3075
+0.9182656791423206
+Epoch: 80/200
+Train loss: 2.0296, val loss: 1.3105
+0.9181423270145203
+Epoch: 81/200
+Train loss: 2.1070, val loss: 1.3302
+0.9196279986033964
+Epoch: 82/200
+Train loss: 2.0677, val loss: 1.2958
+0.9203208679254594
+Model improve: 0.9197 -> 0.9203
+Epoch: 83/200
+Train loss: 2.1345, val loss: 1.3242
+0.9179120599110296
+Epoch: 84/200
+Train loss: 2.0433, val loss: 1.3497
+0.9194170709004347
+Epoch: 85/200
+Train loss: 1.9860, val loss: 1.3116
+0.9215274943383046
+Model improve: 0.9203 -> 0.9215
+Epoch: 86/200
+Train loss: 2.1240, val loss: 1.3321
+0.9187959243322583
+Epoch: 87/200
+Train loss: 2.0439, val loss: 1.3130
+0.9200088671400798
+Epoch: 88/200
+Train loss: 2.0661, val loss: 1.3520
+0.9189109148782867
+Epoch: 89/200
+Train loss: 2.0519, val loss: 1.2748
+0.9203265711737129
+Epoch: 90/200
+Train loss: 2.0594, val loss: 1.3294
+0.9188843670008209
+Epoch: 91/200
+Train loss: 2.0304, val loss: 1.3446
+0.9167917593784332
+Epoch: 92/200
+Train loss: 1.9865, val loss: 1.3480
+0.9165114805945307
+Epoch: 93/200
+Train loss: 2.1154, val loss: 1.3462
+0.9176747695314061
+Epoch: 94/200
+Train loss: 2.0564, val loss: 1.3231
+0.9182612798280688
+Epoch: 95/200
+Train loss: 2.0742, val loss: 1.3525
+0.9191470507601077
+Epoch: 96/200
+Train loss: 1.9615, val loss: 1.2870
+0.9206896351447645
+Epoch: 97/200
+Train loss: 2.0609, val loss: 1.3272
+0.9187825238355434
+Epoch: 98/200
+Train loss: 1.9903, val loss: 1.2792
+0.9201228353200864
+Epoch: 99/200
+Train loss: 1.9843, val loss: 1.2999
+0.9193582313208888
+Epoch: 100/200
+Train loss: 2.0262, val loss: 1.3116
+0.9183066153319465
+Epoch: 101/200
+Train loss: 2.0563, val loss: 1.2872
+0.9192518256667056
+Epoch: 102/200
+Train loss: 2.0141, val loss: 1.2960
+0.9201180377014648
+Epoch: 103/200
+Train loss: 1.9741, val loss: 1.3586
+0.9167616728224698
+Epoch: 104/200
+Train loss: 2.0514, val loss: 1.3396
+0.9160283519439024
+Epoch: 105/200
+Train loss: 1.9776, val loss: 1.3159
+0.9177275208951425
+Epoch: 106/200
+Train loss: 2.0050, val loss: 1.3281
+0.9183531145996771
+Epoch: 107/200
+Train loss: 2.0526, val loss: 1.3191
+0.9177889619204226
+Epoch: 108/200
+Train loss: 2.0271, val loss: 1.2959
+0.9197960036657468
+Epoch: 109/200
+Train loss: 2.0405, val loss: 1.3122
+0.9187572246716516
+Epoch: 110/200
+Train loss: 2.0182, val loss: 1.3207
+0.917830601321
+Epoch: 111/200
+Train loss: 2.0422, val loss: 1.3507
+0.9164677972110312
+Epoch: 112/200
+Train loss: 1.9572, val loss: 1.2820
+0.9191636208290269
+Epoch: 113/200
+Train loss: 2.0020, val loss: 1.3053
+0.9188851379359326
+Epoch: 114/200
+Train loss: 1.9957, val loss: 1.3474
+0.9182492769523619
+Epoch: 115/200
+Train loss: 1.9946, val loss: 1.3294
+0.917410832545988
+Epoch: 116/200
+Train loss: 1.9297, val loss: 1.3499
+0.9168578005587816
+Epoch: 117/200
+Train loss: 1.9140, val loss: 1.3536
+0.9179533649016347
+Epoch: 118/200
+Train loss: 1.9786, val loss: 1.3073
+0.9203560772020782
+Epoch: 119/200
+Train loss: 1.9983, val loss: 1.3280
+0.9179909810687696
+Epoch: 120/200
+Train loss: 2.0254, val loss: 1.3270
+0.9200945842613978
+Epoch: 121/200
+Train loss: 1.9096, val loss: 1.3164
+0.9200089867955172
+Epoch: 122/200
+Train loss: 1.9333, val loss: 1.2876
+0.9206900100068035
+Epoch: 123/200
+Train loss: 1.9756, val loss: 1.3084
+0.9209732018496319
+Epoch: 124/200
+Train loss: 1.9575, val loss: 1.3410
+0.9212880041426181
+Epoch: 125/200
+Train loss: 1.9925, val loss: 1.2836
+0.9202079818317142
+Epoch: 126/200
+Train loss: 1.9775, val loss: 1.3117
+0.9210383861173757
+Epoch: 127/200
+Train loss: 1.9581, val loss: 1.2817
+0.9215717268596677
+Model improve: 0.9215 -> 0.9216
+Epoch: 128/200
+Train loss: 1.9341, val loss: 1.2736
+0.9206665499292654
+Epoch: 129/200
+Train loss: 2.0037, val loss: 1.3234
+0.9193731283674448
+Epoch: 130/200
+Train loss: 1.9198, val loss: 1.3361
+0.9202134649158666
+Epoch: 131/200
+Train loss: 1.9707, val loss: 1.3289
+0.9194745164182793
+Epoch: 132/200
+Train loss: 1.8644, val loss: 1.3064
+0.9209442067046564
+Epoch: 133/200
+Train loss: 1.9530, val loss: 1.3402
+0.9200504232881707
+Epoch: 134/200
+Train loss: 2.0069, val loss: 1.3205
+0.9200473277326249
+Epoch: 135/200
+Train loss: 1.9189, val loss: 1.3399
+0.9192383863132642
+Epoch: 136/200
+Train loss: 1.9636, val loss: 1.2839
+0.9208263482959006
+Epoch: 137/200
+Train loss: 1.8977, val loss: 1.3072
+0.9200733989752181
+Epoch: 138/200
+Train loss: 1.9184, val loss: 1.3184
+0.920462574199582
+Epoch: 139/200
+Train loss: 1.9967, val loss: 1.3053
+0.9198956919547212
+Epoch: 140/200
+Train loss: 1.9479, val loss: 1.3323
+0.9202440325338056
+Epoch: 141/200
+Train loss: 1.9046, val loss: 1.2890
+0.9207266453879742
+Epoch: 142/200
+Train loss: 1.9762, val loss: 1.2899
+0.9206639220519887
+Epoch: 143/200
+Train loss: 1.9343, val loss: 1.3031
+0.922110591146737
+Model improve: 0.9216 -> 0.9221
+Epoch: 144/200
+Train loss: 1.8975, val loss: 1.3222
+0.9214056718202526
+Epoch: 145/200
+Train loss: 1.9513, val loss: 1.2998
+0.9217356003038008
+Epoch: 146/200
+Train loss: 1.9340, val loss: 1.3110
+0.9211411325832412
+Epoch: 147/200
+Train loss: 1.9577, val loss: 1.2668
+0.9221365780556852
+Model improve: 0.9221 -> 0.9221
+Epoch: 148/200
+Train loss: 1.9619, val loss: 1.2891
+0.9212687790935631
+Epoch: 149/200
+Train loss: 1.8398, val loss: 1.2953
+0.9212835766963873
+Epoch: 150/200
+Train loss: 1.9290, val loss: 1.2928
+0.9216229784153674
+Epoch: 151/200
+Train loss: 1.8767, val loss: 1.3181
+0.9213540496883719
+Epoch: 152/200
+Train loss: 1.9031, val loss: 1.2882
+0.9218046519356935
+Epoch: 153/200
+Train loss: 1.9278, val loss: 1.3239
+0.9218075181139166
+Epoch: 154/200
+Date :04/21/2023, 19:37:32
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0004
+weightdecay: 0.01
+thrupsample: 0
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.8
+cut_mix: 0.4
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+13552
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0004
+    lr: 0.0004
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 12.5696, val loss: 3.6106
+0.7223480494924296
+Model improve: 0.0000 -> 0.7223
+Epoch: 2/200
+Train loss: 4.2804, val loss: 2.7333
+0.8028857221903551
+Model improve: 0.7223 -> 0.8029
+Epoch: 3/200
+Train loss: 3.9089, val loss: 2.3383
+0.8375155478358398
+Model improve: 0.8029 -> 0.8375
+Epoch: 4/200
+Train loss: 3.6098, val loss: 2.0392
+0.857035820522976
+Model improve: 0.8375 -> 0.8570
+Epoch: 5/200
+Train loss: 3.4110, val loss: 1.8809
+0.8709306529854969
+Model improve: 0.8570 -> 0.8709
+Epoch: 6/200
+Train loss: 3.2945, val loss: 1.7865
+0.8763490896681527
+Model improve: 0.8709 -> 0.8763
+Epoch: 7/200
+Train loss: 3.1660, val loss: 1.7714
+0.8852380077960519
+Model improve: 0.8763 -> 0.8852
+Epoch: 8/200
+Train loss: 3.1636, val loss: 1.6224
+0.894279046152524
+Model improve: 0.8852 -> 0.8943
+Epoch: 9/200
+Train loss: 3.0504, val loss: 1.5842
+0.8973601034715736
+Model improve: 0.8943 -> 0.8974
+Epoch: 10/200
+Train loss: 2.9733, val loss: 1.5556
+0.9011381433923011
+Model improve: 0.8974 -> 0.9011
+Epoch: 11/200
+Train loss: 2.9386, val loss: 1.5692
+0.9025471898543046
+Model improve: 0.9011 -> 0.9025
+Epoch: 12/200
+Train loss: 2.9747, val loss: 1.5339
+0.9055142935780963
+Model improve: 0.9025 -> 0.9055
+Epoch: 13/200
+Train loss: 2.9064, val loss: 1.4851
+0.9095710484879285
+Model improve: 0.9055 -> 0.9096
+Epoch: 14/200
+Train loss: 2.7327, val loss: 1.4470
+0.9075193215405193
+Epoch: 15/200
+Train loss: 2.7476, val loss: 1.4913
+0.9090692992037331
+Epoch: 16/200
+Train loss: 2.7639, val loss: 1.4359
+0.9091879018571998
+Epoch: 17/200
+Train loss: 2.7672, val loss: 1.4912
+0.9130021279535394
+Model improve: 0.9096 -> 0.9130
+Epoch: 18/200
+Train loss: 2.7175, val loss: 1.4802
+0.9103901065122925
+Epoch: 19/200
+Train loss: 2.7287, val loss: 1.4870
+0.9103631975941485
+Epoch: 20/200
+Train loss: 2.6134, val loss: 1.4480
+0.910258052861413
+Epoch: 21/200
+Train loss: 2.7235, val loss: 1.4376
+0.9142679451989311
+Model improve: 0.9130 -> 0.9143
+Epoch: 22/200
+Train loss: 2.6335, val loss: 1.3930
+0.9116322362917666
+Epoch: 23/200
+Train loss: 2.5737, val loss: 1.3946
+0.9152151935048115
+Model improve: 0.9143 -> 0.9152
+Epoch: 24/200
+Train loss: 2.5433, val loss: 1.3866
+0.914713422307103
+Epoch: 25/200
+Train loss: 2.5889, val loss: 1.4058
+0.9131773610162446
+Epoch: 26/200
+Train loss: 2.6450, val loss: 1.5127
+0.9146840399400327
+Epoch: 27/200
+Train loss: 2.6124, val loss: 1.4221
+0.914990865116624
+Epoch: 28/200
+Train loss: 2.5315, val loss: 1.5001
+0.9142740186320973
+Epoch: 29/200
+Train loss: 2.5145, val loss: 1.3762
+0.9166326651574758
+Model improve: 0.9152 -> 0.9166
+Epoch: 30/200
+Train loss: 2.4535, val loss: 1.4225
+0.9149518784727845
+Epoch: 31/200
+Train loss: 2.4825, val loss: 1.3518
+0.9158331062415763
+Epoch: 32/200
+Train loss: 2.5016, val loss: 1.4098
+0.9163835375326803
+Epoch: 33/200
+Train loss: 2.4653, val loss: 1.3709
+0.9166671860657555
+Model improve: 0.9166 -> 0.9167
+Epoch: 34/200
+Train loss: 2.4131, val loss: 1.4058
+0.9163594090915516
+Epoch: 35/200
+Train loss: 2.4888, val loss: 1.3698
+0.918267801130158
+Model improve: 0.9167 -> 0.9183
+Epoch: 36/200
+Train loss: 2.4008, val loss: 1.3579
+0.9157970191425387
+Epoch: 37/200
+Train loss: 2.4300, val loss: 1.4009
+0.91537458836435
+Epoch: 38/200
+Train loss: 2.3684, val loss: 1.3724
+0.9154124418786979
+Epoch: 39/200
+Train loss: 2.3258, val loss: 1.3530
+0.9165928237741804
+Epoch: 40/200
+Train loss: 2.4088, val loss: 1.4015
+0.9166866087845582
+Epoch: 41/200
+Train loss: 2.4372, val loss: 1.4251
+0.9165428132625282
+Epoch: 42/200
+Train loss: 2.3445, val loss: 1.3742
+0.9170284426941318
+Epoch: 43/200
+Train loss: 2.3272, val loss: 1.3525
+0.9184758612394368
+Model improve: 0.9183 -> 0.9185
+Epoch: 44/200
+Train loss: 2.3506, val loss: 1.3293
+0.9188351788517308
+Model improve: 0.9185 -> 0.9188
+Epoch: 45/200
+Train loss: 2.3100, val loss: 1.3314
+0.9187745149688801
+Epoch: 46/200
+Train loss: 2.3641, val loss: 1.3303
+0.9174272568840155
+Epoch: 47/200
+Train loss: 2.3492, val loss: 1.4624
+0.9143815508689646
+Epoch: 48/200
+Train loss: 2.3670, val loss: 1.3190
+0.9189680877682606
+Model improve: 0.9188 -> 0.9190
+Epoch: 49/200
+Train loss: 2.3081, val loss: 1.3718
+0.9147924644971427
+Epoch: 50/200
+Train loss: 2.2976, val loss: 1.3525
+0.9151208231698511
+Epoch: 51/200
+Train loss: 2.3208, val loss: 1.3933
+0.9146160861024397
+Epoch: 52/200
+Train loss: 2.3464, val loss: 1.3891
+0.9143587308405885
+Epoch: 53/200
+Train loss: 2.2964, val loss: 1.4761
+0.9129617268262664
+Epoch: 54/200
+Train loss: 2.3822, val loss: 1.4499
+0.9149252102318236
+Epoch: 55/200
+Train loss: 2.2896, val loss: 1.4059
+0.9137184057660107
+Epoch: 56/200
+Train loss: 2.2994, val loss: 1.4166
+0.9146225858402477
+Epoch: 57/200
+Train loss: 2.3051, val loss: 1.3784
+0.9148021366050705
+Epoch: 58/200
+Train loss: 2.2943, val loss: 1.3493
+0.9159871340656809
+Epoch: 59/200
+Train loss: 2.2043, val loss: 1.3831
+0.9165799632730942
+Epoch: 60/200
+Train loss: 2.3202, val loss: 1.4420
+0.9162458608784063
+Epoch: 61/200
+Train loss: 2.2211, val loss: 1.4454
+0.9128090348163349
+Epoch: 62/200
+Train loss: 2.2654, val loss: 1.4120
+0.9157108626342999
+Epoch: 63/200
+Train loss: 2.2879, val loss: 1.4682
+0.91418506985618
+Epoch: 64/200
+Train loss: 2.2452, val loss: 1.4105
+0.9157553887832615
+Epoch: 65/200
+Train loss: 2.2461, val loss: 1.3415
+0.9169632714577821
+Epoch: 66/200
+Train loss: 2.2321, val loss: 1.3132
+0.9182766844476985
+Epoch: 67/200
+Train loss: 2.2569, val loss: 1.3985
+0.9154386545200683
+Epoch: 68/200
+Train loss: 2.1494, val loss: 1.3959
+0.9155655744938032
+Epoch: 69/200
+Train loss: 2.2547, val loss: 1.4368
+0.9163687424558785
+Epoch: 70/200
+Train loss: 2.2369, val loss: 1.3579
+0.9192793211904602
+Model improve: 0.9190 -> 0.9193
+Epoch: 71/200
+Train loss: 2.1914, val loss: 1.4632
+0.9154122031754194
+Epoch: 72/200
+Train loss: 2.2591, val loss: 1.4497
+0.9149934206572192
+Epoch: 73/200
+Train loss: 2.1525, val loss: 1.3394
+0.916877205090308
+Epoch: 74/200
+Train loss: 2.1645, val loss: 1.3962
+0.9160307925137149
+Epoch: 75/200
+Train loss: 2.1456, val loss: 1.3163
+0.920590989316029
+Model improve: 0.9193 -> 0.9206
+Epoch: 76/200
+Train loss: 2.0995, val loss: 1.3397
+0.9169796770414792
+Epoch: 77/200
+Train loss: 2.1887, val loss: 1.3613
+0.9200455645984212
+Epoch: 78/200
+Train loss: 2.1363, val loss: 1.3478
+0.9189404085123661
+Epoch: 79/200
+Train loss: 2.2558, val loss: 1.3589
+0.9196279825895721
+Epoch: 80/200
+Train loss: 2.1885, val loss: 1.3568
+0.9189507708141622
+Epoch: 81/200
+Train loss: 2.2392, val loss: 1.3713
+0.9193512583809782
+Epoch: 82/200
+Train loss: 2.2222, val loss: 1.3697
+0.9171589551979389
+Epoch: 83/200
+Train loss: 2.1487, val loss: 1.3767
+0.9153084577329879
+Epoch: 84/200
+Train loss: 2.1869, val loss: 1.4080
+0.9163198135654219
+Epoch: 85/200
+Train loss: 2.0487, val loss: 1.3641
+0.9163915981981648
+Epoch: 86/200
+Train loss: 2.1192, val loss: 1.2703
+0.9201728929130822
+Epoch: 87/200
+Train loss: 2.0350, val loss: 1.3465
+0.918475464389798
+Epoch: 88/200
+Train loss: 2.1569, val loss: 1.3467
+0.9177155330814234
+Epoch: 89/200
+Train loss: 2.0865, val loss: 1.3113
+0.9193077770419685
+Epoch: 90/200
+Train loss: 2.2124, val loss: 1.3713
+0.9167356647848384
+Epoch: 91/200
+Train loss: 2.1499, val loss: 1.3365
+0.9182019943313278
+Epoch: 92/200
+Train loss: 2.1777, val loss: 1.3696
+0.9177708281505342
+Epoch: 93/200
+Train loss: 2.1356, val loss: 1.3510
+0.9193168331313705
+Epoch: 94/200
+Train loss: 2.1339, val loss: 1.4204
+0.9175308569137252
+Epoch: 95/200
+Train loss: 2.0781, val loss: 1.4516
+0.9160788861488697
+Epoch: 96/200
+Train loss: 2.1039, val loss: 1.3598
+0.9194074514682757
+Epoch: 97/200
+Train loss: 2.0793, val loss: 1.3933
+0.9180453765228175
+Epoch: 98/200
+Train loss: 2.1154, val loss: 1.3458
+0.9188086317143102
+Epoch: 99/200
+Train loss: 2.0430, val loss: 1.4073
+0.917563992419825
+Epoch: 100/200
+Train loss: 2.0642, val loss: 1.3234
+0.9225177787412742
+Model improve: 0.9206 -> 0.9225
+Epoch: 101/200
+Train loss: 2.1013, val loss: 1.3719
+0.9220867099701893
+Epoch: 102/200
+Train loss: 2.0752, val loss: 1.2912
+0.9225511202524467
+Model improve: 0.9225 -> 0.9226
+Epoch: 103/200
+Train loss: 2.0985, val loss: 1.3649
+0.9200103429419069
+Epoch: 104/200
+Train loss: 2.1256, val loss: 1.3106
+0.9213570680369634
+Epoch: 105/200
+Train loss: 2.0504, val loss: 1.2932
+0.9226400277123753
+Model improve: 0.9226 -> 0.9226
+Epoch: 106/200
+Train loss: 2.1562, val loss: 1.3594
+0.9192870801684789
+Epoch: 107/200
+Train loss: 2.1254, val loss: 1.2888
+0.9207269629455793
+Epoch: 108/200
+Train loss: 2.1281, val loss: 1.3224
+0.9201532787193569
+Epoch: 109/200
+Train loss: 2.0925, val loss: 1.3626
+0.920752226819763
+Epoch: 110/200
+Train loss: 2.0827, val loss: 1.3163
+0.921909126178985
+Epoch: 111/200
+Train loss: 2.0219, val loss: 1.3151
+0.921318827871634
+Epoch: 112/200
+Train loss: 2.0861, val loss: 1.3978
+0.9202287784717144
+Epoch: 113/200
+Date :04/22/2023, 01:42:06
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 0
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.9
+cut_mix: 0.9
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+13552
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 13.4490, val loss: 3.9739
+0.6881176162162401
+Model improve: 0.0000 -> 0.6881
+Epoch: 2/200
+Train loss: 4.5316, val loss: 3.0157
+0.7780657466027723
+Model improve: 0.6881 -> 0.7781
+Epoch: 3/200
+Train loss: 4.1222, val loss: 2.5184
+0.8204284675646781
+Model improve: 0.7781 -> 0.8204
+Epoch: 4/200
+Train loss: 3.8835, val loss: 2.2727
+0.8414911522122256
+Model improve: 0.8204 -> 0.8415
+Epoch: 5/200
+Train loss: 3.6978, val loss: 2.0851
+0.8578992753888551
+Model improve: 0.8415 -> 0.8579
+Epoch: 6/200
+Train loss: 3.5368, val loss: 2.0122
+0.8646182623913949
+Model improve: 0.8579 -> 0.8646
+Epoch: 7/200
+Train loss: 3.4208, val loss: 1.8323
+0.8736244084128678
+Model improve: 0.8646 -> 0.8736
+Epoch: 8/200
+Train loss: 3.3511, val loss: 1.7535
+0.8836314965589326
+Model improve: 0.8736 -> 0.8836
+Epoch: 9/200
+Train loss: 3.3162, val loss: 1.7263
+0.8888442399354379
+Model improve: 0.8836 -> 0.8888
+Epoch: 10/200
+Train loss: 3.2210, val loss: 1.6769
+0.8954456960859329
+Model improve: 0.8888 -> 0.8954
+Epoch: 11/200
+Train loss: 3.2294, val loss: 1.6033
+0.900223091589817
+Model improve: 0.8954 -> 0.9002
+Epoch: 12/200
+Train loss: 3.0420, val loss: 1.5987
+0.9010703251766767
+Model improve: 0.9002 -> 0.9011
+Epoch: 13/200
+Train loss: 3.0789, val loss: 1.5932
+0.9048360455677211
+Model improve: 0.9011 -> 0.9048
+Epoch: 14/200
+Train loss: 3.0622, val loss: 1.5841
+0.9043775409212205
+Epoch: 15/200
+Train loss: 2.9923, val loss: 1.5257
+0.907520971555803
+Model improve: 0.9048 -> 0.9075
+Epoch: 16/200
+Train loss: 3.0149, val loss: 1.5981
+0.9063940847094318
+Epoch: 17/200
+Train loss: 2.9835, val loss: 1.5722
+0.9086158648713695
+Model improve: 0.9075 -> 0.9086
+Epoch: 18/200
+Train loss: 2.9400, val loss: 1.4518
+0.9110785984976087
+Model improve: 0.9086 -> 0.9111
+Epoch: 19/200
+Train loss: 2.9084, val loss: 1.5167
+0.9111288809131871
+Model improve: 0.9111 -> 0.9111
+Epoch: 20/200
+Train loss: 2.8067, val loss: 1.4877
+0.9096726704139145
+Epoch: 21/200
+Train loss: 2.7962, val loss: 1.4271
+0.9144193546534026
+Model improve: 0.9111 -> 0.9144
+Epoch: 22/200
+Train loss: 2.8989, val loss: 1.5061
+0.9113501601265795
+Epoch: 23/200
+Train loss: 2.8188, val loss: 1.4551
+0.9141229151742527
+Epoch: 24/200
+Train loss: 2.7473, val loss: 1.4334
+0.9136113756052756
+Epoch: 25/200
+Train loss: 2.7261, val loss: 1.4446
+0.9151560651549397
+Model improve: 0.9144 -> 0.9152
+Epoch: 26/200
+Train loss: 2.7385, val loss: 1.4472
+0.9156271800314252
+Model improve: 0.9152 -> 0.9156
+Epoch: 27/200
+Train loss: 2.6782, val loss: 1.4139
+0.9165518499206018
+Model improve: 0.9156 -> 0.9166
+Epoch: 28/200
+Train loss: 2.7038, val loss: 1.4600
+0.9152786560183079
+Epoch: 29/200
+Train loss: 2.6858, val loss: 1.4692
+0.9149828959459749
+Epoch: 30/200
+Train loss: 2.7248, val loss: 1.4476
+0.9149805722222994
+Epoch: 31/200
+Train loss: 2.6322, val loss: 1.3661
+0.9172527081299551
+Model improve: 0.9166 -> 0.9173
+Epoch: 32/200
+Train loss: 2.6581, val loss: 1.4360
+0.9171760162287163
+Epoch: 33/200
+Train loss: 2.6310, val loss: 1.3720
+0.9182365857678143
+Model improve: 0.9173 -> 0.9182
+Epoch: 34/200
+Train loss: 2.5939, val loss: 1.3679
+0.91964362867307
+Model improve: 0.9182 -> 0.9196
+Epoch: 35/200
+Train loss: 2.6348, val loss: 1.3652
+0.9191728509048548
+Epoch: 36/200
+Train loss: 2.6323, val loss: 1.4308
+0.9176530945592498
+Epoch: 37/200
+Train loss: 2.5163, val loss: 1.4553
+0.9161958634884986
+Epoch: 38/200
+Train loss: 2.6097, val loss: 1.4600
+0.9167897208335298
+Epoch: 39/200
+Train loss: 2.5800, val loss: 1.4437
+0.9160615401117312
+Epoch: 40/200
+Train loss: 2.6371, val loss: 1.4850
+0.9152367343946454
+Epoch: 41/200
+Train loss: 2.5984, val loss: 1.4649
+0.9160595722029004
+Epoch: 42/200
+Train loss: 2.5856, val loss: 1.4675
+0.9182726697927245
+Epoch: 43/200
+Train loss: 2.5026, val loss: 1.4720
+0.917807234237998
+Epoch: 44/200
+Train loss: 2.5731, val loss: 1.4639
+0.918988793311546
+Epoch: 45/200
+Train loss: 2.5180, val loss: 1.3880
+0.9198910214738294
+Model improve: 0.9196 -> 0.9199
+Epoch: 46/200
+Train loss: 2.5614, val loss: 1.3933
+0.9194220056861478
+Epoch: 47/200
+Train loss: 2.5492, val loss: 1.4609
+0.9177178817268686
+Epoch: 48/200
+Train loss: 2.5241, val loss: 1.4068
+0.920976919694239
+Model improve: 0.9199 -> 0.9210
+Epoch: 49/200
+Train loss: 2.5733, val loss: 1.3832
+0.9193984323526325
+Epoch: 50/200
+Train loss: 2.4396, val loss: 1.3928
+0.9208674395743287
+Epoch: 51/200
+Train loss: 2.5003, val loss: 1.3754
+0.9202952886179497
+Epoch: 52/200
+Train loss: 2.5229, val loss: 1.3585
+0.9213654589130944
+Model improve: 0.9210 -> 0.9214
+Epoch: 53/200
+Train loss: 2.4962, val loss: 1.4426
+0.9167684042964113
+Epoch: 54/200
+Train loss: 2.4913, val loss: 1.4244
+0.9173411404650905
+Epoch: 55/200
+Train loss: 2.4461, val loss: 1.4590
+0.917272823423335
+Epoch: 56/200
+Train loss: 2.4773, val loss: 1.3636
+0.9187334624481286
+Epoch: 57/200
+Train loss: 2.4376, val loss: 1.3364
+0.9196142049850092
+Epoch: 58/200
+Train loss: 2.4591, val loss: 1.3948
+0.9174529014574705
+Epoch: 59/200
+Train loss: 2.5145, val loss: 1.3638
+0.9169159249698787
+Epoch: 60/200
+Train loss: 2.3933, val loss: 1.4008
+0.9198455179424405
+Epoch: 61/200
+Train loss: 2.4135, val loss: 1.3699
+0.9169036388161254
+Epoch: 62/200
+Train loss: 2.4570, val loss: 1.3802
+0.9184291097272342
+Epoch: 63/200
+Train loss: 2.4803, val loss: 1.4241
+0.9170624988511034
+Epoch: 64/200
+Train loss: 2.4167, val loss: 1.3768
+0.9175047538792365
+Epoch: 65/200
+Train loss: 2.3419, val loss: 1.3567
+0.9173043929972031
+Epoch: 66/200
+Train loss: 2.4215, val loss: 1.4231
+0.9170467215407085
+Epoch: 67/200
+Train loss: 2.4252, val loss: 1.3825
+0.9188475532476194
+Epoch: 68/200
+Train loss: 2.4112, val loss: 1.4059
+0.9182068631947155
+Epoch: 69/200
+Train loss: 2.4435, val loss: 1.3381
+0.920134336552469
+Epoch: 70/200
+Train loss: 2.4178, val loss: 1.3734
+0.9189616084772056
+Epoch: 71/200
+Train loss: 2.3479, val loss: 1.4321
+0.9195766406185283
+Epoch: 72/200
+Train loss: 2.3003, val loss: 1.4213
+0.9185784787433839
+Epoch: 73/200
+Train loss: 2.3355, val loss: 1.3797
+0.9199030491257746
+Epoch: 74/200
+Train loss: 2.2872, val loss: 1.3989
+0.9190722349841267
+Epoch: 75/200
+Train loss: 2.3482, val loss: 1.2983
+0.920009471211281
+Epoch: 76/200
+Train loss: 2.2953, val loss: 1.3644
+0.919990047310416
+Epoch: 77/200
+Train loss: 2.3771, val loss: 1.3825
+0.9208399825585969
+Epoch: 78/200
+Train loss: 2.3347, val loss: 1.3886
+0.9194754180460295
+Epoch: 79/200
+Train loss: 2.3565, val loss: 1.3458
+0.919758108351316
+Epoch: 80/200
+Train loss: 2.4007, val loss: 1.3549
+0.9194276059182249
+Epoch: 81/200
+Train loss: 2.3872, val loss: 1.3639
+0.9196100218691161
+Epoch: 82/200
+Train loss: 2.2902, val loss: 1.3478
+0.9205834417495317
+Epoch: 83/200
+Train loss: 2.3587, val loss: 1.4323
+0.917291496918431
+Epoch: 84/200
+Train loss: 2.3213, val loss: 1.4028
+0.9174748686235791
+Epoch: 85/200
+Train loss: 2.2686, val loss: 1.3794
+0.9184123980880428
+Epoch: 86/200
+Train loss: 2.2761, val loss: 1.3235
+0.9207925459158133
+Epoch: 87/200
+Train loss: 2.2935, val loss: 1.3518
+0.9179691704551003
+Epoch: 88/200
+Train loss: 2.2982, val loss: 1.3795
+0.9191472699642734
+Epoch: 89/200
+Train loss: 2.3436, val loss: 1.3269
+0.9198253183943844
+Epoch: 90/200
+Train loss: 2.2682, val loss: 1.3535
+0.9201246997486158
+Epoch: 91/200
+Train loss: 2.3770, val loss: 1.3602
+0.918553764775611
+Epoch: 92/200
+Date :04/22/2023, 06:38:32
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 10
+model_name: tf_efficientnet_b0_ap
+mix_up: 0.8
+cut_mix: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+13830
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 13.2631, val loss: 3.9030
+0.6938097738201118
+Model improve: 0.0000 -> 0.6938
+Epoch: 2/200
+Train loss: 4.5361, val loss: 2.9191
+0.7910927613423429
+Model improve: 0.6938 -> 0.7911
+Epoch: 3/200
+Train loss: 4.1169, val loss: 2.4535
+0.8286894286979605
+Model improve: 0.7911 -> 0.8287
+Epoch: 4/200
+Train loss: 3.8790, val loss: 2.2203
+0.8469884963938101
+Model improve: 0.8287 -> 0.8470
+Epoch: 5/200
+Train loss: 3.6649, val loss: 2.0366
+0.8607375757639762
+Model improve: 0.8470 -> 0.8607
+Epoch: 6/200
+Train loss: 3.4752, val loss: 1.9799
+0.8693689318919704
+Model improve: 0.8607 -> 0.8694
+Epoch: 7/200
+Train loss: 3.4269, val loss: 1.7960
+0.8804659426147715
+Model improve: 0.8694 -> 0.8805
+Epoch: 8/200
+Train loss: 3.3322, val loss: 1.7259
+0.8866372616692187
+Model improve: 0.8805 -> 0.8866
+Epoch: 9/200
+Train loss: 3.2180, val loss: 1.7066
+0.890412613947688
+Model improve: 0.8866 -> 0.8904
+Epoch: 10/200
+Train loss: 3.2231, val loss: 1.6850
+0.894533323550258
+Model improve: 0.8904 -> 0.8945
+Epoch: 11/200
+Train loss: 3.1610, val loss: 1.6857
+0.8963647044396119
+Model improve: 0.8945 -> 0.8964
+Epoch: 12/200
+Train loss: 3.0607, val loss: 1.5454
+0.9009661796142402
+Model improve: 0.8964 -> 0.9010
+Epoch: 13/200
+Train loss: 2.9608, val loss: 1.5824
+0.9027148825174824
+Model improve: 0.9010 -> 0.9027
+Epoch: 14/200
+Train loss: 2.9742, val loss: 1.6442
+0.9037579790120159
+Model improve: 0.9027 -> 0.9038
+Epoch: 15/200
+Train loss: 2.9525, val loss: 1.5801
+0.9062978332050295
+Model improve: 0.9038 -> 0.9063
+Epoch: 16/200
+Train loss: 2.8819, val loss: 1.5057
+0.9082493651195578
+Model improve: 0.9063 -> 0.9082
+Epoch: 17/200
+Train loss: 2.8968, val loss: 1.4996
+0.9100956237279164
+Model improve: 0.9082 -> 0.9101
+Epoch: 18/200
+Date :04/22/2023, 07:37:53
+Duration: 5
+Sample rate: 32000
+nfft: 512
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 10
+model_name: tf_efficientnet_b0_ap
+mix_up: 0.8
+cut_mix: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+13830
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 13.9000, val loss: 3.9984
+0.6801005699452093
+Model improve: 0.0000 -> 0.6801
+Epoch: 2/200
+Train loss: 4.6020, val loss: 3.0056
+0.7816003237566083
+Model improve: 0.6801 -> 0.7816
+Epoch: 3/200
+Train loss: 4.1763, val loss: 2.5332
+0.8210170908831509
+Model improve: 0.7816 -> 0.8210
+Epoch: 4/200
+Train loss: 3.9272, val loss: 2.2697
+0.8408549767746001
+Model improve: 0.8210 -> 0.8409
+Epoch: 5/200
+Train loss: 3.7179, val loss: 2.0871
+0.8555541449853494
+Model improve: 0.8409 -> 0.8556
+Epoch: 6/200
+Train loss: 3.5204, val loss: 2.0230
+0.8632081591918641
+Model improve: 0.8556 -> 0.8632
+Epoch: 7/200
+Train loss: 3.4767, val loss: 1.8421
+0.8757700481194421
+Model improve: 0.8632 -> 0.8758
+Epoch: 8/200
+Train loss: 3.3749, val loss: 1.7784
+0.8833348733696561
+Model improve: 0.8758 -> 0.8833
+Epoch: 9/200
+Train loss: 3.2584, val loss: 1.7470
+0.8866134719787222
+Model improve: 0.8833 -> 0.8866
+Epoch: 10/200
+Train loss: 3.2671, val loss: 1.7142
+0.8912456349504276
+Model improve: 0.8866 -> 0.8912
+Epoch: 11/200
+Train loss: 3.2004, val loss: 1.6751
+0.8935667498548407
+Model improve: 0.8912 -> 0.8936
+Epoch: 12/200
+Train loss: 3.0990, val loss: 1.5862
+0.8975391641753365
+Model improve: 0.8936 -> 0.8975
+Epoch: 13/200
+Train loss: 3.0009, val loss: 1.6084
+0.8996085754882994
+Model improve: 0.8975 -> 0.8996
+Epoch: 14/200
+Date :04/22/2023, 08:21:13
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 10
+model_name: tf_efficientnet_b0_ap
+mix_up: 0.8
+cut_mix: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+13830
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 13.6082, val loss: 3.8822
+0.697341969277642
+Model improve: 0.0000 -> 0.6973
+Epoch: 2/200
+Train loss: 4.5173, val loss: 2.8954
+0.7942697414839424
+Model improve: 0.6973 -> 0.7943
+Epoch: 3/200
+Train loss: 4.1003, val loss: 2.4317
+0.8292951664288292
+Model improve: 0.7943 -> 0.8293
+Epoch: 4/200
+Train loss: 3.8566, val loss: 2.1831
+0.848451904400094
+Model improve: 0.8293 -> 0.8485
+Epoch: 5/200
+Train loss: 3.6469, val loss: 2.0155
+0.862602903851647
+Model improve: 0.8485 -> 0.8626
+Epoch: 6/200
+Train loss: 3.4592, val loss: 1.9193
+0.872149583228328
+Model improve: 0.8626 -> 0.8721
+Epoch: 7/200
+Train loss: 3.4111, val loss: 1.7905
+0.8825082529662088
+Model improve: 0.8721 -> 0.8825
+Epoch: 8/200
+Train loss: 3.3180, val loss: 1.7018
+0.8891369177381533
+Model improve: 0.8825 -> 0.8891
+Epoch: 9/200
+Train loss: 3.2056, val loss: 1.6893
+0.8934426185952203
+Model improve: 0.8891 -> 0.8934
+Epoch: 10/200
+Train loss: 3.2107, val loss: 1.6577
+0.897277578928554
+Model improve: 0.8934 -> 0.8973
+Epoch: 11/200
+Train loss: 3.1490, val loss: 1.6576
+0.8985042334178067
+Model improve: 0.8973 -> 0.8985
+Epoch: 12/200
+Train loss: 3.0488, val loss: 1.5402
+0.9027934790142152
+Model improve: 0.8985 -> 0.9028
+Epoch: 13/200
+Train loss: 2.9502, val loss: 1.5622
+0.9042213129004002
+Model improve: 0.9028 -> 0.9042
+Epoch: 14/200
+Train loss: 2.9649, val loss: 1.6255
+0.9050743979330175
+Model improve: 0.9042 -> 0.9051
+Epoch: 15/200
+Train loss: 2.9411, val loss: 1.5575
+0.907876171626208
+Model improve: 0.9051 -> 0.9079
+Epoch: 16/200
+Train loss: 2.8713, val loss: 1.4891
+0.9104072762073858
+Model improve: 0.9079 -> 0.9104
+Epoch: 17/200
+Train loss: 2.8877, val loss: 1.4734
+0.9114389436468484
+Model improve: 0.9104 -> 0.9114
+Epoch: 18/200
+Train loss: 2.8419, val loss: 1.4411
+0.9127371280819468
+Model improve: 0.9114 -> 0.9127
+Epoch: 19/200
+Train loss: 2.8762, val loss: 1.5703
+0.9112822715858523
+Epoch: 20/200
+Train loss: 2.7290, val loss: 1.4749
+0.9129836352757555
+Model improve: 0.9127 -> 0.9130
+Epoch: 21/200
+Train loss: 2.7242, val loss: 1.4188
+0.913982087777711
+Model improve: 0.9130 -> 0.9140
+Epoch: 22/200
+Train loss: 2.7574, val loss: 1.4455
+0.915011544382984
+Model improve: 0.9140 -> 0.9150
+Epoch: 23/200
+Train loss: 2.7659, val loss: 1.4339
+0.9161662360048173
+Model improve: 0.9150 -> 0.9162
+Epoch: 24/200
+Train loss: 2.7708, val loss: 1.5063
+0.9150380264251953
+Epoch: 25/200
+Train loss: 2.7221, val loss: 1.3997
+0.9172262258929035
+Model improve: 0.9162 -> 0.9172
+Epoch: 26/200
+Train loss: 2.6246, val loss: 1.3786
+0.9177811056956895
+Model improve: 0.9172 -> 0.9178
+Epoch: 27/200
+Train loss: 2.6892, val loss: 1.4763
+0.9167056893377519
+Epoch: 28/200
+Train loss: 2.6323, val loss: 1.4763
+0.9169004302364846
+Epoch: 29/200
+Train loss: 2.6499, val loss: 1.3600
+0.918667316809585
+Model improve: 0.9178 -> 0.9187
+Epoch: 30/200
+Train loss: 2.6216, val loss: 1.4128
+0.9184923663116482
+Epoch: 31/200
+Train loss: 2.7103, val loss: 1.4347
+0.9173956267792723
+Epoch: 32/200
+Train loss: 2.6000, val loss: 1.3161
+0.9193977183554476
+Model improve: 0.9187 -> 0.9194
+Epoch: 33/200
+Train loss: 2.5631, val loss: 1.4523
+0.9173682691617688
+Epoch: 34/200
+Train loss: 2.5356, val loss: 1.3737
+0.9188928161298973
+Epoch: 35/200
+Train loss: 2.5302, val loss: 1.4206
+0.9179206902199951
+Epoch: 36/200
+Train loss: 2.5768, val loss: 1.3398
+0.9196946718419898
+Model improve: 0.9194 -> 0.9197
+Epoch: 37/200
+Train loss: 2.5740, val loss: 1.3632
+0.9211840639988872
+Model improve: 0.9197 -> 0.9212
+Epoch: 38/200
+Train loss: 2.4535, val loss: 1.3982
+0.9180128244011807
+Epoch: 39/200
+Train loss: 2.5029, val loss: 1.3532
+0.9201494772182319
+Epoch: 40/200
+Train loss: 2.4456, val loss: 1.3522
+0.9189128570926199
+Epoch: 41/200
+Train loss: 2.5314, val loss: 1.4568
+0.9176860621055345
+Epoch: 42/200
+Train loss: 2.5640, val loss: 1.3651
+0.9203760379591442
+Epoch: 43/200
+Train loss: 2.5087, val loss: 1.3911
+0.91922915974942
+Epoch: 44/200
+Train loss: 2.4748, val loss: 1.2686
+0.9211612275028583
+Epoch: 45/200
+Train loss: 2.4545, val loss: 1.4493
+0.9188611118454155
+Epoch: 46/200
+Train loss: 2.4429, val loss: 1.4253
+0.919168340937976
+Epoch: 47/200
+Train loss: 2.4845, val loss: 1.4109
+0.9200123956934909
+Epoch: 48/200
+Train loss: 2.4941, val loss: 1.4084
+0.9189824274825977
+Epoch: 49/200
+Train loss: 2.5033, val loss: 1.4284
+0.9193235108828692
+Epoch: 50/200
+Train loss: 2.4305, val loss: 1.3726
+0.9202958422368844
+Epoch: 51/200
+Train loss: 2.4898, val loss: 1.3348
+0.9202329480649701
+Epoch: 52/200
+Train loss: 2.3502, val loss: 1.3388
+0.919957854656945
+Epoch: 53/200
+Train loss: 2.4752, val loss: 1.4069
+0.9172410748275327
+Epoch: 54/200
+Train loss: 2.3933, val loss: 1.4122
+0.9197122785955081
+Epoch: 55/200
+Train loss: 2.4144, val loss: 1.4437
+0.9193920041336368
+Epoch: 56/200
+Train loss: 2.3946, val loss: 1.4035
+0.9204155621528103
+Epoch: 57/200
+Train loss: 2.4372, val loss: 1.3451
+0.9222521939454513
+Model improve: 0.9212 -> 0.9223
+Epoch: 58/200
+Train loss: 2.3240, val loss: 1.3078
+0.9201995571959177
+Epoch: 59/200
+Train loss: 2.3434, val loss: 1.3573
+0.922184875070314
+Epoch: 60/200
+Train loss: 2.3523, val loss: 1.3254
+0.9225940483925453
+Model improve: 0.9223 -> 0.9226
+Epoch: 61/200
+Train loss: 2.3659, val loss: 1.3767
+0.9215793674103837
+Epoch: 62/200
+Train loss: 2.4048, val loss: 1.4255
+0.9203904848297588
+Epoch: 63/200
+Train loss: 2.3713, val loss: 1.4212
+0.9199316718571777
+Epoch: 64/200
+Train loss: 2.3532, val loss: 1.4119
+0.9207019613125347
+Epoch: 65/200
+Train loss: 2.3676, val loss: 1.3749
+0.9213530366090293
+Epoch: 66/200
+Train loss: 2.3586, val loss: 1.3351
+0.9221211686799607
+Epoch: 67/200
+Train loss: 2.2828, val loss: 1.2969
+0.9227739067664119
+Model improve: 0.9226 -> 0.9228
+Epoch: 68/200
+Train loss: 2.3556, val loss: 1.3119
+0.9234635524595965
+Model improve: 0.9228 -> 0.9235
+Epoch: 69/200
+Train loss: 2.3435, val loss: 1.3435
+0.9209029552076813
+Epoch: 70/200
+Train loss: 2.3556, val loss: 1.3734
+0.9232217853924927
+Epoch: 71/200
+Train loss: 2.3515, val loss: 1.3245
+0.9229838927836354
+Epoch: 72/200
+Train loss: 2.3798, val loss: 1.3753
+0.9218854971848089
+Epoch: 73/200
+Date :04/22/2023, 12:23:48
+Duration: 5
+Sample rate: 32000
+nfft: 4096
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 10
+model_name: tf_efficientnet_b0_ap
+mix_up: 0.8
+cut_mix: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+13830
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 14.3810, val loss: 3.9826
+0.6880106269081223
+Model improve: 0.0000 -> 0.6880
+Epoch: 2/200
+Date :04/22/2023, 12:30:59
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 10
+model_name: tf_efficientnetv2_s
+mix_up: 0.8
+cut_mix: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+13830
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 14.1234, val loss: 4.1395
+0.6725637333074932
+Model improve: 0.0000 -> 0.6726
+Epoch: 2/200
+Train loss: 4.5957, val loss: 2.9860
+0.7828052146338017
+Model improve: 0.6726 -> 0.7828
+Epoch: 3/200
+Date :04/22/2023, 12:41:48
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 20
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 10
+model_name: tf_efficientnetv2_s
+mix_up: 0.8
+cut_mix: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+13830
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/20
+Train loss: 8.4592, val loss: 2.8471
+0.7925473038782676
+Model improve: 0.0000 -> 0.7925
+Epoch: 2/20
+Date :04/22/2023, 12:47:49
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 10
+model_name: tf_efficientnetv2_s
+mix_up: 0.8
+cut_mix: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+13830
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 8.3111, val loss: 2.8482
+0.7925365383617694
+Model improve: 0.0000 -> 0.7925
+Epoch: 2/200
+Train loss: 3.8819, val loss: 2.0999
+0.8519629360466925
+Model improve: 0.7925 -> 0.8520
+Epoch: 3/200
+Train loss: 3.5133, val loss: 1.8938
+0.8706310816761559
+Model improve: 0.8520 -> 0.8706
+Epoch: 4/200
+Train loss: 3.3456, val loss: 1.8082
+0.8817677036315495
+Model improve: 0.8706 -> 0.8818
+Epoch: 5/200
+Train loss: 3.2490, val loss: 1.7049
+0.893241930128483
+Model improve: 0.8818 -> 0.8932
+Epoch: 6/200
+Train loss: 3.0657, val loss: 1.6787
+0.896551271461279
+Model improve: 0.8932 -> 0.8966
+Epoch: 7/200
+Train loss: 3.0571, val loss: 1.6126
+0.895356264876154
+Epoch: 8/200
+Train loss: 2.9630, val loss: 1.5554
+0.9005919195171037
+Model improve: 0.8966 -> 0.9006
+Epoch: 9/200
+Train loss: 2.9269, val loss: 1.5100
+0.9070676943210828
+Model improve: 0.9006 -> 0.9071
+Epoch: 10/200
+Train loss: 2.9357, val loss: 1.5374
+0.9050920105706571
+Epoch: 11/200
+Train loss: 2.8756, val loss: 1.5384
+0.9027561388418062
+Epoch: 12/200
+Train loss: 2.7582, val loss: 1.4929
+0.9072897885850496
+Model improve: 0.9071 -> 0.9073
+Epoch: 13/200
+Train loss: 2.7069, val loss: 1.4978
+0.9043088711522728
+Epoch: 14/200
+Train loss: 2.7193, val loss: 1.5042
+0.9044772956876432
+Epoch: 15/200
+Train loss: 2.7259, val loss: 1.5340
+0.9039233085009964
+Epoch: 16/200
+Train loss: 2.6566, val loss: 1.5529
+0.9043108512883843
+Epoch: 17/200
+Train loss: 2.6803, val loss: 1.4943
+0.90918327525419
+Model improve: 0.9073 -> 0.9092
+Epoch: 18/200
+Train loss: 2.6367, val loss: 1.3871
+0.912172960232426
+Model improve: 0.9092 -> 0.9122
+Epoch: 19/200
+Train loss: 2.6426, val loss: 1.4916
+0.9126614625079518
+Model improve: 0.9122 -> 0.9127
+Epoch: 20/200
+Train loss: 2.5228, val loss: 1.4538
+0.9099152835686964
+Epoch: 21/200
+Train loss: 2.5243, val loss: 1.3465
+0.9131846584012673
+Model improve: 0.9127 -> 0.9132
+Epoch: 22/200
+Train loss: 2.5579, val loss: 1.4544
+0.9110316800384588
+Epoch: 23/200
+Train loss: 2.5927, val loss: 1.3779
+0.9134744111215618
+Model improve: 0.9132 -> 0.9135
+Epoch: 24/200
+Train loss: 2.5907, val loss: 1.4003
+0.9117617807518164
+Epoch: 25/200
+Train loss: 2.5288, val loss: 1.4042
+0.9103159486884653
+Epoch: 26/200
+Train loss: 2.4406, val loss: 1.4167
+0.912239646860834
+Epoch: 27/200
+Train loss: 2.5353, val loss: 1.3724
+0.9090518738004824
+Epoch: 28/200
+Train loss: 2.4595, val loss: 1.4144
+0.9115543015878904
+Epoch: 29/200
+Train loss: 2.4825, val loss: 1.3511
+0.9128860605524587
+Epoch: 30/200
+Train loss: 2.4390, val loss: 1.4607
+0.912769771054312
+Epoch: 31/200
+Train loss: 2.5524, val loss: 1.4658
+0.9122690579166771
+Epoch: 32/200
+Train loss: 2.4212, val loss: 1.4084
+0.9111955729546065
+Epoch: 33/200
+Train loss: 2.4046, val loss: 1.5595
+0.9088095190549197
+Epoch: 34/200
+Train loss: 2.3661, val loss: 1.3671
+0.9100181868232121
+Epoch: 35/200
+Train loss: 2.3724, val loss: 1.3758
+0.9150101811891856
+Model improve: 0.9135 -> 0.9150
+Epoch: 36/200
+Train loss: 2.3992, val loss: 1.3183
+0.9164797956038594
+Model improve: 0.9150 -> 0.9165
+Epoch: 37/200
+Train loss: 2.4182, val loss: 1.4615
+0.9138170268571842
+Epoch: 38/200
+Train loss: 2.3079, val loss: 1.3253
+0.9168314331813644
+Model improve: 0.9165 -> 0.9168
+Epoch: 39/200
+Train loss: 2.3157, val loss: 1.3196
+0.9155004676701094
+Epoch: 40/200
+Train loss: 2.2765, val loss: 1.3487
+0.9131836701961851
+Epoch: 41/200
+Train loss: 2.3883, val loss: 1.3174
+0.9131675219786466
+Epoch: 42/200
+Train loss: 2.4089, val loss: 1.3735
+0.9127115859302434
+Epoch: 43/200
+Train loss: 2.3268, val loss: 1.4064
+0.9151535282524573
+Epoch: 44/200
+Train loss: 2.2875, val loss: 1.2961
+0.9146214357882213
+Epoch: 45/200
+Train loss: 2.2897, val loss: 1.3929
+0.9173984186119437
+Model improve: 0.9168 -> 0.9174
+Epoch: 46/200
+Train loss: 2.2824, val loss: 1.3076
+0.918692406006178
+Model improve: 0.9174 -> 0.9187
+Epoch: 47/200
+Train loss: 2.3283, val loss: 1.3404
+0.9128017249725392
+Epoch: 48/200
+Train loss: 2.3233, val loss: 1.3142
+0.9149323312328855
+Epoch: 49/200
+Train loss: 2.3448, val loss: 1.3876
+0.9108502552347238
+Epoch: 50/200
+Train loss: 2.2869, val loss: 1.4000
+0.9109413832578593
+Epoch: 51/200
+Train loss: 2.3235, val loss: 1.3071
+0.9167787078364632
+Epoch: 52/200
+Train loss: 2.1836, val loss: 1.3653
+0.9134952541043104
+Epoch: 53/200
+Train loss: 2.2869, val loss: 1.3191
+0.914436894761103
+Epoch: 54/200
+Train loss: 2.2202, val loss: 1.4201
+0.9140408375169965
+Epoch: 55/200
+Train loss: 2.2420, val loss: 1.4896
+0.9084023572812661
+Epoch: 56/200
+Train loss: 2.2318, val loss: 1.3039
+0.9141168890637896
+Epoch: 57/200
+Train loss: 2.2628, val loss: 1.3011
+0.9130456569288676
+Epoch: 58/200
+Train loss: 2.1621, val loss: 1.3518
+0.9107374374203596
+Epoch: 59/200
+Train loss: 2.1530, val loss: 1.2925
+0.9143484546154212
+Epoch: 60/200
+Train loss: 2.1689, val loss: 1.3935
+0.9166123471304924
+Epoch: 61/200
+Train loss: 2.1835, val loss: 1.3073
+0.9119798063101188
+Epoch: 62/200
+Train loss: 2.2268, val loss: 1.2709
+0.9185437756490906
+Epoch: 63/200
+Train loss: 2.1708, val loss: 1.2757
+0.9158342505656115
+Epoch: 64/200
+Train loss: 2.1611, val loss: 1.3230
+0.9146318774706741
+Epoch: 65/200
+Train loss: 2.1669, val loss: 1.2938
+0.9163438945304074
+Epoch: 66/200
+Train loss: 2.1765, val loss: 1.3178
+0.9123552536300642
+Epoch: 67/200
+Train loss: 2.0887, val loss: 1.2884
+0.9148228981855993
+Epoch: 68/200
+Train loss: 2.1702, val loss: 1.2766
+0.917734274699874
+Epoch: 69/200
+Train loss: 2.1417, val loss: 1.3434
+0.9154935105769033
+Epoch: 70/200
+Train loss: 2.1463, val loss: 1.3176
+0.9143232179558944
+Epoch: 71/200
+Train loss: 2.1336, val loss: 1.2715
+0.916264345026625
+Epoch: 72/200
+Train loss: 2.1703, val loss: 1.2604
+0.9179062173975954
+Epoch: 73/200
+Train loss: 2.1663, val loss: 1.2796
+0.9146113163230822
+Epoch: 74/200
+Train loss: 2.1455, val loss: 1.3646
+0.9155728535286193
+Epoch: 75/200
+Train loss: 2.0789, val loss: 1.2649
+0.9196059402646223
+Model improve: 0.9187 -> 0.9196
+Epoch: 76/200
+Train loss: 2.0474, val loss: 1.2809
+0.9169970485770738
+Epoch: 77/200
+Train loss: 2.0363, val loss: 1.2811
+0.9177661492881958
+Epoch: 78/200
+Train loss: 2.0984, val loss: 1.2946
+0.9151876427957725
+Epoch: 79/200
+Train loss: 2.0448, val loss: 1.3442
+0.914620176536268
+Epoch: 80/200
+Train loss: 2.0965, val loss: 1.3069
+0.9175679469841859
+Epoch: 81/200
+Train loss: 2.1064, val loss: 1.2940
+0.9165943957562857
+Epoch: 82/200
+Train loss: 2.0640, val loss: 1.2706
+0.9163089952140838
+Epoch: 83/200
+Train loss: 2.0564, val loss: 1.2505
+0.9171827060915212
+Epoch: 84/200
+Train loss: 2.0849, val loss: 1.2268
+0.9206945780457333
+Model improve: 0.9196 -> 0.9207
+Epoch: 85/200
+Train loss: 2.0500, val loss: 1.2606
+0.9184720697604487
+Epoch: 86/200
+Train loss: 2.0082, val loss: 1.2846
+0.9180059511950137
+Epoch: 87/200
+Train loss: 2.0465, val loss: 1.2793
+0.9187466152247905
+Epoch: 88/200
+Train loss: 1.9938, val loss: 1.3259
+0.9140342449806599
+Epoch: 89/200
+Train loss: 2.0200, val loss: 1.3053
+0.9163418656204485
+Epoch: 90/200
+Date :04/22/2023, 19:56:03
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnetv2_s
+mix_up: 0.8
+cut_mix: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+19577
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 7.5750, val loss: 2.5002
+0.8297857582457804
+Model improve: 0.0000 -> 0.8298
+Epoch: 2/200
+Train loss: 3.7695, val loss: 1.9620
+0.874675942278057
+Model improve: 0.8298 -> 0.8747
+Epoch: 3/200
+Train loss: 3.4209, val loss: 1.8058
+0.8895408638958797
+Model improve: 0.8747 -> 0.8895
+Epoch: 4/200
+Train loss: 3.2060, val loss: 1.7615
+0.8931574069106823
+Model improve: 0.8895 -> 0.8932
+Epoch: 5/200
+Train loss: 3.1126, val loss: 1.6564
+0.8987047121120383
+Model improve: 0.8932 -> 0.8987
+Epoch: 6/200
+Train loss: 2.9958, val loss: 1.7440
+0.9010398050234444
+Model improve: 0.8987 -> 0.9010
+Epoch: 7/200
+Train loss: 2.9673, val loss: 1.5750
+0.9050338658186557
+Model improve: 0.9010 -> 0.9050
+Epoch: 8/200
+Train loss: 2.9327, val loss: 1.6159
+0.9077830465947143
+Model improve: 0.9050 -> 0.9078
+Epoch: 9/200
+Train loss: 2.7337, val loss: 1.5818
+0.9089963401537009
+Model improve: 0.9078 -> 0.9090
+Epoch: 10/200
+Date :04/22/2023, 20:54:14
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 10
+model_name: tf_efficientnet_b1_ns
+mix_up: 0.8
+cut_mix: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+12999
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 15.9441, val loss: 4.4313
+0.6265985921606724
+Model improve: 0.0000 -> 0.6266
+Epoch: 2/200
+Train loss: 4.6856, val loss: 3.1091
+0.7610161880124446
+Model improve: 0.6266 -> 0.7610
+Epoch: 3/200
+Train loss: 4.1361, val loss: 2.4918
+0.8082099530495884
+Model improve: 0.7610 -> 0.8082
+Epoch: 4/200
+Date :04/22/2023, 21:05:59
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 10
+model_name: tf_efficientnet_b1_ns
+mix_up: 0.8
+cut_mix: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+12999
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 15.6358, val loss: 4.2042
+0.6446958696813611
+Model improve: 0.0000 -> 0.6447
+Epoch: 2/200
+Train loss: 4.6319, val loss: 3.0013
+0.7670129333893846
+Model improve: 0.6447 -> 0.7670
+Epoch: 3/200
+Train loss: 4.1231, val loss: 2.4463
+0.8098565051640341
+Model improve: 0.7670 -> 0.8099
+Epoch: 4/200
+Train loss: 3.8606, val loss: 2.1864
+0.8336655759414072
+Model improve: 0.8099 -> 0.8337
+Epoch: 5/200
+Train loss: 3.6493, val loss: 2.0226
+0.8482559359477598
+Model improve: 0.8337 -> 0.8483
+Epoch: 6/200
+Train loss: 3.4243, val loss: 1.8706
+0.8577616249275367
+Model improve: 0.8483 -> 0.8578
+Epoch: 7/200
+Date :04/22/2023, 21:29:46
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnet_b1_ns
+mix_up: 0.8
+cut_mix: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+18955
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 12.8388, val loss: 3.9151
+0.7278830438841742
+Model improve: 0.0000 -> 0.7279
+Epoch: 2/200
+Train loss: 4.6158, val loss: 2.5061
+0.8139862234685811
+Model improve: 0.7279 -> 0.8140
+Epoch: 3/200
+Train loss: 3.9696, val loss: 2.0953
+0.8495162107490781
+Model improve: 0.8140 -> 0.8495
+Epoch: 4/200
+Date :04/22/2023, 21:46:37
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnet_b1_ns
+mix_up: 0.8
+cut_mix: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+18955
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Date :04/22/2023, 21:49:17
+Duration: 5
+Sample rate: 32000
+nfft: 4096
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnet_b1_ns
+mix_up: 0.8
+cut_mix: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+18955
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 12.6853, val loss: 4.1699
+0.6929784603024319
+Model improve: 0.0000 -> 0.6930
+Epoch: 2/200
+Date :04/22/2023, 22:00:32
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnet_b1_ns
+mix_up: 0.8
+cut_mix: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+18955
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Train loss: 12.8340, val loss: 3.9079
+0.727926082325998
+Model improve: 0.0000 -> 0.7279
+Epoch: 2/200
+Train loss: 4.6139, val loss: 2.5036
+0.8141078988275268
+Model improve: 0.7279 -> 0.8141
+Epoch: 3/200
+Train loss: 3.9686, val loss: 2.0932
+0.849583338960682
+Model improve: 0.8141 -> 0.8496
+Epoch: 4/200
+Train loss: 3.6327, val loss: 1.9448
+0.866146380212897
+Model improve: 0.8496 -> 0.8661
+Epoch: 5/200
+Train loss: 3.4504, val loss: 1.8542
+0.8738966039374932
+Model improve: 0.8661 -> 0.8739
+Epoch: 6/200
+Train loss: 3.2711, val loss: 1.7708
+0.8811526780211137
+Model improve: 0.8739 -> 0.8812
+Epoch: 7/200
+Train loss: 3.2463, val loss: 1.7081
+0.8833648737149611
+Model improve: 0.8812 -> 0.8834
+Epoch: 8/200
+Train loss: 3.1195, val loss: 1.7012
+0.8888798224672613
+Model improve: 0.8834 -> 0.8889
+Epoch: 9/200
+Train loss: 2.9833, val loss: 1.6731
+0.8920247977734637
+Model improve: 0.8889 -> 0.8920
+Epoch: 10/200
+Train loss: 2.9164, val loss: 1.6847
+0.8945871851976254
+Model improve: 0.8920 -> 0.8946
+Epoch: 11/200
+Train loss: 2.8814, val loss: 1.5910
+0.896234812325601
+Model improve: 0.8946 -> 0.8962
+Epoch: 12/200
+Train loss: 2.8475, val loss: 1.6179
+0.8962534948470787
+Model improve: 0.8962 -> 0.8963
+Epoch: 13/200
+Train loss: 2.8253, val loss: 1.5838
+0.8966478879724405
+Model improve: 0.8963 -> 0.8966
+Epoch: 14/200
+Train loss: 2.7849, val loss: 1.5824
+0.8989000837910436
+Model improve: 0.8966 -> 0.8989
+Epoch: 15/200
+Train loss: 2.6708, val loss: 1.4942
+0.9015393996228851
+Model improve: 0.8989 -> 0.9015
+Epoch: 16/200
+Train loss: 2.6932, val loss: 1.5331
+0.9014680987095272
+Epoch: 17/200
+Train loss: 2.7394, val loss: 1.4676
+0.9027225322063921
+Model improve: 0.9015 -> 0.9027
+Epoch: 18/200
+Train loss: 2.6932, val loss: 1.4864
+0.9046166968675188
+Model improve: 0.9027 -> 0.9046
+Epoch: 19/200
+Train loss: 2.6040, val loss: 1.5043
+0.9034956452602056
+Epoch: 20/200
+Train loss: 2.6245, val loss: 1.5523
+0.9021339864181083
+Epoch: 21/200
+Train loss: 2.6001, val loss: 1.5196
+0.9034860339803331
+Epoch: 22/200
+Train loss: 2.5519, val loss: 1.4591
+0.9050076359935488
+Model improve: 0.9046 -> 0.9050
+Epoch: 23/200
+Train loss: 2.6595, val loss: 1.4478
+0.9049103014952791
+Epoch: 24/200
+Train loss: 2.5373, val loss: 1.6131
+0.9021946410168018
+Epoch: 25/200
+Train loss: 2.4865, val loss: 1.4576
+0.9029365563086781
+Epoch: 26/200
+Train loss: 2.4964, val loss: 1.4692
+0.9031800001466853
+Epoch: 27/200
+Train loss: 2.5504, val loss: 1.4578
+0.9049070386965581
+Epoch: 28/200
+Train loss: 2.3904, val loss: 1.4832
+0.9049883401131371
+Epoch: 29/200
+Train loss: 2.4697, val loss: 1.4203
+0.9075428168374815
+Model improve: 0.9050 -> 0.9075
+Epoch: 30/200
+Train loss: 2.4753, val loss: 1.4623
+0.9057007823310316
+Epoch: 31/200
+Train loss: 2.5211, val loss: 1.4789
+0.9064180071802214
+Epoch: 32/200
+Train loss: 2.4849, val loss: 1.4737
+0.9067475153746777
+Epoch: 33/200
+Train loss: 2.3988, val loss: 1.4978
+0.9064270820255135
+Epoch: 34/200
+Train loss: 2.4144, val loss: 1.4835
+0.905746160374159
+Epoch: 35/200
+Train loss: 2.4608, val loss: 1.4863
+0.9062109428537761
+Epoch: 36/200
+Train loss: 2.4219, val loss: 1.3633
+0.9063343902735399
+Epoch: 37/200
+Train loss: 2.4286, val loss: 1.4487
+0.9053671418752784
+Epoch: 38/200
+Train loss: 2.3602, val loss: 1.4664
+0.9044080854721357
+Epoch: 39/200
+Train loss: 2.4099, val loss: 1.4381
+0.904420336239656
+Epoch: 40/200
+Train loss: 2.3661, val loss: 1.4563
+0.9047871673296329
+Epoch: 41/200
+Train loss: 2.3710, val loss: 1.4204
+0.9051890518671305
+Epoch: 42/200
+Train loss: 2.3459, val loss: 1.4761
+0.9047219938348791
+Epoch: 43/200
+Train loss: 2.2842, val loss: 1.3736
+0.9091055480798098
+Model improve: 0.9075 -> 0.9091
+Epoch: 44/200
+Train loss: 2.3195, val loss: 1.4451
+0.9063280510610844
+Epoch: 45/200
+Train loss: 2.3589, val loss: 1.3765
+0.9096760675255657
+Model improve: 0.9091 -> 0.9097
+Epoch: 46/200
+Train loss: 2.3320, val loss: 1.4631
+0.9063444217515693
+Epoch: 47/200
+Train loss: 2.3035, val loss: 1.3921
+0.9073676980756917
+Epoch: 48/200
+Train loss: 2.3534, val loss: 1.4277
+0.9059461920016901
+Epoch: 49/200
+Train loss: 2.2347, val loss: 1.4839
+0.9050371334351635
+Epoch: 50/200
+Train loss: 2.3150, val loss: 1.3820
+0.9073482837810669
+Epoch: 51/200
+Train loss: 2.3198, val loss: 1.3897
+0.9063967688259232
+Epoch: 52/200
+Train loss: 2.2998, val loss: 1.3684
+0.9084005081270982
+Epoch: 53/200
+Train loss: 2.3580, val loss: 1.4796
+0.9056526469308798
+Epoch: 54/200
+Train loss: 2.3247, val loss: 1.4576
+0.9045989195057688
+Epoch: 55/200
+Train loss: 2.2232, val loss: 1.3930
+0.9085863367528193
+Epoch: 56/200
+Train loss: 2.2102, val loss: 1.4029
+0.9078032437867232
+Epoch: 57/200
+Train loss: 2.2794, val loss: 1.3571
+0.9095065992756686
+Epoch: 58/200
+Train loss: 2.2196, val loss: 1.4217
+0.9066114075286908
+Epoch: 59/200
+Train loss: 2.2831, val loss: 1.3631
+0.9089670945153041
+Epoch: 60/200
+Train loss: 2.2551, val loss: 1.3249
+0.9088355073658617
+Epoch: 61/200
+Train loss: 2.2425, val loss: 1.3709
+0.906060188514467
+Epoch: 62/200
+Train loss: 2.2677, val loss: 1.4222
+0.9048605812776591
+Epoch: 63/200
+Train loss: 2.2213, val loss: 1.4924
+0.9051995420718159
+Epoch: 64/200
+Train loss: 2.2070, val loss: 1.3896
+0.9093075924773454
+Epoch: 65/200
+Train loss: 2.1908, val loss: 1.3543
+0.9088911461355448
+Epoch: 66/200
+Train loss: 2.2601, val loss: 1.4092
+0.9086775489327655
+Epoch: 67/200
+Train loss: 2.2141, val loss: 1.3451
+0.9104937888467362
+Model improve: 0.9097 -> 0.9105
+Epoch: 68/200
+Train loss: 2.2268, val loss: 1.4313
+0.9071654893095769
+Epoch: 69/200
+Train loss: 2.2930, val loss: 1.4123
+0.9068952846413302
+Epoch: 70/200
+Train loss: 2.2256, val loss: 1.3879
+0.9078230803123796
+Epoch: 71/200
+Train loss: 2.1781, val loss: 1.3878
+0.9092642176369757
+Epoch: 72/200
+Train loss: 2.1586, val loss: 1.4286
+0.9082039996189456
+Epoch: 73/200
+Train loss: 2.1767, val loss: 1.3833
+0.9087893330200082
+Epoch: 74/200
+Train loss: 2.2200, val loss: 1.3971
+0.9067000743413298
+Epoch: 75/200
+Train loss: 2.1124, val loss: 1.3824
+0.9100654507271582
+Epoch: 76/200
+Train loss: 2.1669, val loss: 1.3316
+0.9100345325768183
+Epoch: 77/200
+Train loss: 2.1940, val loss: 1.3841
+0.9081993666299587
+Epoch: 78/200
+Train loss: 2.2075, val loss: 1.3878
+0.9072941194605183
+Epoch: 79/200
+Train loss: 2.1449, val loss: 1.3063
+0.9093885967981244
+Epoch: 80/200
+Train loss: 2.1640, val loss: 1.4075
+0.9087980845598396
+Epoch: 81/200
+Train loss: 2.1361, val loss: 1.3653
+0.909426442479364
+Epoch: 82/200
+Train loss: 2.1827, val loss: 1.4044
+0.9075402608437038
+Epoch: 83/200
+Train loss: 2.1412, val loss: 1.3256
+0.9118189346077887
+Model improve: 0.9105 -> 0.9118
+Epoch: 84/200
+Train loss: 2.1651, val loss: 1.3736
+0.9099795835853793
+Epoch: 85/200
+Train loss: 2.1293, val loss: 1.3885
+0.9090370983521028
+Epoch: 86/200
+Train loss: 2.1653, val loss: 1.3440
+0.9118898115287437
+Model improve: 0.9118 -> 0.9119
+Epoch: 87/200
+Train loss: 2.1422, val loss: 1.3978
+0.9105920890592062
+Epoch: 88/200
+Train loss: 2.1266, val loss: 1.3975
+0.9106981515417143
+Epoch: 89/200
+Train loss: 2.0849, val loss: 1.3369
+0.9103156853199746
+Epoch: 90/200
+Train loss: 2.1502, val loss: 1.3541
+0.9087948242626956
+Epoch: 91/200
+Train loss: 2.1579, val loss: 1.3878
+0.909723014706741
+Epoch: 92/200
+Train loss: 2.0967, val loss: 1.3528
+0.9103546117665935
+Epoch: 93/200
+Train loss: 2.1080, val loss: 1.3127
+0.9098091496880005
+Epoch: 94/200
+Train loss: 2.0919, val loss: 1.3639
+0.9091171889047895
+Epoch: 95/200
+Train loss: 2.0897, val loss: 1.4182
+0.9076439250191852
+Epoch: 96/200
+Train loss: 2.1106, val loss: 1.3780
+0.9088219866879709
+Epoch: 97/200
+Train loss: 2.1459, val loss: 1.3749
+0.9092401397473415
+Epoch: 98/200
+Train loss: 2.0570, val loss: 1.3902
+0.9083349386280668
+Epoch: 99/200
+Train loss: 2.1140, val loss: 1.3387
+0.9100988427171692
+Epoch: 100/200
+Train loss: 2.1199, val loss: 1.3757
+0.9087833649325818
+Epoch: 101/200
+Train loss: 2.0512, val loss: 1.3843
+0.9079728091403002
+Epoch: 102/200
+Train loss: 2.0681, val loss: 1.4182
+0.9079373666064433
+Epoch: 103/200
+Train loss: 2.0918, val loss: 1.3093
+0.9114015421780216
+Epoch: 104/200
+Train loss: 2.0801, val loss: 1.3550
+0.9106207384052325
+Epoch: 105/200
+Train loss: 2.0686, val loss: 1.3331
+0.9109866110442733
+Epoch: 106/200
+Train loss: 2.0839, val loss: 1.3672
+0.9107144348139702
+Epoch: 107/200
+Train loss: 2.0719, val loss: 1.3499
+0.9115751938981238
+Epoch: 108/200
+Train loss: 2.0889, val loss: 1.4357
+0.9078900816472446
+Epoch: 109/200
+Train loss: 2.0807, val loss: 1.3652
+0.9113532011128836
+Epoch: 110/200
+Train loss: 2.1092, val loss: 1.4470
+0.9082304516913268
+Epoch: 111/200
+Train loss: 2.0482, val loss: 1.4172
+0.9093276040089414
+Epoch: 112/200
+Train loss: 2.0861, val loss: 1.4067
+0.9098184956437405
+Epoch: 113/200
+Train loss: 2.0591, val loss: 1.3619
+0.9132044400282259
+Model improve: 0.9119 -> 0.9132
+Epoch: 114/200
+Train loss: 2.0862, val loss: 1.3433
+0.9119948502278246
+Epoch: 115/200
+Train loss: 1.9947, val loss: 1.4090
+0.9107940140411849
+Epoch: 116/200
+Train loss: 2.0664, val loss: 1.3125
+0.9130679879597428
+Epoch: 117/200
+Train loss: 2.0363, val loss: 1.4031
+0.9095223149547362
+Epoch: 118/200
+Train loss: 2.0793, val loss: 1.3550
+0.9111423126791196
+Epoch: 119/200
+Train loss: 2.0541, val loss: 1.3297
+0.9106268167774816
+Epoch: 120/200
+Train loss: 2.0713, val loss: 1.3568
+0.9111755440652324
+Epoch: 121/200
+Train loss: 2.0216, val loss: 1.2822
+0.9129890896580958
+Epoch: 122/200
+Train loss: 2.0583, val loss: 1.3590
+0.9122249594460238
+Epoch: 123/200
+Train loss: 2.1036, val loss: 1.3604
+0.9113150725603688
+Epoch: 124/200
+Train loss: 1.9943, val loss: 1.3445
+0.9111159968357742
+Epoch: 125/200
+Train loss: 1.9875, val loss: 1.3114
+0.9127964131943096
+Epoch: 126/200
+Train loss: 2.0438, val loss: 1.3113
+0.9132975952979009
+Model improve: 0.9132 -> 0.9133
+Epoch: 127/200
+Train loss: 1.9617, val loss: 1.3478
+0.9126395859054472
+Epoch: 128/200
+Train loss: 2.0399, val loss: 1.3577
+0.911790221010393
+Epoch: 129/200
+Train loss: 2.0442, val loss: 1.3387
+0.9111125658750255
+Epoch: 130/200
+Train loss: 2.0042, val loss: 1.3026
+0.9122304987432496
+Epoch: 131/200
+Train loss: 1.9815, val loss: 1.3563
+0.9103350009971752
+Epoch: 132/200
+Train loss: 1.9951, val loss: 1.3039
+0.9119622808709783
+Epoch: 133/200
+Train loss: 2.0234, val loss: 1.3993
+0.9106055148233217
+Epoch: 134/200
+Train loss: 2.0025, val loss: 1.4055
+0.911324579722648
+Epoch: 135/200
+Train loss: 1.9455, val loss: 1.3002
+0.913051185763492
+Epoch: 136/200
+Train loss: 2.0109, val loss: 1.3142
+0.9128489907282713
+Epoch: 137/200
+Date :04/24/2023, 06:53:12
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 10
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+12999
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Date :04/24/2023, 08:56:20
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 10
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+14388
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1364.4224841594696 for validation audios
+0.5983021583460334
+Model improve: 0.0000 -> 0.5983
+Epoch: 2/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1395.1762602329254 for validation audios
+0.6795355429072102
+Model improve: 0.5983 -> 0.6795
+Epoch: 3/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1375.5457348823547 for validation audios
+0.7063812481213211
+Model improve: 0.6795 -> 0.7064
+Epoch: 4/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1350.4841904640198 for validation audios
+0.7275580303723174
+Model improve: 0.7064 -> 0.7276
+Epoch: 5/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1382.1075472831726 for validation audios
+0.7416710710421013
+Model improve: 0.7276 -> 0.7417
+Epoch: 6/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1384.2611110210419 for validation audios
+0.7446764254384979
+Model improve: 0.7417 -> 0.7447
+Epoch: 7/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1383.2204205989838 for validation audios
+0.7508127398149139
+Model improve: 0.7447 -> 0.7508
+Epoch: 8/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1373.8185260295868 for validation audios
+0.7665920175073566
+Model improve: 0.7508 -> 0.7666
+Epoch: 9/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1347.1539423465729 for validation audios
+0.7648431801799606
+Epoch: 10/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1357.7329516410828 for validation audios
+0.7658132947304954
+Epoch: 11/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1386.77499294281 for validation audios
+0.7605475865449829
+Epoch: 12/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1385.1736059188843 for validation audios
+0.7623533242492702
+Epoch: 13/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1379.3866398334503 for validation audios
+0.7610272826061075
+Epoch: 14/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1378.5574262142181 for validation audios
+0.7695841223678935
+Model improve: 0.7666 -> 0.7696
+Epoch: 15/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1368.5544772148132 for validation audios
+0.7687247793679628
+Epoch: 16/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1365.3577790260315 for validation audios
+0.7712277615208103
+Model improve: 0.7696 -> 0.7712
+Epoch: 17/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1374.6311719417572 for validation audios
+0.7693438611396085
+Epoch: 18/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1384.5679290294647 for validation audios
+0.7734967669889153
+Model improve: 0.7712 -> 0.7735
+Epoch: 19/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1364.544860124588 for validation audios
+0.7729108236542945
+Epoch: 20/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1366.6759917736053 for validation audios
+0.7773084692662683
+Model improve: 0.7735 -> 0.7773
+Epoch: 21/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1371.1295697689056 for validation audios
+0.7709347735165987
+Epoch: 22/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1374.7773537635803 for validation audios
+0.7763315530185891
+Epoch: 23/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1366.7724668979645 for validation audios
+0.7739983744909603
+Epoch: 24/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1368.8570983409882 for validation audios
+0.7734507870790122
+Epoch: 25/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1353.6048078536987 for validation audios
+0.7739165307022892
+Epoch: 26/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1353.5260746479034 for validation audios
+0.7821421047511516
+Model improve: 0.7773 -> 0.7821
+Epoch: 27/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1367.7065324783325 for validation audios
+0.776623073457884
+Epoch: 28/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1385.960064649582 for validation audios
+0.7837289044950562
+Model improve: 0.7821 -> 0.7837
+Epoch: 29/200
+With concurrent ThreadPoolExecutor, time cost reduced to 1372.8640220165253 for validation audios
+0.7784764928421941
+Epoch: 30/200
+Date :04/25/2023, 00:45:40
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 60
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 10
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.6
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 1
+13839
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/60
+Epoch: 2/60
+Epoch: 3/60
+Epoch: 4/60
+Epoch: 5/60
+Epoch: 6/60
+Epoch: 7/60
+Epoch: 8/60
+Epoch: 9/60
+Epoch: 10/60
+Epoch: 11/60
+Epoch: 12/60
+Epoch: 13/60
+Epoch: 14/60
+Epoch: 15/60
+Epoch: 16/60
+Epoch: 17/60
+Epoch: 18/60
+Epoch: 19/60
+Epoch: 20/60
+Epoch: 21/60
+Epoch: 22/60
+Epoch: 23/60
+Epoch: 24/60
+Epoch: 25/60
+Epoch: 26/60
+Epoch: 27/60
+Epoch: 28/60
+Epoch: 29/60
+Epoch: 30/60
+Epoch: 31/60
+Epoch: 32/60
+Time needed: 1519.9015107154846 for validation audios
+0.7871940207743976
+Model improve: 0.0000 -> 0.7872
+Epoch: 33/60
+Date :04/25/2023, 04:12:13
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 10
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+13830
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Epoch: 2/200
+Epoch: 3/200
+Epoch: 4/200
+Epoch: 5/200
+Epoch: 6/200
+Date :04/26/2023, 04:46:51
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 200
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 10
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+13830
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/200
+Date :04/26/2023, 04:48:29
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 256
+epochwarmup: 0
+totalepoch: 300
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 10
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 1
+13839
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/300
+Train loss: 13.2599
+Epoch: 2/300
+Train loss: 4.5258
+Epoch: 3/300
+Train loss: 4.0897
+Epoch: 4/300
+Train loss: 3.8402
+Epoch: 5/300
+Train loss: 3.6582
+Epoch: 6/300
+Train loss: 3.4381
+Epoch: 7/300
+Train loss: 3.4097
+Epoch: 8/300
+Train loss: 3.2913
+Epoch: 9/300
+Train loss: 3.2172
+Epoch: 10/300
+Train loss: 3.1887
+Epoch: 11/300
+Train loss: 3.1362
+Epoch: 12/300
+Train loss: 3.0388
+Epoch: 13/300
+Train loss: 2.9460
+Epoch: 14/300
+Train loss: 2.9615
+Epoch: 15/300
+Train loss: 2.9638
+Epoch: 16/300
+Train loss: 2.8817
+Epoch: 17/300
+Train loss: 2.8978
+Epoch: 18/300
+Train loss: 2.8295
+Epoch: 19/300
+Train loss: 2.8656
+Epoch: 20/300
+Train loss: 2.7219
+Epoch: 21/300
+Train loss: 2.7290
+Epoch: 22/300
+Train loss: 2.7615
+Epoch: 23/300
+Train loss: 2.7935
+Epoch: 24/300
+Train loss: 2.7593
+Epoch: 25/300
+Train loss: 2.7091
+Epoch: 26/300
+Train loss: 2.6396
+Epoch: 27/300
+Train loss: 2.7024
+Epoch: 28/300
+Train loss: 2.6459
+Epoch: 29/300
+Train loss: 2.6647
+Epoch: 30/300
+Train loss: 2.6277
+Epoch: 31/300
+Train loss: 2.7082
+Epoch: 32/300
+Train loss: 2.6111
+Epoch: 33/300
+Train loss: 2.5764
+Epoch: 34/300
+Train loss: 2.5373
+Epoch: 35/300
+Train loss: 2.5506
+Epoch: 36/300
+Train loss: 2.5619
+Epoch: 37/300
+Train loss: 2.5948
+Epoch: 38/300
+Train loss: 2.4654
+Epoch: 39/300
+Train loss: 2.5053
+Epoch: 40/300
+Train loss: 2.4520
+Epoch: 41/300
+Train loss: 2.5412
+Epoch: 42/300
+Train loss: 2.5929
+Epoch: 43/300
+Train loss: 2.5164
+Epoch: 44/300
+Train loss: 2.4736
+Epoch: 45/300
+Train loss: 2.4739
+Epoch: 46/300
+Train loss: 2.4559
+Epoch: 47/300
+Train loss: 2.4966
+Epoch: 48/300
+Train loss: 2.5152
+Epoch: 49/300
+Train loss: 2.5249
+Epoch: 50/300
+Train loss: 2.4820
+Epoch: 51/300
+Train loss: 2.4950
+Epoch: 52/300
+Train loss: 2.3612
+Epoch: 53/300
+Train loss: 2.4858
+Epoch: 54/300
+Train loss: 2.4111
+Epoch: 55/300
+Train loss: 2.4218
+Epoch: 56/300
+Train loss: 2.4061
+Epoch: 57/300
+Train loss: 2.4572
+Epoch: 58/300
+Train loss: 2.3382
+Epoch: 59/300
+Train loss: 2.3305
+Epoch: 60/300
+Train loss: 2.3656
+Epoch: 61/300
+Train loss: 2.3655
+Epoch: 62/300
+Train loss: 2.4166
+Epoch: 63/300
+Train loss: 2.3779
+Epoch: 64/300
+Train loss: 2.3495
+Epoch: 65/300
+Train loss: 2.3717
+Epoch: 66/300
+Train loss: 2.3696
+Epoch: 67/300
+Train loss: 2.2926
+Epoch: 68/300
+Train loss: 2.3607
+Epoch: 69/300
+Train loss: 2.3525
+Epoch: 70/300
+Train loss: 2.3596
+Epoch: 71/300
+Train loss: 2.3544
+Epoch: 72/300
+Train loss: 2.3661
+Epoch: 73/300
+Train loss: 2.3928
+Epoch: 74/300
+Train loss: 2.3662
+Epoch: 75/300
+Train loss: 2.2607
+Epoch: 76/300
+Train loss: 2.2821
+Epoch: 77/300
+Train loss: 2.2607
+Epoch: 78/300
+Train loss: 2.3334
+Epoch: 79/300
+Train loss: 2.2673
+Epoch: 80/300
+Train loss: 2.3064
+Epoch: 81/300
+Train loss: 2.3720
+Epoch: 82/300
+Train loss: 2.2869
+Epoch: 83/300
+Train loss: 2.2584
+Epoch: 84/300
+Train loss: 2.3384
+Epoch: 85/300
+Train loss: 2.2982
+Epoch: 86/300
+Train loss: 2.2856
+Epoch: 87/300
+Train loss: 2.2795
+Epoch: 88/300
+Train loss: 2.2309
+Epoch: 89/300
+Train loss: 2.2749
+Epoch: 90/300
+Train loss: 2.2646
+Epoch: 91/300
+Train loss: 2.2969
+Epoch: 92/300
+Train loss: 2.2065
+Epoch: 93/300
+Train loss: 2.3175
+Epoch: 94/300
+Train loss: 2.2995
+Epoch: 95/300
+Train loss: 2.3470
+Epoch: 96/300
+Train loss: 2.2642
+Epoch: 97/300
+Train loss: 2.2188
+Epoch: 98/300
+Train loss: 2.1876
+Epoch: 99/300
+Train loss: 2.1947
+Epoch: 100/300
+Train loss: 2.2313
+Epoch: 101/300
+Train loss: 2.3015
+Epoch: 102/300
+Train loss: 2.1906
+Time needed: 1495.1229596138 for validation audios
+0.7957548519711453
+Model improve: 0.0000 -> 0.7958
+Epoch: 103/300
+Train loss: 2.1589
+Time needed: 1460.886652469635 for validation audios
+0.7943837674382908
+Epoch: 104/300
+Train loss: 2.2171
+Time needed: 1500.195160627365 for validation audios
+0.7969315294991007
+Model improve: 0.7958 -> 0.7969
+Epoch: 105/300
+Train loss: 2.2299
+Time needed: 1470.9908320903778 for validation audios
+0.7979812481738158
+Model improve: 0.7969 -> 0.7980
+Epoch: 106/300
+Train loss: 2.2796
+Time needed: 1458.2670130729675 for validation audios
+0.7975892445764519
+Epoch: 107/300
+Train loss: 2.2491
+Time needed: 1480.3627784252167 for validation audios
+0.7958308982401369
+Epoch: 108/300
+Train loss: 2.1957
+Time needed: 1475.5233144760132 for validation audios
+0.7949221679789408
+Epoch: 109/300
+Train loss: 2.2288
+Time needed: 1509.435882806778 for validation audios
+0.7963272942002296
+Epoch: 110/300
+Train loss: 2.1865
+Time needed: 1513.5844311714172 for validation audios
+0.7952448077437457
+Epoch: 111/300
+Train loss: 2.2047
+Time needed: 1514.3767473697662 for validation audios
+0.7980655120886656
+Model improve: 0.7980 -> 0.7981
+Epoch: 112/300
+Train loss: 2.2357
+Time needed: 1518.284559249878 for validation audios
+0.7944780316803077
+Epoch: 113/300
+Train loss: 2.2205
+Time needed: 1523.197069644928 for validation audios
+0.7939836064781717
+Epoch: 114/300
+Train loss: 2.2013
+Time needed: 1499.9388175010681 for validation audios
+0.7956132764535604
+Epoch: 115/300
+Train loss: 2.2164
+Time needed: 1525.3229115009308 for validation audios
+0.7939233331078112
+Epoch: 116/300
+Date :04/26/2023, 21:11:39
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 64
+validbs: 256
+epochwarmup: 0
+totalepoch: 150
+learningrate: 0.0003
+weightdecay: 0.01
+thrupsample: 10
+model_name: tf_efficientnet_b0_ns
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 1
+13839
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/150
+Train loss: 21.3340
+Epoch: 2/150
+Train loss: 4.9672
+Epoch: 3/150
+Train loss: 4.5059
+Epoch: 4/150
+Train loss: 4.1503
+Epoch: 5/150
+Train loss: 3.9640
+Epoch: 6/150
+Train loss: 3.8069
+Epoch: 7/150
+Train loss: 3.6544
+Epoch: 8/150
+Train loss: 3.6157
+Epoch: 9/150
+Train loss: 3.3855
+Epoch: 10/150
+Train loss: 3.4899
+Epoch: 11/150
+Train loss: 3.2416
+Epoch: 12/150
+Train loss: 3.2424
+Epoch: 13/150
+Train loss: 3.2389
+Epoch: 14/150
+Train loss: 3.1522
+Epoch: 15/150
+Train loss: 3.0426
+Epoch: 16/150
+Train loss: 3.1276
+Epoch: 17/150
+Train loss: 3.0025
+Epoch: 18/150
+Train loss: 3.0525
+Epoch: 19/150
+Train loss: 3.0481
+Epoch: 20/150
+Train loss: 2.9366
+Epoch: 21/150
+Train loss: 2.9008
+Epoch: 22/150
+Train loss: 2.9915
+Epoch: 23/150
+Train loss: 2.8766
+Epoch: 24/150
+Train loss: 2.8173
+Epoch: 25/150
+Train loss: 2.7208
+Epoch: 26/150
+Train loss: 2.7797
+Epoch: 27/150
+Train loss: 2.7621
+Epoch: 28/150
+Train loss: 2.7445
+Epoch: 29/150
+Train loss: 2.7637
+Epoch: 30/150
+Train loss: 2.7758
+Epoch: 31/150
+Train loss: 2.6779
+Epoch: 32/150
+Train loss: 2.6964
+Epoch: 33/150
+Train loss: 2.6881
+Epoch: 34/150
+Train loss: 2.7104
+Epoch: 35/150
+Train loss: 2.7856
+Epoch: 36/150
+Train loss: 2.5297
+Epoch: 37/150
+Train loss: 2.6625
+Epoch: 38/150
+Train loss: 2.6638
+Epoch: 39/150
+Train loss: 2.5915
+Epoch: 40/150
+Train loss: 2.4719
+Epoch: 41/150
+Train loss: 2.5729
+Epoch: 42/150
+Train loss: 2.5217
+Epoch: 43/150
+Train loss: 2.6073
+Epoch: 44/150
+Train loss: 2.5333
+Epoch: 45/150
+Train loss: 2.5677
+Epoch: 46/150
+Train loss: 2.6259
+Epoch: 47/150
+Train loss: 2.5870
+Epoch: 48/150
+Train loss: 2.6112
+Epoch: 49/150
+Train loss: 2.5677
+Epoch: 50/150
+Train loss: 2.4923
+Epoch: 51/150
+Train loss: 2.4584
+Epoch: 52/150
+Train loss: 2.4307
+Epoch: 53/150
+Train loss: 2.4792
+Epoch: 54/150
+Train loss: 2.5397
+Epoch: 55/150
+Train loss: 2.5092
+Epoch: 56/150
+Train loss: 2.3866
+Epoch: 57/150
+Train loss: 2.5034
+Epoch: 58/150
+Train loss: 2.4662
+Epoch: 59/150
+Train loss: 2.4296
+Epoch: 60/150
+Train loss: 2.4413
+Epoch: 61/150
+Train loss: 2.4448
+Epoch: 62/150
+Train loss: 2.6110
+Epoch: 63/150
+Train loss: 2.4594
+Epoch: 64/150
+Train loss: 2.3739
+Epoch: 65/150
+Train loss: 2.3368
+Epoch: 66/150
+Train loss: 2.4405
+Epoch: 67/150
+Train loss: 2.3743
+Epoch: 68/150
+Train loss: 2.3416
+Epoch: 69/150
+Train loss: 2.3492
+Epoch: 70/150
+Train loss: 2.3879
+Epoch: 71/150
+Train loss: 2.3338
+Epoch: 72/150
+Train loss: 2.4428
+Epoch: 73/150
+Train loss: 2.3677
+Epoch: 74/150
+Train loss: 2.4575
+Epoch: 75/150
+Train loss: 2.2366
+Epoch: 76/150
+Train loss: 2.3120
+Epoch: 77/150
+Train loss: 2.2849
+Epoch: 78/150
+Train loss: 2.4027
+Epoch: 79/150
+Train loss: 2.2643
+Epoch: 80/150
+Train loss: 2.2972
+Epoch: 81/150
+Train loss: 2.3776
+Epoch: 82/150
+Train loss: 2.3562
+Epoch: 83/150
+Train loss: 2.4295
+Epoch: 84/150
+Train loss: 2.4031
+Epoch: 85/150
+Train loss: 2.3340
+Epoch: 86/150
+Train loss: 2.3475
+Epoch: 87/150
+Train loss: 2.3211
+Epoch: 88/150
+Train loss: 2.2670
+Epoch: 89/150
+Train loss: 2.2584
+Epoch: 90/150
+Train loss: 2.3267
+Epoch: 91/150
+Train loss: 2.2284
+Epoch: 92/150
+Train loss: 2.3129
+Epoch: 93/150
+Train loss: 2.3380
+Epoch: 94/150
+Train loss: 2.3085
+Epoch: 95/150
+Train loss: 2.3304
+Epoch: 96/150
+Train loss: 2.3383
+Epoch: 97/150
+Train loss: 2.3390
+Epoch: 98/150
+Train loss: 2.3236
+Epoch: 99/150
+Train loss: 2.2699
+Epoch: 100/150
+Train loss: 2.2994
+Epoch: 101/150
+Train loss: 2.3390
+Epoch: 102/150
+Train loss: 2.3182
+Time needed: 1491.4988520145416 for validation audios
+0.7962783546703242
+Model improve: 0.0000 -> 0.7963
+Epoch: 103/150
+Train loss: 2.2422
+Time needed: 1512.7502875328064 for validation audios
+0.7941619180283019
+Epoch: 104/150
+Train loss: 2.1478
+Time needed: 1533.6991991996765 for validation audios
+0.7978023623407196
+Model improve: 0.7963 -> 0.7978
+Epoch: 105/150
+Train loss: 2.3620
+Time needed: 1539.846660375595 for validation audios
+0.7925573727862514
+Epoch: 106/150
+Train loss: 2.2583
+Time needed: 1522.1634590625763 for validation audios
+0.7964491318666108
+Epoch: 107/150
+Train loss: 2.2628
+Time needed: 1509.9131391048431 for validation audios
+0.7953776361265388
+Epoch: 108/150
+Train loss: 2.2137
+Time needed: 1517.588181257248 for validation audios
+0.7945583871868224
+Epoch: 109/150
+Train loss: 2.2562
+Time needed: 1536.0767476558685 for validation audios
+0.7966034552341374
+Epoch: 110/150
+Train loss: 2.2780
+Time needed: 1514.3111641407013 for validation audios
+0.7930741356101455
+Epoch: 111/150
+Train loss: 2.2352
+Time needed: 1496.3452558517456 for validation audios
+0.7982543681023244
+Model improve: 0.7978 -> 0.7983
+Epoch: 112/150
+Train loss: 2.2769
+Time needed: 1519.231877565384 for validation audios
+0.7952163959648976
+Epoch: 113/150
+Train loss: 2.3197
+Time needed: 1509.985024690628 for validation audios
+0.795813480916041
+Epoch: 114/150
+Train loss: 2.2770
+Time needed: 1516.815755367279 for validation audios
+0.797535174702615
+Epoch: 115/150
+Train loss: 2.1906
+Time needed: 1521.9307398796082 for validation audios
+0.7985556587081535
+Model improve: 0.7983 -> 0.7986
+Epoch: 116/150
+Train loss: 2.1972
+Time needed: 1518.0765857696533 for validation audios
+0.7997614109560535
+Model improve: 0.7986 -> 0.7998
+Epoch: 117/150
+Train loss: 2.1726
+Time needed: 1510.2967019081116 for validation audios
+0.7983338885480498
+Epoch: 118/150
+Train loss: 2.2155
+Time needed: 1520.27543759346 for validation audios
+0.7979462140860908
+Epoch: 119/150
+Train loss: 2.2744
+Time needed: 1511.2788333892822 for validation audios
+0.797910012816818
+Epoch: 120/150
+Train loss: 2.1354
+Time needed: 1502.0493474006653 for validation audios
+0.798423882986935
+Epoch: 121/150
+Train loss: 2.2266
+Time needed: 1517.9251637458801 for validation audios
+0.7946769547807869
+Epoch: 122/150
+Train loss: 2.2459
+Time needed: 1519.994716644287 for validation audios
+0.7962622661671268
+Epoch: 123/150
+Train loss: 2.3535
+Time needed: 1531.823599100113 for validation audios
+0.7965322354257792
+Epoch: 124/150
+Train loss: 2.2056
+Time needed: 1499.9442024230957 for validation audios
+0.796913890578401
+Epoch: 125/150
+Train loss: 2.2087
+Time needed: 1506.3873686790466 for validation audios
+0.7983274401558681
+Epoch: 126/150
+Train loss: 2.2554
+Time needed: 1522.0416502952576 for validation audios
+0.7951738254691321
+Epoch: 127/150
+Train loss: 2.1742
+Time needed: 1512.57825756073 for validation audios
+0.8006333934309401
+Model improve: 0.7998 -> 0.8006
+Epoch: 128/150
+Train loss: 2.2796
+Time needed: 1512.6409828662872 for validation audios
+0.7962282786719324
+Epoch: 129/150
+Train loss: 2.2419
+Time needed: 1519.6232960224152 for validation audios
+0.7972310694198352
+Epoch: 130/150
+Train loss: 2.2732

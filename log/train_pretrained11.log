@@ -1,0 +1,4531 @@
+Date :04/19/2023, 22:59:34
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 60
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: eca_nfnet_l1
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+78014
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/60
+Date :04/19/2023, 23:02:09
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 60
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: eca_nfnet_l1
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+78014
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/60
+Date :04/19/2023, 23:02:54
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 60
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: eca_nfnet_l1
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+78014
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/60
+Date :04/19/2023, 23:04:15
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 60
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: eca_nfnet_l1
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+78014
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/60
+Train loss: 7.9842, val loss: 4.3549
+Val cmap: 0.5922918234595351
+Model improve: 0.0000 -> 0.5923
+Epoch: 2/60
+Train loss: 4.7331, val loss: 3.1980
+Val cmap: 0.7239879203389337
+Model improve: 0.5923 -> 0.7240
+Epoch: 3/60
+Train loss: 4.1759, val loss: 2.7152
+Val cmap: 0.7782009563661041
+Model improve: 0.7240 -> 0.7782
+Epoch: 4/60
+Train loss: 3.8399, val loss: 2.5255
+Val cmap: 0.8056799245303774
+Model improve: 0.7782 -> 0.8057
+Epoch: 5/60
+Train loss: 3.5971, val loss: 2.2023
+Val cmap: 0.8297326738883546
+Model improve: 0.8057 -> 0.8297
+Epoch: 6/60
+Train loss: 3.4572, val loss: 2.1014
+Val cmap: 0.8502931066069381
+Model improve: 0.8297 -> 0.8503
+Epoch: 7/60
+Train loss: 3.2927, val loss: 1.9108
+Val cmap: 0.8607466090585099
+Model improve: 0.8503 -> 0.8607
+Epoch: 8/60
+Train loss: 3.2388, val loss: 1.8153
+Val cmap: 0.8724749044330662
+Model improve: 0.8607 -> 0.8725
+Epoch: 9/60
+Train loss: 3.1301, val loss: 1.7211
+Val cmap: 0.882085071734039
+Model improve: 0.8725 -> 0.8821
+Epoch: 10/60
+Train loss: 3.0190, val loss: 1.6015
+Val cmap: 0.8897035219592343
+Model improve: 0.8821 -> 0.8897
+Epoch: 11/60
+Train loss: 2.9923, val loss: 1.5731
+Val cmap: 0.8954098791861262
+Model improve: 0.8897 -> 0.8954
+Epoch: 12/60
+Train loss: 2.9230, val loss: 1.4692
+Val cmap: 0.9051671117711613
+Model improve: 0.8954 -> 0.9052
+Epoch: 13/60
+Train loss: 2.8921, val loss: 1.4434
+Val cmap: 0.9056998072432798
+Model improve: 0.9052 -> 0.9057
+Epoch: 14/60
+Train loss: 2.8248, val loss: 1.3754
+Val cmap: 0.913924237979766
+Model improve: 0.9057 -> 0.9139
+Epoch: 15/60
+Train loss: 2.7927, val loss: 1.3371
+Val cmap: 0.9134836145084986
+Epoch: 16/60
+Train loss: 2.7986, val loss: 1.3126
+Val cmap: 0.9169436906654286
+Model improve: 0.9139 -> 0.9169
+Epoch: 17/60
+Date :04/29/2023, 09:34:48
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 256
+fmax: 16000
+trainbs: 32
+validbs: 64
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnet_b1_ns
+mix_up: 0.6
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :04/29/2023, 09:35:28
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 256
+fmax: 16000
+trainbs: 128
+validbs: 256
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnet_b1_ns
+mix_up: 0.6
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :04/29/2023, 09:35:57
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 256
+fmax: 16000
+trainbs: 96
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnet_b1_ns
+mix_up: 0.6
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :04/29/2023, 15:29:41
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 256
+fmax: 16000
+trainbs: 96
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnet_b1_ns
+mix_up: 0.6
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :04/30/2023, 06:47:54
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 50
+nmels: 128
+fmax: 14000
+trainbs: 96
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnet_b1_ns
+mix_up: 0.6
+hop_length: 320
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :04/30/2023, 06:51:03
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 50
+nmels: 128
+fmax: 14000
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnet_b1_ns
+mix_up: 0.6
+hop_length: 320
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Epoch: 2/100
+Epoch: 3/100
+Epoch: 4/100
+Epoch: 5/100
+Epoch: 6/100
+Epoch: 7/100
+Epoch: 8/100
+Epoch: 9/100
+Epoch: 10/100
+Epoch: 11/100
+Epoch: 12/100
+Epoch: 13/100
+Epoch: 14/100
+Epoch: 15/100
+Epoch: 16/100
+Epoch: 17/100
+Epoch: 18/100
+Epoch: 19/100
+Epoch: 20/100
+Epoch: 21/100
+Epoch: 22/100
+Epoch: 23/100
+Epoch: 24/100
+Epoch: 25/100
+Epoch: 26/100
+Epoch: 27/100
+Epoch: 28/100
+Epoch: 29/100
+Epoch: 30/100
+Epoch: 31/100
+Epoch: 32/100
+Epoch: 33/100
+Epoch: 34/100
+Epoch: 35/100
+Epoch: 36/100
+Epoch: 37/100
+Epoch: 38/100
+Epoch: 39/100
+Epoch: 40/100
+Epoch: 41/100
+Epoch: 42/100
+Epoch: 43/100
+Epoch: 44/100
+Epoch: 45/100
+Epoch: 46/100
+Epoch: 47/100
+Epoch: 48/100
+Epoch: 49/100
+Epoch: 50/100
+Epoch: 51/100
+Epoch: 52/100
+f1: 0.7513674788662358
+Model improve: 0.0000 -> 0.7514
+Epoch: 53/100
+f1: 0.7568666619105372
+Model improve: 0.7514 -> 0.7569
+Epoch: 54/100
+f1: 0.7561948162916549
+Epoch: 55/100
+f1: 0.7545399623298624
+Epoch: 56/100
+f1: 0.7548433048433049
+Epoch: 57/100
+f1: 0.7553243832150137
+Epoch: 58/100
+f1: 0.7599497276916631
+Model improve: 0.7569 -> 0.7599
+Epoch: 59/100
+f1: 0.7608587474230468
+Model improve: 0.7599 -> 0.7609
+Epoch: 60/100
+f1: 0.7611855633553145
+Model improve: 0.7609 -> 0.7612
+Epoch: 61/100
+f1: 0.7585818795723128
+Epoch: 62/100
+f1: 0.7583391977480648
+Epoch: 63/100
+f1: 0.7599845986908887
+Epoch: 64/100
+f1: 0.7635130361054193
+Model improve: 0.7612 -> 0.7635
+Epoch: 65/100
+f1: 0.7648657232593429
+Model improve: 0.7635 -> 0.7649
+Epoch: 66/100
+f1: 0.7614688515425737
+Epoch: 67/100
+f1: 0.762346115749257
+Epoch: 68/100
+f1: 0.7615441253812981
+Epoch: 69/100
+f1: 0.7630335097001764
+Epoch: 70/100
+f1: 0.7619557841351479
+Epoch: 71/100
+f1: 0.7689181614349776
+Model improve: 0.7649 -> 0.7689
+Epoch: 72/100
+f1: 0.7677253099317455
+Epoch: 73/100
+f1: 0.7623023313404323
+Epoch: 74/100
+f1: 0.7628229849595064
+Epoch: 75/100
+f1: 0.7669420330439652
+Epoch: 76/100
+f1: 0.7617525919613691
+Epoch: 77/100
+f1: 0.7661482415580776
+Epoch: 78/100
+f1: 0.7682376622475185
+Epoch: 79/100
+f1: 0.762023821925895
+Epoch: 80/100
+f1: 0.7680568621302395
+Epoch: 81/100
+f1: 0.7650627615062761
+Epoch: 82/100
+f1: 0.7639851571798643
+Epoch: 83/100
+f1: 0.7660642925345688
+Epoch: 84/100
+f1: 0.7655634777056507
+Epoch: 85/100
+f1: 0.7667780035122757
+Epoch: 86/100
+f1: 0.767785140773465
+Epoch: 87/100
+f1: 0.7643423916859772
+Epoch: 88/100
+f1: 0.7627052245450336
+Epoch: 89/100
+f1: 0.7698650410514817
+Model improve: 0.7689 -> 0.7699
+Epoch: 90/100
+f1: 0.7675822833408956
+Epoch: 91/100
+f1: 0.768614779432425
+Epoch: 92/100
+f1: 0.7712248410551829
+Model improve: 0.7699 -> 0.7712
+Epoch: 93/100
+f1: 0.7722133592286883
+Model improve: 0.7712 -> 0.7722
+Epoch: 94/100
+f1: 0.7742829725983581
+Model improve: 0.7722 -> 0.7743
+Epoch: 95/100
+f1: 0.770806298881212
+Epoch: 96/100
+f1: 0.7700609713364638
+Epoch: 97/100
+f1: 0.7668419207851384
+Epoch: 98/100
+f1: 0.7673312346974466
+Epoch: 99/100
+f1: 0.7665718349928876
+Epoch: 100/100
+f1: 0.7645339624634672
+Date :04/30/2023, 23:29:30
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Epoch: 2/100
+Epoch: 3/100
+Epoch: 4/100
+Epoch: 5/100
+Epoch: 6/100
+Epoch: 7/100
+Epoch: 8/100
+Epoch: 9/100
+Epoch: 10/100
+Epoch: 11/100
+Epoch: 12/100
+Epoch: 13/100
+Epoch: 14/100
+Epoch: 15/100
+Epoch: 16/100
+Epoch: 17/100
+Epoch: 18/100
+Epoch: 19/100
+Epoch: 20/100
+Epoch: 21/100
+Epoch: 22/100
+Epoch: 23/100
+Epoch: 24/100
+Epoch: 25/100
+Epoch: 26/100
+Epoch: 27/100
+Epoch: 28/100
+Epoch: 29/100
+Epoch: 30/100
+Epoch: 31/100
+Epoch: 32/100
+Epoch: 33/100
+Epoch: 34/100
+Epoch: 35/100
+Epoch: 36/100
+Epoch: 37/100
+Epoch: 38/100
+Epoch: 39/100
+Epoch: 40/100
+Epoch: 41/100
+Epoch: 42/100
+Epoch: 43/100
+Epoch: 44/100
+Epoch: 45/100
+Epoch: 46/100
+Epoch: 47/100
+Epoch: 48/100
+Epoch: 49/100
+Epoch: 50/100
+Epoch: 51/100
+Epoch: 52/100
+f1: 0.7590455285704171
+Model improve: 0.0000 -> 0.7590
+Epoch: 53/100
+f1: 0.7567776373086108
+Epoch: 54/100
+f1: 0.7580056179775282
+Epoch: 55/100
+f1: 0.7625167714144482
+Model improve: 0.7590 -> 0.7625
+Epoch: 56/100
+f1: 0.7550724124499841
+Epoch: 57/100
+f1: 0.7631857657276
+Model improve: 0.7625 -> 0.7632
+Epoch: 58/100
+f1: 0.7602763872241416
+Epoch: 59/100
+f1: 0.7647927953282206
+Model improve: 0.7632 -> 0.7648
+Epoch: 60/100
+f1: 0.7627802533244448
+Epoch: 61/100
+f1: 0.7662589446226514
+Model improve: 0.7648 -> 0.7663
+Epoch: 62/100
+f1: 0.7642259192540002
+Epoch: 63/100
+f1: 0.7613866666666665
+Epoch: 64/100
+f1: 0.7632910950535833
+Epoch: 65/100
+f1: 0.7625614370071779
+Epoch: 66/100
+f1: 0.7660508246619947
+Epoch: 67/100
+f1: 0.7596085661608282
+Epoch: 68/100
+f1: 0.7655333286209091
+Epoch: 69/100
+f1: 0.7650810245687402
+Epoch: 70/100
+f1: 0.7622168002788429
+Epoch: 71/100
+f1: 0.7691878508909579
+Model improve: 0.7663 -> 0.7692
+Epoch: 72/100
+f1: 0.7648546144121364
+Epoch: 73/100
+f1: 0.7651382569128456
+Epoch: 74/100
+f1: 0.7671367087721753
+Epoch: 75/100
+f1: 0.7682781781291542
+Epoch: 76/100
+f1: 0.771853667075092
+Model improve: 0.7692 -> 0.7719
+Epoch: 77/100
+f1: 0.7680485053581502
+Epoch: 78/100
+f1: 0.7689730974562965
+Epoch: 79/100
+f1: 0.7707504363001746
+Epoch: 80/100
+f1: 0.7659170765987351
+Epoch: 81/100
+f1: 0.7720606166173141
+Model improve: 0.7719 -> 0.7721
+Epoch: 82/100
+f1: 0.7673961840628508
+Epoch: 83/100
+f1: 0.7679569591950811
+Epoch: 84/100
+f1: 0.7733853006681515
+Model improve: 0.7721 -> 0.7734
+Epoch: 85/100
+f1: 0.7678022898631667
+Epoch: 86/100
+f1: 0.7720093441651268
+Epoch: 87/100
+f1: 0.769065297342308
+Epoch: 88/100
+f1: 0.7660933660933662
+Epoch: 89/100
+f1: 0.7712132263554582
+Epoch: 90/100
+f1: 0.7740876549676968
+Model improve: 0.7734 -> 0.7741
+Epoch: 91/100
+f1: 0.770692847908878
+Epoch: 92/100
+f1: 0.7738820071383581
+Epoch: 93/100
+f1: 0.7751256281407035
+Model improve: 0.7741 -> 0.7751
+Epoch: 94/100
+f1: 0.775345981755749
+Model improve: 0.7751 -> 0.7753
+Epoch: 95/100
+f1: 0.7753788011337789
+Model improve: 0.7753 -> 0.7754
+Epoch: 96/100
+f1: 0.7721284551140931
+Epoch: 97/100
+f1: 0.772458423213416
+Epoch: 98/100
+f1: 0.7700478702959573
+Epoch: 99/100
+f1: 0.7755503282659832
+Model improve: 0.7754 -> 0.7756
+Epoch: 100/100
+Date :05/01/2023, 23:32:38
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/01/2023, 23:35:44
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Date :05/01/2023, 23:36:04
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/01/2023, 23:38:01
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+f1: 0.7702950727093041
+Model improve: 0.0000 -> 0.7703
+Epoch: 2/100
+Date :05/01/2023, 23:40:53
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+f1: 0.7702950727093041
+Model improve: 0.0000 -> 0.7703
+Epoch: 2/100
+Date :05/01/2023, 23:43:45
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+f1: 0.7702950727093041
+Model improve: 0.0000 -> 0.7703
+Epoch: 2/100
+Date :05/01/2023, 23:46:04
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/01/2023, 23:46:33
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+f1: 0.7702950727093041
+Model improve: 0.0000 -> 0.7703
+Epoch: 2/100
+Date :05/01/2023, 23:48:35
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+f1: 0.7702950727093041
+Model improve: 0.0000 -> 0.7703
+Epoch: 2/100
+Date :05/01/2023, 23:50:49
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+f1: 0.7701109083251438
+Model improve: 0.0000 -> 0.7701
+Epoch: 2/100
+f1: 0.7698987988934411
+Epoch: 3/100
+Date :05/01/2023, 23:55:35
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+f1: 0.7701109083251438
+Model improve: 0.0000 -> 0.7701
+Epoch: 2/100
+f1: 0.7698987988934411
+Epoch: 3/100
+f1: 0.7685464098073556
+Epoch: 4/100
+f1: 0.7707559728158061
+Model improve: 0.7701 -> 0.7708
+Epoch: 5/100
+Date :05/02/2023, 00:02:56
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/02/2023, 00:04:56
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Val cmap: 0.8428686935968017
+Model improve: 0.0000 -> 0.8429
+Epoch: 2/100
+Val cmap: 0.8438183209277238
+Model improve: 0.8429 -> 0.8438
+Epoch: 3/100
+Date :05/02/2023, 00:09:53
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/02/2023, 00:10:10
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Epoch: 2/100
+Epoch: 3/100
+Epoch: 4/100
+Epoch: 5/100
+Epoch: 6/100
+Epoch: 7/100
+Epoch: 8/100
+Epoch: 9/100
+Epoch: 10/100
+Epoch: 11/100
+Epoch: 12/100
+Epoch: 13/100
+Epoch: 14/100
+Epoch: 15/100
+Epoch: 16/100
+Epoch: 17/100
+Epoch: 18/100
+Epoch: 19/100
+Epoch: 20/100
+Epoch: 21/100
+Epoch: 22/100
+Epoch: 23/100
+Epoch: 24/100
+Epoch: 25/100
+Epoch: 26/100
+Epoch: 27/100
+Epoch: 28/100
+Epoch: 29/100
+Epoch: 30/100
+Epoch: 31/100
+Epoch: 32/100
+Epoch: 33/100
+Epoch: 34/100
+Epoch: 35/100
+Epoch: 36/100
+Epoch: 37/100
+Epoch: 38/100
+Epoch: 39/100
+Epoch: 40/100
+Epoch: 41/100
+Epoch: 42/100
+Epoch: 43/100
+Epoch: 44/100
+Epoch: 45/100
+Epoch: 46/100
+Epoch: 47/100
+Epoch: 48/100
+Epoch: 49/100
+Epoch: 50/100
+Epoch: 51/100
+Epoch: 52/100
+Epoch: 53/100
+Epoch: 54/100
+Epoch: 55/100
+Epoch: 56/100
+Epoch: 57/100
+Epoch: 58/100
+Epoch: 59/100
+Epoch: 60/100
+Epoch: 61/100
+Epoch: 62/100
+Epoch: 63/100
+Epoch: 64/100
+Epoch: 65/100
+Epoch: 66/100
+Epoch: 67/100
+Epoch: 68/100
+Epoch: 69/100
+Epoch: 70/100
+Epoch: 71/100
+Epoch: 72/100
+Train loss: 2.6408, val loss: 2.0462
+Date :05/02/2023, 16:38:06
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+1000
+1127
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 145.6466
+Train loss: 145.6466, val loss: 11.0726
+f1: 0.012018027040560842
+Val cmap: 0.9248309742044705
+Model improve: 0.0000 -> 0.0120
+Epoch: 2/100
+Date :05/02/2023, 16:39:46
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 50
+learningrate: 0.001
+weightdecay: 0.001
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.001
+)
+Epoch: 1/50
+Date :05/02/2023, 16:40:47
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 50
+learningrate: 0.01
+weightdecay: 0.001
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.01
+    lr: 0.01
+    maximize: False
+    weight_decay: 0.001
+)
+Epoch: 1/50
+Date :05/02/2023, 16:43:59
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 50
+learningrate: 0.01
+weightdecay: 0.001
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.01
+    lr: 0.01
+    maximize: False
+    weight_decay: 0.001
+)
+Epoch: 1/50
+Train loss: 8.5883
+Epoch: 2/50
+Date :05/02/2023, 17:05:38
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 50
+learningrate: 0.001
+weightdecay: 0.001
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.001
+)
+Epoch: 1/50
+Train loss: 7.9674
+Epoch: 2/50
+Train loss: 5.8571
+Epoch: 3/50
+Train loss: 5.5699
+Epoch: 4/50
+Train loss: 5.4095
+Epoch: 5/50
+Train loss: 5.2887
+Epoch: 6/50
+Train loss: 5.1883
+Epoch: 7/50
+Train loss: 5.1001
+Epoch: 8/50
+Train loss: 5.0214
+Epoch: 9/50
+Train loss: 4.9508
+Epoch: 10/50
+Date :05/02/2023, 19:16:45
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 50
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 0
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+61125
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/50
+Train loss: 7.8038
+Epoch: 2/50
+Train loss: 5.1783
+Epoch: 3/50
+Train loss: 4.5168
+Epoch: 4/50
+Train loss: 3.9848
+Epoch: 5/50
+Date :05/02/2023, 20:22:09
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 50
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 0
+model_name: tf_efficientnetv2_b1
+mix_up: 0.5
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+61125
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/50
+Train loss: 7.6978
+Epoch: 2/50
+Train loss: 5.2616
+Epoch: 3/50
+Train loss: 4.5800
+Epoch: 4/50
+Train loss: 4.0320
+Epoch: 5/50
+Train loss: 3.5580
+Epoch: 6/50
+Train loss: 3.1291
+Epoch: 7/50
+Train loss: 2.7661
+Epoch: 8/50
+Train loss: 2.4774
+Epoch: 9/50
+Train loss: 2.2475
+Epoch: 10/50
+Train loss: 2.0750
+Epoch: 11/50
+Train loss: 1.9468
+Epoch: 12/50
+Train loss: 1.8433
+Epoch: 13/50
+Train loss: 1.7600
+Epoch: 14/50
+Train loss: 1.6899
+Epoch: 15/50
+Train loss: 1.6309
+Epoch: 16/50
+Train loss: 1.5742
+Epoch: 17/50
+Train loss: 1.5269
+Epoch: 18/50
+Train loss: 1.4841
+Epoch: 19/50
+Train loss: 1.4418
+Epoch: 20/50
+Train loss: 1.4009
+Epoch: 21/50
+Train loss: 1.3666
+Epoch: 22/50
+Train loss: 1.3324
+Train loss: 1.3324, val loss: 4.0130
+f1: 0.5658605472197704
+Val cmap: 0.659455775884067
+Model improve: 0.0000 -> 0.5659
+Epoch: 23/50
+Train loss: 1.2954
+Train loss: 1.2954, val loss: 4.0063
+f1: 0.5727115228228972
+Val cmap: 0.6619192656562848
+Model improve: 0.5659 -> 0.5727
+Epoch: 24/50
+Train loss: 1.2661
+Train loss: 1.2661, val loss: 4.0395
+f1: 0.5746155740877581
+Val cmap: 0.6649113635931451
+Model improve: 0.5727 -> 0.5746
+Epoch: 25/50
+Train loss: 1.2355
+Train loss: 1.2355, val loss: 4.0243
+f1: 0.5819523792626238
+Val cmap: 0.6675620839812483
+Model improve: 0.5746 -> 0.5820
+Epoch: 26/50
+Train loss: 1.2065
+Train loss: 1.2065, val loss: 4.0370
+f1: 0.5812811362753065
+Val cmap: 0.6683587152316731
+Epoch: 27/50
+Train loss: 1.1778
+Train loss: 1.1778, val loss: 4.0836
+f1: 0.5831533477321815
+Val cmap: 0.6691153233346389
+Model improve: 0.5820 -> 0.5832
+Epoch: 28/50
+Train loss: 1.1516
+Train loss: 1.1516, val loss: 4.0198
+f1: 0.5872379668712091
+Val cmap: 0.672102653023729
+Model improve: 0.5832 -> 0.5872
+Epoch: 29/50
+Train loss: 1.1233
+Train loss: 1.1233, val loss: 4.0020
+f1: 0.5877948862833734
+Val cmap: 0.673235306423861
+Model improve: 0.5872 -> 0.5878
+Epoch: 30/50
+Train loss: 1.1015
+Train loss: 1.1015, val loss: 4.0406
+f1: 0.5902407841466013
+Val cmap: 0.6751380086214434
+Model improve: 0.5878 -> 0.5902
+Epoch: 31/50
+Train loss: 1.0749
+Train loss: 1.0749, val loss: 4.0722
+f1: 0.5926426159587701
+Val cmap: 0.6784003433974035
+Model improve: 0.5902 -> 0.5926
+Epoch: 32/50
+Train loss: 1.0504
+Train loss: 1.0504, val loss: 4.0621
+f1: 0.5928581570353543
+Val cmap: 0.6777682384798912
+Model improve: 0.5926 -> 0.5929
+Epoch: 33/50
+Train loss: 1.0294
+Train loss: 1.0294, val loss: 4.1160
+f1: 0.5943897428632146
+Val cmap: 0.6774174665594979
+Model improve: 0.5929 -> 0.5944
+Epoch: 34/50
+Train loss: 1.0075
+Train loss: 1.0075, val loss: 4.1199
+f1: 0.5964403241215809
+Val cmap: 0.6805412634783382
+Model improve: 0.5944 -> 0.5964
+Epoch: 35/50
+Train loss: 0.9863
+Train loss: 0.9863, val loss: 4.1507
+f1: 0.5962061535200819
+Val cmap: 0.6785380860437946
+Epoch: 36/50
+Train loss: 0.9668
+Train loss: 0.9668, val loss: 4.2403
+f1: 0.5956397703659353
+Val cmap: 0.6805025947896874
+Epoch: 37/50
+Train loss: 0.9493
+Train loss: 0.9493, val loss: 4.2915
+f1: 0.596892138939671
+Val cmap: 0.678634894834967
+Model improve: 0.5964 -> 0.5969
+Epoch: 38/50
+Train loss: 0.9330
+Train loss: 0.9330, val loss: 4.3428
+f1: 0.5957402161368167
+Val cmap: 0.6791658743194162
+Epoch: 39/50
+Train loss: 0.9175
+Train loss: 0.9175, val loss: 4.4929
+f1: 0.5953287016024859
+Val cmap: 0.6790230246064981
+Epoch: 40/50
+Train loss: 0.9052
+Train loss: 0.9052, val loss: 4.5534
+f1: 0.5941440033343753
+Val cmap: 0.6779504866303494
+Epoch: 41/50
+Train loss: 0.8944
+Train loss: 0.8944, val loss: 4.6287
+f1: 0.5940394823578391
+Val cmap: 0.6778907762994593
+Epoch: 42/50
+Train loss: 0.8842
+Train loss: 0.8842, val loss: 4.7603
+f1: 0.5915522191856644
+Val cmap: 0.6770166426925422
+Epoch: 43/50
+Train loss: 0.8765
+Train loss: 0.8765, val loss: 4.8324
+f1: 0.5904775057832408
+Val cmap: 0.6762907749370154
+Epoch: 44/50
+Train loss: 0.8708
+Train loss: 0.8708, val loss: 4.8760
+f1: 0.5894425123101821
+Val cmap: 0.6758496652152173
+Epoch: 45/50
+Date :05/03/2023, 07:13:11
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 60
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 60
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+66861
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/60
+Train loss: 9.1675
+Epoch: 2/60
+Train loss: 5.5489
+Epoch: 3/60
+Train loss: 4.8070
+Epoch: 4/60
+Train loss: 4.2489
+Epoch: 5/60
+Train loss: 3.8042
+Epoch: 6/60
+Train loss: 3.3983
+Epoch: 7/60
+Train loss: 3.0416
+Epoch: 8/60
+Train loss: 2.7414
+Epoch: 9/60
+Train loss: 2.4988
+Epoch: 10/60
+Train loss: 2.3009
+Epoch: 11/60
+Train loss: 2.1605
+Epoch: 12/60
+Train loss: 2.0430
+Epoch: 13/60
+Train loss: 1.9564
+Epoch: 14/60
+Train loss: 1.8746
+Epoch: 15/60
+Date :05/02/2023, 23:37:34
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.4
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/25
+Date :05/02/2023, 23:38:34
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 25
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.4
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/25
+Train loss: 8.9726
+Epoch: 2/25
+Train loss: 5.3632
+Epoch: 3/25
+Train loss: 4.5714
+Epoch: 4/25
+Train loss: 3.9665
+Epoch: 5/25
+Train loss: 3.5033
+Epoch: 6/25
+Train loss: 3.0831
+Epoch: 7/25
+Train loss: 2.6785
+Epoch: 8/25
+Train loss: 2.3509
+Epoch: 9/25
+Train loss: 2.0884
+Epoch: 10/25
+Train loss: 1.8684
+Epoch: 11/25
+Train loss: 1.6937
+Epoch: 12/25
+Date :05/03/2023, 06:29:15
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 9.4155
+Epoch: 2/100
+Train loss: 5.4229
+Epoch: 3/100
+Train loss: 4.6612
+Epoch: 4/100
+Train loss: 4.1040
+Epoch: 5/100
+Train loss: 3.6839
+Epoch: 6/100
+Date :05/03/2023, 19:11:50
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 9.4204
+Epoch: 2/100
+Date :05/03/2023, 19:21:33
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/03/2023, 19:22:18
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/03/2023, 19:22:40
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.4
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/03/2023, 19:23:50
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.4
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Epoch: 2/100
+Epoch: 3/100
+Date :05/03/2023, 19:42:17
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.4
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 9.31381
+Epoch: 2/100
+Train loss: 5.20264
+Epoch: 3/100
+Train loss: 4.39733
+Epoch: 4/100
+Train loss: 3.83103
+Epoch: 5/100
+Train loss: 3.40850
+Epoch: 6/100
+Train loss: 3.03246
+Epoch: 7/100
+Train loss: 2.70249
+Epoch: 8/100
+Train loss: 2.43295
+Epoch: 9/100
+Train loss: 2.20361
+Epoch: 10/100
+Train loss: 2.03331
+Epoch: 11/100
+Train loss: 1.90827
+Epoch: 12/100
+Train loss: 1.79925
+Epoch: 13/100
+Train loss: 1.71580
+Epoch: 14/100
+Train loss: 1.65544
+Epoch: 15/100
+Train loss: 1.60930
+Epoch: 16/100
+Train loss: 1.56506
+Epoch: 17/100
+Train loss: 1.52987
+Epoch: 18/100
+Train loss: 1.49118
+Epoch: 19/100
+Train loss: 1.46133
+Epoch: 20/100
+Train loss: 1.43149
+Epoch: 21/100
+Train loss: 1.40277
+Epoch: 22/100
+Train loss: 1.38191
+Epoch: 23/100
+Train loss: 1.35880
+Epoch: 24/100
+Train loss: 1.33611
+Epoch: 25/100
+Train loss: 1.31844
+Epoch: 26/100
+Train loss: 1.29612
+Epoch: 27/100
+Train loss: 1.27604
+Epoch: 28/100
+Train loss: 1.25861
+Epoch: 29/100
+Train loss: 1.24245
+Epoch: 30/100
+Train loss: 1.22682
+Epoch: 31/100
+Train loss: 1.21022
+Epoch: 32/100
+Train loss: 1.19808
+Epoch: 33/100
+Train loss: 1.18465
+Epoch: 34/100
+Train loss: 1.17074
+Epoch: 35/100
+Train loss: 1.15778
+Epoch: 36/100
+Train loss: 1.14422
+Epoch: 37/100
+Train loss: 1.13396
+Epoch: 38/100
+Train loss: 1.12025
+Epoch: 39/100
+Train loss: 1.10696
+Epoch: 40/100
+Train loss: 1.09716
+Epoch: 41/100
+Train loss: 1.08484
+Epoch: 42/100
+Train loss: 1.07167
+Train loss: 1.0717, val loss: 3.44456
+f1: 0.6208487084870848
+Val cmap: 0.7122811018351459
+Model improve: 0.00000 -> 0.62085
+Epoch: 43/100
+Train loss: 1.06150
+Train loss: 1.0615, val loss: 3.55005
+f1: 0.6220088888888888
+Val cmap: 0.711724692288212
+Model improve: 0.62085 -> 0.62201
+Epoch: 44/100
+Train loss: 1.05016
+Train loss: 1.0502, val loss: 3.59972
+f1: 0.6259869243685471
+Val cmap: 0.7118350877366514
+Model improve: 0.62201 -> 0.62599
+Epoch: 45/100
+Train loss: 1.03920
+Train loss: 1.0392, val loss: 3.63682
+f1: 0.6249731047837624
+Val cmap: 0.7117100634646524
+Epoch: 46/100
+Train loss: 1.03227
+Train loss: 1.0323, val loss: 3.56939
+f1: 0.6233201440131181
+Val cmap: 0.7129613233408737
+Epoch: 47/100
+Train loss: 1.02071
+Train loss: 1.0207, val loss: 3.50042
+f1: 0.6281639425283299
+Val cmap: 0.7160765357795336
+Model improve: 0.62599 -> 0.62816
+Epoch: 48/100
+Train loss: 1.01212
+Train loss: 1.0121, val loss: 3.57482
+f1: 0.6259890227386128
+Val cmap: 0.7139610926912396
+Epoch: 49/100
+Train loss: 1.00218
+Train loss: 1.0022, val loss: 3.60974
+f1: 0.6292134831460673
+Val cmap: 0.7166538818560577
+Model improve: 0.62816 -> 0.62921
+Epoch: 50/100
+Train loss: 0.99557
+Train loss: 0.9956, val loss: 3.63775
+f1: 0.6300229621125143
+Val cmap: 0.7162401708914506
+Model improve: 0.62921 -> 0.63002
+Epoch: 51/100
+Train loss: 0.98628
+Train loss: 0.9863, val loss: 3.57496
+f1: 0.6291767382340395
+Val cmap: 0.7174605154425686
+Epoch: 52/100
+Train loss: 0.97661
+Train loss: 0.9766, val loss: 3.63148
+f1: 0.6292302234835049
+Val cmap: 0.7171602265343603
+Epoch: 53/100
+Train loss: 0.97042
+Train loss: 0.9704, val loss: 3.63794
+f1: 0.6323756232289537
+Val cmap: 0.7175296429969173
+Model improve: 0.63002 -> 0.63238
+Epoch: 54/100
+Train loss: 0.96210
+Train loss: 0.9621, val loss: 3.60444
+f1: 0.6313131313131313
+Val cmap: 0.7178653755610866
+Epoch: 55/100
+Train loss: 0.95407
+Train loss: 0.9541, val loss: 3.62004
+f1: 0.6329625168284561
+Val cmap: 0.7189694830606863
+Model improve: 0.63238 -> 0.63296
+Epoch: 56/100
+Train loss: 0.94497
+Train loss: 0.9450, val loss: 3.71471
+f1: 0.6326611025539993
+Val cmap: 0.7185121464241702
+Epoch: 57/100
+Train loss: 0.93860
+Train loss: 0.9386, val loss: 3.64756
+f1: 0.634194760537417
+Val cmap: 0.7188693719447026
+Model improve: 0.63296 -> 0.63419
+Epoch: 58/100
+Train loss: 0.93005
+Train loss: 0.9301, val loss: 3.59393
+f1: 0.6373104718719003
+Val cmap: 0.7209606305415367
+Model improve: 0.63419 -> 0.63731
+Epoch: 59/100
+Train loss: 0.92178
+Train loss: 0.9218, val loss: 3.74974
+f1: 0.6318634423897581
+Val cmap: 0.7207514740973536
+Epoch: 60/100
+Train loss: 0.91508
+Train loss: 0.9151, val loss: 3.74514
+f1: 0.6357917185000889
+Val cmap: 0.7208917615393604
+Epoch: 61/100
+Train loss: 0.90932
+Train loss: 0.9093, val loss: 3.69713
+f1: 0.6355616962482729
+Val cmap: 0.7213776850899649
+Epoch: 62/100
+Train loss: 0.90284
+Train loss: 0.9028, val loss: 3.72152
+f1: 0.6359119943222143
+Val cmap: 0.7213773026371426
+Epoch: 63/100
+Train loss: 0.89696
+Train loss: 0.8970, val loss: 3.80683
+f1: 0.6358516629476144
+Val cmap: 0.7224544353862823
+Epoch: 64/100
+Train loss: 0.89163
+Train loss: 0.8916, val loss: 3.80943
+f1: 0.6344969199178645
+Val cmap: 0.7214941697214737
+Epoch: 65/100
+Train loss: 0.88515
+Train loss: 0.8851, val loss: 3.79517
+f1: 0.6361711139347734
+Val cmap: 0.7225917061806584
+Epoch: 66/100
+Train loss: 0.87988
+Train loss: 0.8799, val loss: 3.83382
+f1: 0.6372874179662692
+Val cmap: 0.7223467614530937
+Epoch: 67/100
+Train loss: 0.87458
+Train loss: 0.8746, val loss: 3.90866
+f1: 0.6356758278495266
+Val cmap: 0.7224350699208291
+Epoch: 68/100
+Train loss: 0.86867
+Train loss: 0.8687, val loss: 3.86074
+f1: 0.6326809285389168
+Val cmap: 0.7212962452753172
+Epoch: 69/100
+Train loss: 0.86317
+Train loss: 0.8632, val loss: 3.86780
+f1: 0.634366789280084
+Val cmap: 0.7218563560344291
+Epoch: 70/100
+Train loss: 0.85872
+Train loss: 0.8587, val loss: 4.02230
+f1: 0.6351786965662227
+Val cmap: 0.7218374025455633
+Epoch: 71/100
+Train loss: 0.85502
+Train loss: 0.8550, val loss: 4.03019
+f1: 0.6348206474190726
+Val cmap: 0.7225359006269725
+Epoch: 72/100
+Train loss: 0.85046
+Train loss: 0.8505, val loss: 4.02234
+f1: 0.6318137459919142
+Val cmap: 0.7212370085933621
+Epoch: 73/100
+Train loss: 0.84564
+Train loss: 0.8456, val loss: 4.11523
+f1: 0.6350390407138874
+Val cmap: 0.7219055283255258
+Epoch: 74/100
+Train loss: 0.84190
+Train loss: 0.8419, val loss: 4.14380
+f1: 0.6323595975070506
+Val cmap: 0.7212504043659895
+Epoch: 75/100
+Train loss: 0.83858
+Train loss: 0.8386, val loss: 4.17491
+f1: 0.632791892267111
+Val cmap: 0.7209524111299448
+Epoch: 76/100
+Train loss: 0.83505
+Train loss: 0.8351, val loss: 4.24501
+f1: 0.631033052136634
+Val cmap: 0.7202426620255642
+Epoch: 77/100
+Train loss: 0.83102
+Train loss: 0.8310, val loss: 4.20023
+f1: 0.6309672063096721
+Val cmap: 0.7200936718014682
+Epoch: 78/100
+Train loss: 0.82785
+Train loss: 0.8279, val loss: 4.20503
+f1: 0.6305939226519337
+Val cmap: 0.7202258789010527
+Epoch: 79/100
+Train loss: 0.82589
+Train loss: 0.8259, val loss: 4.34084
+f1: 0.6299930891499654
+Val cmap: 0.7199803278010488
+Epoch: 80/100
+Train loss: 0.82342
+Train loss: 0.8234, val loss: 4.44394
+f1: 0.6316914273896108
+Val cmap: 0.720440995317288
+Epoch: 81/100
+Train loss: 0.82100
+Train loss: 0.8210, val loss: 4.40131
+f1: 0.6293691830403308
+Val cmap: 0.7197239733100479
+Epoch: 82/100
+Train loss: 0.81862
+Train loss: 0.8186, val loss: 4.39482
+f1: 0.6292498279421885
+Val cmap: 0.718995857399478
+Epoch: 83/100
+Date :05/04/2023, 06:36:29
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Date :05/04/2023, 06:36:37
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 9.13959
+Epoch: 2/100
+Train loss: 4.86818
+Epoch: 3/100
+Train loss: 4.01281
+Epoch: 4/100
+Train loss: 3.42383
+Epoch: 5/100
+Train loss: 3.00108
+Epoch: 6/100
+Train loss: 2.60532
+Epoch: 7/100
+Train loss: 2.28492
+Epoch: 8/100
+Train loss: 2.01279
+Epoch: 9/100
+Train loss: 1.82431
+Epoch: 10/100
+Train loss: 1.66732
+Epoch: 11/100
+Train loss: 1.55877
+Epoch: 12/100
+Train loss: 1.46839
+Epoch: 13/100
+Train loss: 1.39317
+Epoch: 14/100
+Train loss: 1.33502
+Epoch: 15/100
+Train loss: 1.29438
+Epoch: 16/100
+Train loss: 1.26115
+Epoch: 17/100
+Train loss: 1.22286
+Epoch: 18/100
+Train loss: 1.19739
+Epoch: 19/100
+Train loss: 1.16749
+Epoch: 20/100
+Train loss: 1.14687
+Epoch: 21/100
+Train loss: 1.12031
+Epoch: 22/100
+Date :05/04/2023, 10:02:22
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/04/2023, 10:02:39
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 8.77091
+Epoch: 2/100
+Train loss: 4.87883
+Epoch: 3/100
+Train loss: 4.01642
+Epoch: 4/100
+Train loss: 3.42516
+Epoch: 5/100
+Train loss: 2.99293
+Epoch: 6/100
+Train loss: 2.60960
+Epoch: 7/100
+Train loss: 2.28012
+Epoch: 8/100
+Train loss: 2.01023
+Epoch: 9/100
+Train loss: 1.80916
+Epoch: 10/100
+Train loss: 1.67073
+Epoch: 11/100
+Train loss: 1.54490
+Epoch: 12/100
+Train loss: 1.46267
+Epoch: 13/100
+Train loss: 1.39857
+Epoch: 14/100
+Train loss: 1.34376
+Epoch: 15/100
+Train loss: 1.30206
+Epoch: 16/100
+Train loss: 1.26151
+Epoch: 17/100
+Train loss: 1.23255
+Epoch: 18/100
+Train loss: 1.19861
+Epoch: 19/100
+Train loss: 1.17420
+Epoch: 20/100
+Train loss: 1.15067
+Epoch: 21/100
+Train loss: 1.13375
+Epoch: 22/100
+Train loss: 1.10227
+Epoch: 23/100
+Train loss: 1.08016
+Epoch: 24/100
+Train loss: 1.07102
+Epoch: 25/100
+Train loss: 1.05384
+Epoch: 26/100
+Train loss: 1.03282
+Epoch: 27/100
+Train loss: 1.02292
+Epoch: 28/100
+Train loss: 1.00775
+Epoch: 29/100
+Train loss: 0.98993
+Epoch: 30/100
+Train loss: 0.97773
+Epoch: 31/100
+Train loss: 0.96531
+Epoch: 32/100
+Train loss: 0.95071
+Epoch: 33/100
+Train loss: 0.93887
+Epoch: 34/100
+Train loss: 0.92554
+Epoch: 35/100
+Train loss: 0.91671
+Epoch: 36/100
+Train loss: 0.90772
+Epoch: 37/100
+Train loss: 0.89571
+Epoch: 38/100
+Train loss: 0.88681
+Epoch: 39/100
+Train loss: 0.87607
+Epoch: 40/100
+Train loss: 0.86566
+Epoch: 41/100
+Train loss: 0.85720
+Epoch: 42/100
+Train loss: 0.84699
+Train loss: 0.8470, val loss: 3.43713
+f1: 0.6282751469063256
+Val cmap: 0.7217946422735239
+Model improve: 0.00000 -> 0.62828
+Epoch: 43/100
+Date :05/04/2023, 15:27:07
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 8.03900
+Epoch: 2/100
+Train loss: 5.27301
+Epoch: 3/100
+Train loss: 4.57617
+Epoch: 4/100
+Train loss: 4.02865
+Epoch: 5/100
+Train loss: 3.55471
+Epoch: 6/100
+Train loss: 3.14429
+Epoch: 7/100
+Train loss: 2.81382
+Epoch: 8/100
+Train loss: 2.55458
+Epoch: 9/100
+Train loss: 2.35020
+Epoch: 10/100
+Train loss: 2.20988
+Epoch: 11/100
+Train loss: 2.08851
+Epoch: 12/100
+Train loss: 2.00567
+Epoch: 13/100
+Train loss: 1.93605
+Epoch: 14/100
+Train loss: 1.87837
+Epoch: 15/100
+Date :05/04/2023, 17:58:26
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/04/2023, 18:00:07
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/04/2023, 18:00:59
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/04/2023, 18:01:11
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Date :05/04/2023, 18:01:18
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/04/2023, 18:04:34
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 8.34280
+Train loss: 8.3428, val loss: 5.13222
+f1: 0.2673252202250624
+Val cmap: 0.5201516043232196
+Model improve: 0.00000 -> 0.26733
+Epoch: 2/100
+Train loss: 5.33219
+Train loss: 5.3322, val loss: 4.90167
+f1: 0.403729519326514
+Val cmap: 0.6031398589264205
+Model improve: 0.26733 -> 0.40373
+Epoch: 3/100
+Train loss: 4.62055
+Train loss: 4.6205, val loss: 4.88651
+f1: 0.46146652497343255
+Val cmap: 0.6318720997886651
+Model improve: 0.40373 -> 0.46147
+Epoch: 4/100
+Train loss: 3.98569
+Train loss: 3.9857, val loss: 5.40719
+f1: 0.47016365925304243
+Val cmap: 0.6337694474609734
+Model improve: 0.46147 -> 0.47016
+Epoch: 5/100
+Date :05/04/2023, 18:54:45
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 7.81223
+Train loss: 7.8122, val loss: 4.53872
+f1: 0.304539660751054
+Val cmap: 0.5520757110316281
+Model improve: 0.00000 -> 0.30454
+Epoch: 2/100
+Date :05/04/2023, 19:07:47
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 7.72507
+Train loss: 7.7251, val loss: 4.51133
+f1: 0.304660893256787
+Val cmap: 0.5509975097484694
+Model improve: 0.00000 -> 0.30466
+Epoch: 2/100
+Train loss: 5.13203
+Train loss: 5.1320, val loss: 3.74020
+f1: 0.45824706694271916
+Val cmap: 0.6490438820903673
+Model improve: 0.30466 -> 0.45825
+Epoch: 3/100
+Train loss: 4.45767
+Train loss: 4.4577, val loss: 3.54611
+f1: 0.5140145215592423
+Val cmap: 0.668390422841725
+Model improve: 0.45825 -> 0.51401
+Epoch: 4/100
+Train loss: 3.92464
+Train loss: 3.9246, val loss: 3.57257
+f1: 0.5294140338695368
+Val cmap: 0.6706905574494907
+Model improve: 0.51401 -> 0.52941
+Epoch: 5/100
+Date :05/04/2023, 19:57:35
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/04/2023, 19:58:53
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 50
+nmels: 128
+fmax: 14000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 7.88979
+Epoch: 2/100
+Date :05/04/2023, 20:13:48
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 50
+nmels: 128
+fmax: 14000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 7.88979
+Train loss: 7.8898, val loss: 4.70977
+f1: 0.27602905569007263
+Val cmap: 0.5288682980249417
+Model improve: 0.00000 -> 0.27603
+Epoch: 2/100
+Date :05/04/2023, 20:30:03
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 7.81789
+Train loss: 7.8179, val loss: 4.53346
+f1: 0.3057324840764331
+Val cmap: 0.5550001051262656
+Model improve: 0.00000 -> 0.30573
+Epoch: 2/100
+Date :05/04/2023, 20:42:44
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 14000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 7.89684
+Train loss: 7.8968, val loss: 4.66594
+f1: 0.2867181314330958
+Val cmap: 0.537643397522208
+Model improve: 0.00000 -> 0.28672
+Epoch: 2/100
+Date :05/04/2023, 20:57:04
+Duration: 5
+Sample rate: 32000
+nfft: 2048
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 7.77793
+Train loss: 7.7779, val loss: 4.58175
+f1: 0.2936735985973798
+Val cmap: 0.5445251079165485
+Model improve: 0.00000 -> 0.29367
+Epoch: 2/100
+Date :05/04/2023, 21:09:55
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/04/2023, 21:10:46
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/04/2023, 21:11:30
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/04/2023, 21:16:18
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/04/2023, 21:16:34
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 7.76561
+Train loss: 7.7656, val loss: 4.49129
+Date :05/04/2023, 21:33:56
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/04/2023, 21:35:11
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 37.73802
+Train loss: 37.7380, val loss: 10.88391
+f1: 0.03265411068972167
+Val cmap: 0.4284402078771739
+Model improve: 0.00000 -> 0.03265
+Epoch: 2/100
+Date :05/04/2023, 21:49:20
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 7.76561
+Train loss: 7.7656, val loss: 4.52180
+f1: 0.3056302890965123
+Val cmap: 0.5540144412841832
+Model improve: 0.00000 -> 0.30563
+Epoch: 2/100
+Train loss: 5.19599
+Train loss: 5.1960, val loss: 3.84081
+f1: 0.4463269584563385
+Val cmap: 0.6374260647108209
+Model improve: 0.30563 -> 0.44633
+Epoch: 3/100
+Date :05/04/2023, 22:14:03
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 7.81789
+Epoch: 2/100
+Train loss: 5.23406
+Epoch: 3/100
+Train loss: 4.54013
+Epoch: 4/100
+Train loss: 3.98719
+Epoch: 5/100
+Train loss: 3.51062
+Epoch: 6/100
+Train loss: 3.10693
+Epoch: 7/100
+Train loss: 2.76945
+Epoch: 8/100
+Train loss: 2.51671
+Epoch: 9/100
+Train loss: 2.32685
+Epoch: 10/100
+Train loss: 2.18565
+Epoch: 11/100
+Train loss: 2.08134
+Epoch: 12/100
+Train loss: 1.99557
+Epoch: 13/100
+Train loss: 1.92241
+Epoch: 14/100
+Train loss: 1.86612
+Epoch: 15/100
+Train loss: 1.81519
+Epoch: 16/100
+Train loss: 1.76838
+Epoch: 17/100
+Train loss: 1.73245
+Epoch: 18/100
+Train loss: 1.69401
+Epoch: 19/100
+Train loss: 1.65767
+Epoch: 20/100
+Train loss: 1.63681
+Epoch: 21/100
+Train loss: 1.59937
+Epoch: 22/100
+Train loss: 1.57483
+Epoch: 23/100
+Train loss: 1.55035
+Epoch: 24/100
+Train loss: 1.53064
+Epoch: 25/100
+Train loss: 1.50514
+Epoch: 26/100
+Train loss: 1.48556
+Epoch: 27/100
+Train loss: 1.46394
+Epoch: 28/100
+Train loss: 1.44260
+Epoch: 29/100
+Train loss: 1.42602
+Epoch: 30/100
+Train loss: 1.40934
+Epoch: 31/100
+Train loss: 1.39108
+Epoch: 32/100
+Train loss: 1.37610
+Epoch: 33/100
+Train loss: 1.36045
+Epoch: 34/100
+Train loss: 1.34292
+Epoch: 35/100
+Train loss: 1.32903
+Epoch: 36/100
+Train loss: 1.31422
+Epoch: 37/100
+Train loss: 1.30037
+Epoch: 38/100
+Train loss: 1.28723
+Epoch: 39/100
+Train loss: 1.27488
+Epoch: 40/100
+Train loss: 1.26175
+Epoch: 41/100
+Train loss: 1.24860
+Epoch: 42/100
+Train loss: 1.23761
+Epoch: 43/100
+Train loss: 1.22644
+Epoch: 44/100
+Train loss: 1.21218
+Epoch: 45/100
+Train loss: 1.20331
+Epoch: 46/100
+Train loss: 1.19023
+Epoch: 47/100
+Train loss: 1.18025
+Epoch: 48/100
+Train loss: 1.17071
+Epoch: 49/100
+Train loss: 1.16099
+Epoch: 50/100
+Train loss: 1.14903
+Epoch: 51/100
+Train loss: 1.14137
+Epoch: 52/100
+Train loss: 1.13062
+Train loss: 1.1306, val loss: 3.97791
+f1: 0.6158592808000567
+Val cmap: 0.7045997538559257
+Model improve: 0.00000 -> 0.61586
+Epoch: 53/100
+Date :05/05/2023, 07:32:28
+Duration: 5
+Sample rate: 32000
+nfft: 1024
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 96
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 10.48984
+Epoch: 2/100
+Train loss: 5.42970
+Epoch: 3/100
+Train loss: 4.65485
+Epoch: 4/100
+Train loss: 4.08041
+Epoch: 5/100
+Train loss: 3.66423
+Epoch: 6/100
+Train loss: 3.37481
+Epoch: 7/100
+Train loss: 3.07939
+Epoch: 8/100
+Train loss: 2.81408
+Epoch: 9/100
+Train loss: 2.56839
+Epoch: 10/100
+Train loss: 2.37068
+Epoch: 11/100
+Train loss: 2.20834
+Epoch: 12/100
+Train loss: 2.09262
+Epoch: 13/100
+Train loss: 1.99790
+Epoch: 14/100
+Train loss: 1.92897
+Epoch: 15/100
+Train loss: 1.86446
+Epoch: 16/100
+Train loss: 1.80859
+Epoch: 17/100
+Train loss: 1.76997
+Epoch: 18/100
+Train loss: 1.73018
+Epoch: 19/100
+Train loss: 1.69269
+Epoch: 20/100
+Train loss: 1.66028
+Epoch: 21/100
+Train loss: 1.62637
+Epoch: 22/100
+Train loss: 1.60283
+Epoch: 23/100
+Train loss: 1.57653
+Epoch: 24/100
+Train loss: 1.55549
+Epoch: 25/100
+Train loss: 1.53011
+Epoch: 26/100
+Train loss: 1.50924
+Epoch: 27/100
+Train loss: 1.49042
+Epoch: 28/100
+Train loss: 1.47130
+Epoch: 29/100
+Train loss: 1.45005
+Epoch: 30/100
+Train loss: 1.42885
+Epoch: 31/100
+Train loss: 1.41254
+Epoch: 32/100
+Train loss: 1.39733
+Epoch: 33/100
+Train loss: 1.38156
+Epoch: 34/100
+Train loss: 1.36314
+Epoch: 35/100
+Train loss: 1.35107
+Epoch: 36/100
+Train loss: 1.33715
+Epoch: 37/100
+Train loss: 1.32156
+Epoch: 38/100
+Train loss: 1.30865
+Epoch: 39/100
+Train loss: 1.29822
+Epoch: 40/100
+Train loss: 1.28302
+Epoch: 41/100
+Train loss: 1.27084
+Epoch: 42/100
+Train loss: 1.25700
+Epoch: 43/100
+Train loss: 1.25043
+Epoch: 44/100
+Train loss: 1.24108
+Epoch: 45/100
+Train loss: 1.22734
+Epoch: 46/100
+Train loss: 1.21555
+Epoch: 47/100
+Train loss: 1.20495
+Epoch: 48/100
+Train loss: 1.19327
+Epoch: 49/100
+Train loss: 1.18266
+Epoch: 50/100
+Train loss: 1.17597
+Epoch: 51/100
+Train loss: 1.16695
+Epoch: 52/100
+Train loss: 1.15585
+Train loss: 1.1559, val loss: 3.88130
+f1: 0.6226306720275703
+Val cmap: 0.708246214072877
+Model improve: 0.00000 -> 0.62263
+Epoch: 53/100
+Train loss: 1.14592
+Train loss: 1.1459, val loss: 4.07452
+f1: 0.6246355166773345
+Val cmap: 0.7078522911564568
+Model improve: 0.62263 -> 0.62464
+Epoch: 54/100
+Train loss: 1.13760
+Train loss: 1.1376, val loss: 4.16784
+f1: 0.6231017027151404
+Val cmap: 0.7099509214320897
+Epoch: 55/100
+Train loss: 1.12779
+Train loss: 1.1278, val loss: 4.00315
+f1: 0.6238714722399943
+Val cmap: 0.7088855865124768
+Epoch: 56/100
+Train loss: 1.11975
+Train loss: 1.1198, val loss: 3.99624
+f1: 0.6243076153378838
+Val cmap: 0.7080480123290208
+Epoch: 57/100
+Train loss: 1.11046
+Train loss: 1.1105, val loss: 4.12780
+f1: 0.6257058635508044
+Val cmap: 0.7114830126838333
+Model improve: 0.62464 -> 0.62571
+Epoch: 58/100
+Date :05/05/2023, 14:02:01
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 64
+validbs: 128
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b1
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+61125
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Train loss: 9.28142
+Train loss: 9.2814, val loss: 4.72999
+f1: 0.2545627678146326
+Val cmap: 0.5160368138277822
+Model improve: 0.00000 -> 0.25456
+Epoch: 2/100
+Train loss: 5.24793
+Train loss: 5.2479, val loss: 3.87370
+f1: 0.43416747723052435
+Val cmap: 0.6273355495481852
+Model improve: 0.25456 -> 0.43417
+Epoch: 3/100
+Train loss: 4.50599
+Train loss: 4.5060, val loss: 3.60038
+f1: 0.5011444504556993
+Val cmap: 0.6618657950091156
+Model improve: 0.43417 -> 0.50114
+Epoch: 4/100
+Train loss: 3.97441
+Train loss: 3.9744, val loss: 3.58726
+f1: 0.5095973502534019
+Val cmap: 0.6637233482112377
+Model improve: 0.50114 -> 0.50960
+Epoch: 5/100
+Date :05/08/2023, 02:19:44
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 128
+validbs: 256
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b0
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 1
+65256
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/08/2023, 02:19:58
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 128
+validbs: 256
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b0
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/08/2023, 02:21:19
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 0
+nmels: 128
+fmax: None
+trainbs: 128
+validbs: 256
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b0
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/08/2023, 22:57:11
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 128
+validbs: 256
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b0
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/08/2023, 22:58:46
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 128
+validbs: 256
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b0
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/09/2023, 02:14:14
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 128
+validbs: 256
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.0
+thrupsample: 50
+model_name: tf_efficientnetv2_b0
+mix_up: 0.8
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+Fold: 0
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+Epoch: 1/100
+Date :05/12/2023, 09:05:18
+Duration: 5
+Sample rate: 32000
+nfft: 768
+fmin: 20
+nmels: 128
+fmax: 16000
+trainbs: 32
+validbs: 192
+epochwarmup: 0
+totalepoch: 100
+learningrate: 0.001
+weightdecay: 0.01
+thrupsample: 50
+model_name: tf_efficientnetv2_b2
+mix_up: 0.2
+hop_length: 256
+train_with_mixup: True
+num_channels: 1
+use_spec_augmenter: False
+use_drop_path: True
+76407
+Fold: 0
+65200
+AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+)
+Epoch: 1/100

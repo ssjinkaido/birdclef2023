@@ -1,0 +1,1 @@
+pretrained 2020+2021+2022, fine tune 2023, background noise: https://www.kaggle.com/datasets/christofhenkel/birdclef2021-background-noise
